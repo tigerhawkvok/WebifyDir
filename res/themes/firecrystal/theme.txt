@@ -1,0 +1,14 @@
+﻿FireCrystal
+Giorgio Tani
+LGPL
+res\themes\firecrystal\
+100
+clWindow
+clBtnFace
+clBtnFace
+$00669999
+clWindowText
+18
+21
+1
+0

@@ -1,0 +1,792 @@
+﻿=== PeaZip language file ===
+Japanese
+2.7
+Translated by: Dan Tanaka and HF
+Last rev. by: Giorgio Tani (please review the translation) 
+Last rev.: 20090909
+
+=== PeaZip text group ===
+
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (フォルダ)
+txt_2_6_advanced: 高度
+txt_2_6_plalways: ジョブのレポートを取るために常に開く
+txt_2_6_plsmart: 必要な場合のみ (エラー,リスト,テストのレポート)
+txt_2_6_rec: Recoursive: サブディレクトリも検索する
+txt_2_6_special: 特殊なファイルフォーマット(ACE, ARC, PEA)
+txt_2_5_sessionio: (このセッション)
+txt_2_5_advanced: 高度な編集: パラメータ文字列とファイル名の間に必要に応じてスペースを置く
+txt_2_5_basic: Basic edit: 名前の前にアプリケーションとパラメータ
+txt_2_5_cannotrun: 実行できません
+txt_2_5_custeditors: カスタムエディタ、プレイヤー、ウイルススキャナなど.. （オーバーライドシステムのファイルの関連付け）
+txt_2_5_delete: 削除
+txt_2_5_delete_fromarchive: アーカイブから削除する
+txt_2_5_langflag: UTF-8テキストとしてアーカイブファイルの名前を表示する(チェックを外した場合は拡張文字コードを“?"に置換する)
+txt_2_5_encpj: ジョブ定義をUTF-8テキストとしてコード化
+txt_2_5_execommand: 実行可能なファイルまたはコマンド
+txt_2_5_help: ヘルプ
+txt_2_5_langhint: ヒント: ？の拡張文字を更新すると、文字構文を向上させることができます。アーカイブの文字セットは正常に変換することはできません
+txt_2_5_mini_help: チュートリアル
+txt_2_5_offline_help: PeaZipのヘルプ
+txt_2_5_tray: タスクトレイに最小化
+txt_2_5_remove: 移動
+txt_2_5_hintpaths: 右クリックでシステムとユーザーのパス変更
+txt_2_5_selectapp: 実行ファイルを選択
+txt_2_5_strafter: 入力名の後に文字列
+txt_2_5_strbefore: 入力名の前に文字列
+txt_2_5_encoding: テキストのエンコード
+txt_2_5_nopw: このアーカイブの形式は暗号化できません
+txt_2_4_draghint: [有効なエクスプローラのアドレスバーにドラッグ]
+txt_2_4_tb: ツールバーのボタンを適用 (PeaZipの再起動後有効)
+txt_2_4_adding: 追加
+txt_2_4_advclip: 高度: クリップボード内で複数選択(重複不可)・貼り付けを明確に保持する
+txt_2_4_yanswers: Yahho!知恵袋
+txt_2_4_itemsheight: 高さの項目を自動で変更
+txt_2_4_clearclipboard: クリップボードを初期化(Esc)
+txt_2_4_wcommons: 通常
+txt_2_4_copyfrom: からコピーする
+txt_2_4_deletebookmarks: ブックマークのファイルやフォルダのリストを削除しますか？
+txt_2_4_documents: ドキュメント
+txt_2_4_wenc: 百科事典
+txt_2_4_extractfrom: を解凍する
+txt_2_4_hexp: バイナリでプレビュー
+txt_2_4_operation: 操作
+txt_2_4_path: 指定のパスは、エラーまたは読み取り専用のため書き込み不可です。書き込み可能な出力パスを選択してください。
+txt_2_4_removefromclipboard: クリップボードから削除する
+txt_2_4_stdclip: Standard: クリップボード内の単一の選択を維持し、ペースト操作を消去
+txt_2_4_totalmem: 全メモリー
+txt_2_4_gvideo: 動画
+txt_2_4_wbook: ウィキブック
+txt_2_4_wnews: ウィキニュース
+txt_2_4_wsrc: ウィキソース
+txt_2_4_wdict: ウィキペディア
+txt_2_3_pw_errorchar: パスワードでこの文字を使用できません。パスワードを変更するか、ツール > 設定 でコンソールモードを選択してください。
+txt_2_3_envstr: 環境変数を表示
+txt_2_3_never_pw: パスワードの入力を要求しないでください
+txt_2_3_home: ユーザーのホーム
+txt_2_3_on_pw: システムメニューからの 抽出,リスト,テスト の操作について:
+txt_2_3_test_pw100: 暗号化のテスト(100MBのアーカイブ)
+txt_2_3_test_pw: 暗号化のテスト (時間がかかる可能性あり)
+txt_exclude_recourse: サブディレクトリを除外する
+txt_action_extopen: 解凍して関連付けられたアプリケーションで開く
+txt_error_passwordnotmatch: パスワードが一致しません。再入力してください。
+txt_action_preview: 関連するアプリケーションでプレビュー
+txt_preview_hint: 解凍・開く時に同じタスクを実行するが、アーカイブを閉じている時は出力ディレクトリの一時パスから自動的に削除する
+txt_better: (正確)
+txt_default2: (標準)
+txt_faster: (高速)
+txt_fastermem: (高速・省メモリー)
+txt_tempdir: (PeaZipのテンポラリーフォルダー)
+txt_stream: (ストリームコントロールによる設定)
+txt_slowermem: (正確・フルメモリー)
+txt_store: (記憶する・最速)
+txt_newfolder: (新しいフォルダに)
+txt_7z_exitcodeunknown: 不明なエラー
+txt_list_isfolder: フォルダー
+txt_none: <なし>
+txt_fd: 1.44 MB のフロッピーディスク
+txt_7z_exitcode1: 1: 警告: エラーが発生しました(ファイルが存在しない、ロックされているなど)
+txt_attach10: 10 MB (添付ファイルの制限)
+txt_7z_exitcode2: 2: 致命的なエラーが発生しました
+txt_7z_exitcode255: 255: 動作は中断されました
+txt_fat32: 4 GB (FAT32の最大サイズ)
+txt_dvd: 4.7 GB DVD
+txt_attach5: 5 MB (添付ファイルの制限)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: エラー: 不正なコマンドラインです
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7Z: 高圧縮比で機能豊富なアーカイブ形式
+txt_dvddl: 8.5 GB DVD DL
+txt_7z_exitcode8: 8: エラー: 動作のためのメモリが不足しています
+txt_abort: ファイルのコピー・移動を中止しますか?
+txt_about: 私たちについて
+txt_action: 動作
+txt_action_hint: 開く、または関連付けられたアプリケーションでプレビューする
+txt_add: 追加
+txt_add_existing_archive: 追加する（アーカイブが存在している場合）
+txt_add_archive: アーカイブを追加する
+txt_add_files: ファイルを追加
+txt_add_folder: フォルダを追加
+txt_add_path: パスを追加
+txt_add_tolayout: 選択したファイルとアーカイブのレイアウトにフォルダを追加する
+txt_add_toarchive: アーカイブに追加
+txt_add_tobookmarks: ブックマークに追加
+txt_address_hint: Address: ワイルドカードを承認しますか？ （*を含んだ文字列には「"」や「 '」の区切り文字を表示しない）
+txt_adv_filters: 高度なフィルタ
+txt_algo: アルゴリズム
+txt_all: 全て
+txt_all_default: 全て(標準)
+txt_all_type: この形式の全てのオブジェクト
+txt_all_date: 日付を含む全てのオブジェクト...
+txt_all_psize: 追加後のサイズを含む全てのオブジェクト...
+txt_all_attributes: 同じ属性を持つすべてのオブジェクト...
+txt_all_size: サイズを含むすべてのオブジェクト...
+txt_error_input_upx: ファイルは実行ファイルのみです
+txt_always_pw: 常にパスワードの入力を求める
+txt_ignore_ext: 常に解凍・圧縮時にパスを無視する
+txt_ignore_disp: 常に解凍時にパスを表示しない
+txt_ignore_sel: 常に選択したパスを表示しない
+txt_key_hint: パスワードを設定します。(復号化するにはPeazip、または同じ暗号化の規格であれば他のアプリケーションを使用、あるいはそのパスワードの一部によって生成されるハッシュ値を入力することでも可能)
+txt_timestamp: アーカイブの名前にタイムスタンプを追加する
+txt_appoptions: アプリケーションのオプション
+txt_type_description_arc: ARC: 実験的なアーカイバであり、強力、効率的で機能豊富
+txt_archive: アーカイブ
+txt_un7z_browse_ok: 正常にブラウズされたアーカイブ
+txt_interface: アーカイブのブラウザインタフェース
+txt_archivecreation: アーカイブの作成
+txt_tarbefore_hint: 以前指定された形式のTAR形式データ
+txt_archive_hint: アーカイブ、圧縮、分割、プライベートファイル、フォルダー、及びボリューム
+txt_compressionratio_hint: アーカイブの圧縮率
+txt_archiving: アーカイブに格納:
+txt_cl_long: ファイルのサイズが最大値(フロントエンド)を超えています。選択しなおしてください。
+txt_overwrite_askbefore: 上書きする前に確認(コンソールモードで使用)
+txt_associated: 関連付けられたアプリケーション
+txt_attributes: 属性
+txt_author: 製作者
+txt_ren_existing: 既存のファイルの名前を自動的に変更
+txt_ren_extracted: 解凍されたファイルの名前を自動的に変更
+txt_autofolder: 自動的にアーカイブを解凍するための新しいフォルダを作成しますか？
+txt_back: 戻る
+txt_backend: バックエンドのバイナリのユーザーインターフェイス
+txt_backupexe: 実行可能なバックアップファイル(推奨)
+txt_bettercompression: 高比率で圧縮
+txt_blogs: ブログ
+txt_blowfish: Blowfish448 (64ビットのブロック暗号アルゴリズム)
+txt_bookmarks: ブックマーク
+txt_browse: ブラウズ
+txt_browser: 表示
+txt_aborted_error: 停止したアーカイブを参照するには、それなりに時間がかかるでしょう。検索かフィルタ機能を使用することで表示範囲を限定できます (またはフラットビューを終了)。(解凍、リスト、テスト作業などは影響を受けません)
+txt_list_browsing: 参照:
+txt_archive_root: 参照: アーカイブのルート
+txt_type_description_bzip2: BZip2: 非常に強力な圧縮、平均速度
+txt_pw_empty: 空のパスワードは設定できません。設定し直すか、または「暗号化」オプションのチェックを外してください。
+txt_add_error: 圧縮・アップデートができない、またはオブジェクトを消去することができません。アーカイブの形式が解凍のみサポートされている、または全てがサポートされていません
+txt_un7z_browse_failure: アーカイブを参照することはできません。
+txt_list_error: アーカイブの内容をリストすることはできません。アーカイブにパスワードがかかっているか、壊れています。
+txt_conf_cannotsave: 構成ファイルを保存できません。パスを確認してください。あるいは空きスペースが足りません。
+txt_check_hint: Check for データの破損の確認: ハッシュアルゴリズムはデータの改ざんを検出するのに有効です。
+txt_check: ファイルのチェックサム･ハッシュ
+txt_check_select: 実行時のチェックサム/ハッシュ
+txt_clear: 消去
+txt_clearlayout: レイアウトを消去
+txt_pj_hint: クリックして、動作のインポート、変更のリセット、システムの最新の定義への更新を行ってください。
+txt_autoclose: 実行中は「PeaLauncher」を閉じる
+txt_cl: コマンドライン:
+txt_compare: ファイル比較
+txt_compress: 圧縮
+txt_compress_executable: 圧縮の実行
+txt_compress_openforwriting: 書き込み可能なファイルの圧縮
+txt_compression: 圧縮
+txt_compmanagement: コンピュータの管理
+txt_pw_confirm: パスワード再入力
+txt_console: コンソール
+txt_console_interface: コンソール: 以前のバージョンのインターフェイス
+txt_content: 内容
+txt_controlpanel: コンソールパネル
+txt_convert: ディスクをフォーマット(NTFS)
+txt_copy: コピー(Ctrl+C)
+txt_copyto: ここにコピー...
+txt_create: 作成
+txt_create_archive: アーカイブの作成
+txt_title_create: アーカイブの作成, 圧縮, 暗号化, 分割...
+txt_create_keyfile: キーファイルを作成新しいフォルダを作成:
+txt_create_folder: 新しいフォルダの作成
+txt_create_theme: 現在の設定から新しいテーマを作成:
+txt_rr: Create リカバリーの記録
+txt_create_sfx: 自己解凍アーカイブ作成
+txt_cr_current: 現在のパス･フィルター圧縮比
+txt_custom: カスタム
+txt_type_description_custom: カスタム(高度)：実行可能ファイル名とパラメータを入力します
+txt_customapp: カスタムアプリケーション
+txt_custom_parameters: カスタムパラメータ
+txt_customsize: カスタムサイズ
+txt_cut: 切り取り(Ctrl+X)
+txt_datetime: 日付/時刻
+txt_default: 標準
+txt_default_compression: 標準の圧縮
+txt_default_format: 標準フォーマット
+txt_theme_default: 標準のテーマ
+txt_hard_reset_hint: ブックマークのファイルを削除
+txt_desktop: デスクトップ
+txt_dictionary: 辞書
+txt_dirs: ディレクトリ
+txt_dis: 明確にする:
+txt_disk_cleanup: ディスククリーンアップ
+txt_disk_defrag: ディスクデフラグ
+txt_disk_management: ディスクの管理
+txt_dispaly: 結果の表示など
+txt_displayedmnu_obj: 表示する
+txt_displayedobjects: 表示するオブジェクト
+txt_nocompress: 圧縮しない
+txt_delete: 選択したファイルを削除しますか？操作を取り戻すことはできない上、ファイルをごみ箱から回復できません。
+txt_wipe: 選択したファイルを安全に削除しますか？操作を取り戻すことはできない上、ファイルを回復できません。
+txt_done: 完了
+txt_edit: 編集
+txt_elapsed: 経過時間:
+txt_error_emptycl: 空のコマンドラインです!
+txt_encrypt: 暗号化
+txt_encrypted: 暗号化済み
+txt_encryption: 暗号化
+txt_note: コメント･記述を入力
+txt_random_keys: ランダムなキーを入力
+txt_random_keys_hint: ランダムなキーを入力してください（記憶する必要はない）
+txt_ent: エントロピーの評価
+txt_ent_tools: エントロピー標本抽出ツール
+txt_eqorlarger: 等しいか、選択したオブジェクトよりも大きい
+txt_eqorrecent: 等しいか、選択したオブジェクトより日付が新しい
+txt_eqorolder: 等しいか、選択したオブジェクトより日付が古い
+txt_eqorsmaller: 等しいか、選択したオブジェクトよりも
+txt_equal: 選択したオブジェクトと等しい
+txt_erase_hint: ファイルの消去: 無作為なデータで上書きします。サイズにマスクをかけ、名前を変更、そして最終的に削除します。
+txt_extraction_error: 選択されたオブジェクトを解凍できませんでした。アーカイブがパスワードで保護されていれば、解除してください。
+txt_exclude_hint: 一行ごとにファイルを除外する: 「*」と「?」のワイルドカードを使用する(区切り文字は不使用)
+txt_exclusion_recourse: サブディレクトリをフィルタとして除外する
+txt_exclusion: 除外:
+txt_exe: 実行可能
+txt_overwrite_qry: 指定先のパスにには同じ名前のファイルがあります。上書きしますか?(キャンセル: このオブジェクトのコピーをスキップ)
+txt_confirm_overwrite: 存在します。上書きしますか？(スキップしない)
+txt_explore_outpath: エクスプローラーの出力パス
+txt_explore_path: エクスプローラーのパス
+txt_ext: 自動:
+txt_caption_extract: 解凍
+txt_ext_nopath: パスを指定せず解凍
+txt_ext_all: 全て解凍
+txt_ext_allhere: 全てここに解凍
+txt_ext_allto: 指定フォルダに解凍...
+txt_extopen_custom: 解凍してカスタムアプリケーションで開く
+txt_extopen_with: 解凍してこのアプリケーションで開く...
+txt_ext_disp_here: ここに解凍
+txt_ext_disp: オブジェクトに解凍
+txt_ext_disp_to: 表示しているオブジェクトをフォルダに解凍...
+txt_ext_here: ここに解凍
+txt_ext_sel_here: 選択した場所に解凍
+txt_ext_sel: 選択したオブジェクトを解凍
+txt_ext_sel_to: 選択したオブジェクトをフォルダに解凍...
+txt_extobj: オブジェクトを解凍
+txt_newfoldermenu: 新規フォルダに解凍
+txt_extto: 指定して解凍
+txt_level_fast: 高速
+txt_fastcompr: 高速圧縮
+txt_fastopen: リストのサイズが次をを超えたら高速なオープンルーチンにして表示しなくする
+txt_level_fastest: 最速
+txt_favformats: 通常使用する形式
+txt_file: ファイル
+txt_filebrowser: ファイルブラウザ / アーカイブブラウザ
+txt_filetools: ファイルツール
+txt_files: ファイル
+txt_nfiles: ファイル
+txt_fs: ディレクトリ移動
+txt_type_custom_selected: そのファイルの形式はPeazipによって直接サポートされませんが、オプションのタブでこの形式を構成できるかもしれません。続行しファイルを開きますか？
+txt_filters_recourse: filter(s) recourse subdirs
+txt_filters: フィルター
+txt_flat: フラット(全て表示)
+txt_list_flat: フラットビュー:
+txt_unit_floppy: フロッピーディスク
+txt_foldername: フォルダ名
+txt_nfolders: フォルダ
+txt_error_input_multi: format allows a single file as input; you can use "TAR before" switch to save input in a .TAR archive before, 別の形式を選択してください。ヒント: 入力したデータを選択する前にアーカイブの形式を選択してください。"TAR before" switch は自動的に設定されます。
+txt_format_options: 形式オプション
+txt_fwd: 進む
+txt_list_found: 発見:
+txt_free: フリー
+txt_free2: 使用可能
+txt_name_full: フルネーム
+txt_function: 操作
+txt_general: 一般
+txt_multithreading: 一般的なマルチスレッド
+txt_go_browser: ファイルブラウザへ移動
+txt_go_path: エクスプローラーのパスへ移動(PeaZip)
+txt_guicl: グラフィック + コンソール
+txt_guipealauncher: グラフィック: PeaLauncherへ送る
+txt_graphic: 画像のフォルダ
+txt_gridaltcolor: グリッドの交互の色
+txt_gridrowheight: グリッド行の高さ
+txt_gui: GUI
+txt_type_description_gzip: GZip: 高速に圧縮
+txt_here: ここに
+txt_list_history: ヒストリー
+txt_homeroot: コンピュータ/アーカイブルート のレベル
+txt_quickbrowse_hint: ブラウジングが止められる場合、検索かフィルタを使用して選択を狭められます(圧縮、リスト、テスト動作は影響を受けません)。
+txt_backupexe_hint: もし何かが機能的に異常が発生した場合、自動的なバックアップコピーから回復できます。
+txt_attach: メールクライアントがそのコマンドをサポートすると、アーカイブは新しいメールに添付されます。
+txt_images: 画像
+txt_include_hint: １行ごとにファイルをインクルードすると、ワイルドカード(? と *)及び「"」「'」の区切り文字が不要になります。
+txt_filters_hint: フィルターに7zバイナリーを使用するときは、7Zipの説明をよく読み、それらのフィルタがどのように動作するか理解してください。
+txt_inclusion_recourse: サブディレクトリをフィルタとして含める
+txt_inclusion: インクルード:
+txt_error_function: 間違った機能です
+txt_info: プロパティー
+txt_infoall: 全ての情報
+txt_infodisp: 表示されているオブジェクトの情報
+txt_infosel: 選択されたオブジェクトの情報
+txt_inputinfo: 入力情報
+txt_input_list: 入力リスト:
+txt_iop: 入力、出力、パラメータ
+txt_ipo: 入力、パラメータ、出力
+txt_input: 入力:
+txt_integrity: 整合性チェック
+txt_chunk_size: 無効なカスタムサイズです。修正してください。
+txt_invertsel: 選択を反転
+txt_type_exe: はwindowsで実行可能です。実行しますか？ (「いいえ」を選択するとPeaZipのアーカイブブラウザで開きます(only NSIS installers, 7-Zip's sfx and .MSI installers can be browsed in that way)
+txt_return_to_archive: は開いています。参照しますか？
+txt_not_accessible: には現在アクセスできません。
+txt_type_unsupported: はサポートされた形式ではありません。
+txt_checkname_failed: は有効な名前ではありません。
+txt_not_accessible_list: にアクセスできません。ファイルリストが、正しく、最新であることを確認してください。
+txt_theme_create_error: そのテーマを作成することは可能ではありません。テーマ名として有効なフォルダ名であることを確認し、書き込み可能なパスを選択してください。
+txt_theme_exists: すでに同じ名前が存在します。別のパスを指定してください。
+txt_job_code: ジョブコード:
+txt_job_definition_saved: ジョブの定義が正常に保存されました
+txt_job_success: 正常に終了しました！
+txt_join: 結合
+txt_joinfiles: ファイル結合
+txt_keyfile: キーファイル
+txt_keyfile_not_found: そのキーファイルは読み込みまたは書き込みができません。別のキーファイルを指定してください。
+txt_keyfile_notcreated: キーファイルは作成されませんでした。
+txt_larger: 選択項よりサイズの大きなオブジェクトを選択
+txt_lastused: 最後に使ったもの
+txt_launch: ジョブ実行
+txt_layout: レイアウト
+txt_filelist_savedas: 名前をつけてレイアウトを保存
+txt_level: レベル
+txt_license: ライセンス
+txt_caption_list: リスト
+txt_list_details: 詳しいリスト
+txt_list_all: 全てのリスト
+txt_list_disp: 表示されているオブジェクトのリスト
+txt_list_sel: 選択されているオブジェクトのリスト
+txt_toggle_warning: そのパスの内容をフラットビューでリストするには非常に時間がかかるかもしれません。続行しますか？
+txt_loadfile: ファイルを読み込む
+txt_loadlayout: レイアウトを読み込む
+txt_unit_hd: ローカルディスク
+txt_localization: ローカライズ
+txt_lpaqver: LPAQ バージョン                                            
+txt_type_description_lpaq: LPAQ: PAQの高速バージョンで非常に高い圧縮率
+txt_maininterface: メインインターフェイス
+txt_maxcomp: 最大圧縮モード
+txt_level_maximum: 最大
+txt_restartrequired: 適用するにはアプリケーションを再起動する必要があります。
+txt_required_memory: MBのメモリが必要です
+txt_method: メソッド
+txt_misc: その他
+txt_modify: ファイルとフォルダのタスク
+txt_morecontrols: 他の操作(履歴、ブックマーク、...)
+txt_morerecent: 選択されたオブジェクトより新しい
+txt_ent_hint: マウスを動かして、エディットフィールドにキー入力、ファイルをロードし、システムからエントロピーを集めてください。
+txt_moveto: ここに動かす...
+txt_mypc: コンピュータのルート
+txt_list_na: n/a
+txt_name: 名称
+txt_naming: 命名規則
+txt_unit_remote: ネットワークドライブ
+txt_newarchive: 新規アーカイブ
+txt_cnewfolder: 新規フォルダ
+txt_news: ニュース
+txt_no: なし
+txt_noinput: 全てのアクセス可能な入力は受信できませんでした。
+txt_nocompress_hint: 圧縮なし(高速)
+txt_split_noinput: 選択されませんでした。(分割するファイルを選択してください)
+txt_open_noinput: 入力がありませんでした。(first archive's volume for multi-volume archives)。
+txt_list_nomatch: 一致しません
+txt_singlethread: マルチスレッディング無効
+txt_none2: なし
+txt_nonsolid: 非ソリッド
+txt_level_normal: 通常
+txt_copy_error: 複製/移動に失敗しました, エラーコード:
+txt_description: ノート
+txt_compare_second: 比較するファイルを選択してください
+txt_peaobj: オブジェクト制御
+txt_displayed_obj: オブジェクトの表示
+txt_olderthan: 選択されたファイルよりも古い
+txt_on: オン
+txt_ondblclick: ダブルクリックで実行
+txt_opacity: 透明度
+txt_open: 開く
+txt_openarchive: アーカイブを開く
+txt_title_open: オープンアーカイブ、復号化、加える...
+txt_open_bookmark: ブックマークを開く
+txt_cphere: ここにコマンドプロンプトを開く
+txt_open_file: ファイルを開く
+txt_open_files: ファイルを開く
+txt_open_path: パスを開く
+txt_opensource: オープンソースのポータブルアーカイバ
+txt_openwith: アプリケーションで開く
+txt_aborted: 操作を中断しました
+txt_unit_cd: 光学ドライブ
+txt_options: オプション
+txt_other: その他
+txt_otherparams: その他のパラメータ(自由に編集)
+txt_oip: 出力、入力、パラメータ
+txt_opi: 出力、パラメータ、入力
+txt_output: 出力:
+txt_overwrite: 存在するファイルに上書き
+txt_compressed_size: 圧縮
+txt_paqver: PAQ バージョン
+txt_type_description_paq: PAQ: 低速、しかし非常に強力な圧縮
+txt_pio: パラメータ、入力、出力
+txt_poi: パラメータ、出力、入力
+txt_parameters: パラメータ:
+txt_error_partial: 現在のアーカイブタイプに実装されなかった部分的な解凍
+txt_passes: パス
+txt_pw: パスワード
+txt_pwlength: ４～６４文字のパスワード
+txt_un7z_browse_pw: パスワードを入力してください
+txt_un7z_browse_pw_other: 間違ったパスワードです
+txt_paste: 貼り付け(Ctrl+V)
+txt_path: 解凍先:
+txt_pea_appcolor: Peaアプリケーションカラー
+txt_pea_textcolor: Peaテキストカラー
+txt_type_description_pea: PEA: 高速な圧縮とセキュリティ指向のアーカイブ形式
+txt_peazip_new: PeaZip（新規インスタンス）
+txt_peazip_help: PeaZipヘルプ(オンライン)
+txt_peazip_web: PeaZipのプロジェクトのwebサイト
+txt_performall: サポートされているアルゴリズムをすべて実行
+txt_name_provide: 新しい名前(次の文字は避けてください  \ / : * ? ' " < > | )
+txt_upxorstrip: バイナリでUPX･分割(両方または一方)を選択してください。
+txt_not_removable_file: それを削除するには使用中のファイルを閉じてください
+txt_not_removable: それを削除するには使用中のファイルを閉じてください
+txt_custom_executable_missing: 実行可能な名前を指定してください
+txt_type_unsupported_select: サポートしているアーカイブの形式を選択してください。
+txt_no_theme_name: テーマ名を指定してください。
+txt_please_wait: お待ちください...
+txt_copy_wait: 同じ動作をする前に現在のコピー･移動をお待ちください。
+txt_previewwith: これでプレビューする...
+txt_projectadmin: プロジェクト管理者
+txt_type_description_quad: BALZ/QUAD: ハイパフォーマンスなROLZベースのファイル圧縮
+txt_quickdelete: クイック削除
+txt_quit: 終了
+txt_unit_ram: RAMディスク
+txt_read: 読み:
+txt_recentarchives: 最近開いたアーカイブ
+txt_rr_hint: データが破損している場合にはアーカイブを修復した記録を残します
+txt_search_refine: 検索フィルター  "?"と"*"のワイルドカードを使用する
+txt_fefreshf5: 再読み込み(F5)
+txt_release: リリース:
+txt_unit_removable: リムーバブルドライブ
+txt_remove_bookmark: ブックマークを削除
+txt_remove_external_unit: 外部装置を取り外す
+txt_removeselected: 選択したオブジェクトを削除する
+txt_rename: リネーム
+txt_caption_repair: 修復
+txt_restartrequired2: 適用するには再起動する必要があります。
+txt_reset: リセット
+txt_reset_archivename: アーカイブ名をリセット
+txt_hardreset: ブックマークリセット
+txt_reset_theme: 標準のテーマにリセット
+txt_soft_reset: アプリケーションの標準設定に戻し、最近のヒストリーを消去し、ブックマークを操作しないでください。
+txt_restore_att: オリジナルの属性に復元
+txt_run_as: 次のユーザーとして実行(パスワードのないユーザーは不可)
+txt_run_as2: 別のユーザーとしてで実行
+txt_sample: サンプル: 
+txt_saveas: 名前を付けて保存
+txt_savehistory: 最後に使ったアーカイブの履歴を保存する
+txt_save_infolder: フォルダにセーブする(オート)
+txt_savejob: ジョブを保存
+txt_savejobdefinition: ジョブの定義を保存
+txt_savejobdefinition_hint: プレーンテキストとしてジョブ定義を保存(スクリプトからの呼び出し可能)
+txt_savelayout: レイアウトを保存
+txt_save_winstate: メインウィンドウの状態を保存
+txt_search: 検索(時間がかかる場合があります)
+txt_searchanddrag: 検索してドラッグ
+txt_searchfor: 検索
+txt_nrsearch: ここから検索
+txt_search_hint: フィルタを使ったアーカイブのサブディレクトリを検索
+txt_search_web: webで検索
+txt_list_searching: 検索中...
+txt_securedelete: セキュアな消去
+txt_default_description: 機能を選択、またはここにドラッグ
+txt_selectall: 全て選択
+txt_selectdir: ディレクトリを選択
+txt_selected_obj: 選択済み
+txt_selected_objects: 選択済みオブジェクト
+txt_sfx: exe(自己解凍)
+txt_sendbymail: メールで送信(サポートされている場合のみ)
+txt_set_defaults: アプリケーションのデフォルトのパラメータを設定
+txt_settings: 設定
+txt_sfx_interface: sfxインターフェイス
+txt_showhints: ヒントを表示
+txt_show_messages: 情報メッセージを表示
+txt_showpw: パスワードの内容を表示
+txt_singlevol: 単一ボリューム
+txt_size: サイズ
+txt_sizeb: サイズ(バイト)
+txt_skip_existing: ファイルの解凍をスキップ
+txt_slowercomp: 低速圧縮だが均等に高速減圧
+txt_smaller: 選択されたオブジェクトよりも小さい
+txt_solid: ソリッド
+txt_solid_block: ソリッド
+txt_solid_auto: ソリッド, 自動調整
+txt_solid_extension: ソリッド、拡張機能でグループ化
+txt_tarbeforepj: 2つの異なったコマンドとして動作するため、ジョブ定義のコマンドラインをインポートできません(TAR before　switch を使用中)
+txt_listtest: リストとテスト動作はこのフォーマットの実装をサポートしていません。
+txt_sortbysel: 選択項のステータスでソート
+txt_list_sorting: ソート中...
+txt_speed: 速度
+txt_split: 分割
+txt_type_description_split: 分割後ファイルを整合性チェックする
+txt_split_file: ファイル分割
+txt_list_nostats: ステータスは利用できません
+txt_status: ステータス
+txt_level_store: 復元
+txt_stream_control: ストリーム制御
+txt_strip: UPXの前に分割する(推奨)
+txt_keyfile_created: キーファイル作成に成功:
+txt_suggestpw: 推奨のパスワード
+txt_noupx: 分割されたシンボル、省略されたUPX形式の圧縮
+txt_syntax: 構文:
+txt_sysbenchmark: システムベンチマーク
+txt_benchmark: システムベンチマークは、数分かかり、CPUを大幅に使用し、メモリリソースを使用するでしょう。本当に実行しますか？
+txt_systools: システムツール
+txt_tarbefore: TAR before
+txt_type_description_tar: TAR: UNIXの主流のアーカイブ形式
+txt_taskman: タスクマネージャ
+txt_caption_test: テスト
+txt_testall: 全てテスト
+txt_testdisp: 表示中のオブジェクトをテスト
+txt_testpw: パスワード / キーファイルをテストする
+txt_testsel: 選択したオブジェクトをテストする
+txt_col_hint: 
+txt_bookmarks_hint: ブックマークの色は他のGUIとアイコンの色の要素を良く考えて選ぶといいでしょう。
+txt_archive_noinput_tolist: レイアウトは空です。ファイル及びフォルダを追加するか、レイアウトをロードしてアーカイブのレイアウトに加えてください。
+txt_theme: テーマ
+txt_icons_found: テーマ読み込みに成功しました
+txt_themename: テーマ名
+txt_icons_not_found: テーマを正しく読み込めませんでした。 標準のテーマに変更するか、確実に動作するテーマに切り替えてください。
+txt_theme_create_success: テーマが正常に作成されました
+txt_theme_not_loadable: テーマとグラフィックのフォルダーは PeaZip のパスにする必要があります。
+txt_theming: テーマ設定
+txt_extand_error: この機能は、単一のオブジェクトに対して時に実行することができます
+txt_threads: スレッド
+txt_titlescolor: タイトルのカラー
+txt_to: から
+txt_toggle_browseflat: 履歴表示/フラット表示
+txt_toggle_historybookmarks: 履歴/ブックマーク 切り替え
+txt_toolbarscolor: ツールバーカラー
+txt_tools: ツール
+txt_best: 最良の設定を試す(遅い)
+txt_type: 形式
+txt_level_ultra: ウルトラ
+txt_error_openfile: 指定されたファイルを開けません。
+txt_cl_hint: UNACEとUPXは常にコンソールモードを使用して実行し、リストとテストおよびベンチマークの仕事は、常にGUIモードを使用して実行する
+txt_ace_missing: UNACEプラグインが不足しています。ACEアーカイブを扱うためには、PeaZipのウェブサイトのプラグインフォームからダウンロードできます(このプラグインは基本のパッケージにはありません)。
+txt_units: 単位
+txt_unit_unknown: 未知のドライブ形式
+txt_un7z_pw_untested: 未テスト
+txt_up: 上へ
+txt_update: 更新(アーカイブ)
+txt_type_description_upx: UPX: 実行可能ファイルを圧縮するのみ
+txt_advfilters: 高度なフィルタを使用する
+txt_openfiles_hint: 他のアプリケーションで書き込むために開いたアーカイブファイルを含めるためにこのオプションを使用すれば、バックアップに便利でしょう。
+txt_usenet: ユーズネット
+txt_user_name: ユーザー名: ユーザー@ドメイン または ドメイン\ユーザー (形式は必要に応じて)
+txt_using: 使用:
+txt_volumepea: ボリュームコントロール
+txt_volume_size: ボリュームサイズ
+txt_type_ext_uns: は、正常に解凍されました。
+txt_websearch: Web検索
+txt_websites: Webサイト
+txt_word: ワードサイズ
+txt_write: write:
+txt_ramdompw_hint: ここからランダムに生成されたパスワードをコピーすることができます。
+txt_exe_hint: あなたが自由にカスタムして圧縮するため、実行可能なファイル名とパラメータを入力すると、構文を短縮できます。また、手動でコンソールタブでコマンドの構文を変えることができます。
+txt_pj_hint2: 下のメモフィールドから、GUIフロントエンドのジョブの定義をインポートすることができます。そして、GUIフロントエンドに定義されたジョブを変えず、または失わず、それを編集、開始、または保存することができます。
+txt_type_description_zip: ZIP: 高速アーカイブ/Windowsの主流
+txt_zipcrypto_hint: Zipの暗号化(レガシー)
+
+=== end PeaZip text group ===
+
+=== PeaLauncher text group ===
+
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: アーカイブを開く
+txt_2_5_ace_missing: UNACEのプラグインは失敗しました  ACE形式を取り扱うためにPeaZipのウェブサイトからプラグインをダウンロードできます(UNACEのソースは閉じられ、標準ではそのプラグインは内包されていません)
+txt_2_3_pw_errorchar_gwrap: : この文字はPeaLauncharのシステム下のパスワードに使用できません。パスワードを変更するか、コンソールモードでPeaZipを使用してください(ツール > 設定)。
+txt_2_3_renameexisting: 既存のファイル名を自動変更
+txt_2_3_renameextracted: 解凍したファイル名を自動変更
+txt_2_3_cancel: キャンセル
+txt_2_3_encryption: 暗号化
+txt_2_3_extinnew: 新規フォルダに解凍
+txt_2_3_keyfile: キーファイル
+txt_2_3_kf_not_found_gwrap: キーファイルを見つけることができない、または読み込めません。別のキーファイルを指定してください。
+txt_2_3_moreoptions: 追加オプション...
+txt_2_3_nopaths: パスなし
+txt_2_3_options: オプション
+txt_2_3_overexisting: 存在するファイルに上書きする
+txt_2_3_pw: パスワード
+txt_2_3_skipexisting: 既存のファイルをスキップ
+txt_job_unknown: : 不明なエラーが発生しました
+txt_stdjob: [ジョブの競合でアニメーションを停止]
+txt_benchmarkjob: [ベンチマーク実行中は、何分かの間システムの応答が遅くなります]
+txt_defragjob: [デフラグ中は応答しませんが、バックグラウンドで実行させることができます]
+txt_consolejob: [コンソールウィンドウで詳細な進行状況を確認することができます]
+txt_job1: 1: 警告: エラーが発生しました(ファイルが存在しない、ロックされているなど)
+txt_job127: 127: 要求された操作を実行できません。
+txt_job2: 2: 致命的なエラーが発生しました
+txt_job255: 255: ジョブはユーザにより中断しました
+txt_job7: 7: Error: 不正なコマンドラインです
+txt_job8: 8: Error: 動作のためのメモリが不足しています
+txt_autoclose: ジョブの終了後このウィンドウを閉じる
+txt_crscale: 圧縮率（低, 良):
+txt_console: コンソール
+txt_benchscale: Core 2 Duoプロセッサ6600の評価は、相当なMHzの速度。
+txt_create: 作成 -
+txt_done: 完了:
+txt_nocl: 空のコマンドライン
+txt_error: エラー:
+txt_explore: エクスプローラ
+txt_extto: ここに解凍する...
+txt_halt: ジョブが完了したらシステムを終了する
+txt_halted: 中断:
+txt_hardware: ハードウエア
+txt_high: 高優先度
+txt_checkpw: ヒント: もしジョブの実行にパスワードが必要であれば確認してください。
+txt_idle: アイドル優先度
+txt_input: 入力:
+txt_jpaused: ジョブ一時停止
+txt_jresumed: ジョブ再開
+txt_job_started: ジョブ開始
+txt_jobstatus: ジョブステータス:
+txt_jstopped: ユーザによってジョブは停止されました
+txt_jobstopped: ユーザによってジョブは停止されました。エクスプローラのボタンをクリックするか、ジョブのログを見ることでジョブの部分的なレポートを確認できます。
+txt_job_success: ジョブは成功し完了しました
+txt_lt: リスト/テスト/修復 書庫
+txt_normal: 標準優先度
+txt_ok: OK
+txt_output: 出力:
+txt_pause: 一時停止
+txt_paused: 一時停止,
+txt_p_high: 優先度を高に設定
+txt_p_idle: 優先度をアイドルに設定
+txt_p_normal: 優先度を標準に設定
+txt_p_realtime: 優先度をリアルタイムに設定
+txt_rating: 評価:
+txt_rt: リアルタイム優先度
+txt_report: レポート
+txt_resume: 再開
+txt_priority: 右クリックでジョブの優先度を変更
+txt_running: 実行中,
+txt_isrunning: 実行中...
+txt_saveas: 名前をつけて保存
+txt_savejob: ジョブの定義を保存(パスワードも保存されます)！
+txt_savelog: ジョブのログを保存
+txt_software: ソフトウエア
+txt_speedscale: 対数のスケールの速度(高、良)
+txt_status: ステータス
+txt_stop: 停止
+txt_bench: システムベンチマーク
+txt_threads: スレッド:
+txt_time: 時間:
+
+=== end PeaLauncher text group ===
+
+=== about text group ===
+
+F1 	ヘルプ / Ctrl+F1 表示切り替え /オプションタブ
+F2 	デスクトップを表示 / Ctrl+F2 ユーザーのホームを表示 / Shift+F2 コンピューターのルートを表示 / Ctrl+Shift+F2 アーカイブのルートを表示(アーカイブを表示中)･コンピューターのルートを表示(それ以外を表示中)
+F3	再帰的検索 / Ctrl+F3 再帰的検索をしない(ここを検索)
+F4 	1レベル上げる
+F5 	再読み込み
+F6 	表示切り替え / フラットビュー
+F7 	最も最後に表示した項目を表示(＋shiftで二番目、＋Ctrlで三番目)
+F8 	最後にブックマークした項目を表示(＋shiftで二番目、＋Ctrlで三番目)
+F9 	新しいフォルダに解凍するかを切り替える / Ctrl+F9  / Shift+F9 パスワードを入力する / Ctrl+Shift+F9 キーファイルを作成する
+F10 	出力パスをデフォルトに戻す
+F11 	選択した場所に解凍
+F12 	選択しているここに解凍
+
+アーカイブを作成
+
+1) システムのコンテキストの「追加」からドラッグアンドドロップかアプリケーションのメニューボタンでアーカイブレイアウトを追加してください。
+2) アーカイブを作成するために「作成」ボタンをクリックしてください (そうでなければ、次回以降のためにアーカイブレイアウトを保存できます)。
+
+使用:
+- オプションタブではアーカイブの形式･圧縮･暗号化のパラメータを設定
+- I/Oタブでは入力/出力の設定
+- フィルタータブでは、形式が可能であれば高度な除外/含めるのフィルタ設定
+- コンソールタブではジョブの構文をカスタマイズ･分析、またはコマンドラインとしてジョブをエクスポート
+代わりに、システムのコンテキストメニューから、アーカイブに置くそれぞれの項目を一度に追加できます。またSendToメニューから複数の項目アーカイブに追加できます。
+
+アーカイブのレイアウトはさらに:
+- オブジェクトをダブルクリックして開く
+- ファイルを選択し、"\" キーを押すか、ファイルツール > ファイル分割 を選択し分割
+- ファイルを選択し、"<" キーを押すか、ファイルツール > ファイル比較 を選択し他のファイルとバイト単位で比較
+- 複数のファイルを選択し、"?" キーを押すか、ファイルツール > ファイルのチェックサム/ハッシュ を選択しファイルをチェックサム/ハッシュする
+- 複数のファイルを選択し、"*" キーを押すか、セキュアな消去を 選択し安全な消去
+
+
+アーカイブを 開く/アーカイブ
+
+1) システムのコンテキストからアーカイブを開き、メニューのエントリーまたはファイルの関連付けによって移動させる、またはもう一つかPeaZipブラウザのアーカイブを選択してください。
+2a) アーカイブを解凍する「全て解凍」か、 「全てここに解凍」をクリックし、出力パスを指定してください。
+2b) ダブルクリックするか、Enterキーを押し、アーカイブオブジェクトを関連付けられたアプリケーションでプレビューするか、アーカイブであればPeaZipで開くか、ディレクトリであればエクスプローラーで開いてください。
+2c) アーカイブオブジェクトを選択し、ホイールボタンを押すか、スペースキーを押し、出力パスを指定し解凍してください。
+2d) PeaZipブラウザで右クリックし、選択した解凍や表示中のオブジェクト、プレビュー、テスト、 ファイルを追加･削除する などを実行するにはコンテキストメニューを開いてください。
+ヒント: 新しいディレクトリに解凍する場合、アーカイブブラウザでコンテキストメニューを開く、または I/O tab 、"\"かCtrl+Nを押し、「新規フォルダに解凍」に設定してください
+
+使用:
+- オプションタブでは形式の特定のパラメータを設定
+- I/Oタブでは入力/出力の設定、「新規フォルダに解凍」に設定(コンテキストメニューでも可能);
+- フィルタータブでは、形式が可能であれば高度な除外/含めるのフィルタ設定
+- コンソールタブではジョブの構文をカスタマイズ･分析、またはコマンドラインとしてジョブをエクスポート
+
+システムのコンテキストメニューかPeaZipブラウザから複数のアーカイブを一度に解凍できます。
+
+オプションタブの「カスタム」形式を選択することで、実行可能な標準のPeaZipで使われないアーカイブ形式をサポートできます(作成･解凍のため)
+
+
+言語の変更
+ユーザーインターフェースは異なった言語で使用可能です。: ツール > 設定 > ローカライズ
+
+
+PeaZipについて
+
+PeaZip is an open source file and archive manager: cross platform, available as portable and installable software for 32 and 64 bit Windows (9x, 2k, XP, Vista) and Linux (PeaZip is a desktop neutral application).
+
+PeaZip allows to apply powerful multiple search filters to archive's content; create and extract multiple archives at once; create self-extracting archives; export job definition as command line; save archive's layouts; bookmark archives and folders; scan and open with custom applications compressed and uncompressed files etc...
+
+Other features: strong encryption, robust file copy, split/join files (file span), secure data deletion, compare, checksum and hash files, system benchmark, generate random passwords and keyfiles.
+
+Downloads and changelog: http://peazip.sourceforge.net/
+All packages: http://sourceforge.net/projects/peazip/
+
+Support: http://peazip.sourceforge.net/peazip-help.html
+
+Features and full list of supported formats: http://peazip.sourceforge.net/peazip-free-archiver.html 
+More hints and notes for users: http://peazip.sourceforge.net/peazip-more.html
+
+Many thanks to all people contributing to PeaZip project's growth developing Open Source software components used in this application (see website for complete list), and to all users contributing with feedback, experience and advices.

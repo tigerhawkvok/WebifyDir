@@ -1,0 +1,781 @@
+﻿=== PeaZip language file ===
+Svenska
+2.7
+Översatt av: Mikael Hiort af Ornäs
+Last rev. by: Giorgio Tani (please review the translation)
+Last rev.: 20090909
+
+=== PeaZip text group ===
+
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (mappar)
+txt_2_6_advanced: Avancerat
+txt_2_6_plalways: Lämna alltid öppet för att kunna inspektera jobbrapporten
+txt_2_6_plsmart: Lämna öppet endast om nödvändigt (fel, listor eller testrapporter)
+txt_2_6_rec: Rekursiv: sök i undermappar
+txt_2_6_special: Specialformat (ACE, ARC, PEA)
+txt_2_5_sessionio: (den här sessionen)
+txt_2_5_advanced: Avancerad redigering: Lämna mellanslag mellan parametersträngar och filnamn om det behövs
+txt_2_5_basic: Enkel redigering: Program och parametrar före inmatningsnamn
+txt_2_5_cannotrun: Kan inte köras
+txt_2_5_custeditors: Standardprogram för redigering, mediaspelare, antivirusprogram etc. (åsidosätt systemets filassociationer)
+txt_2_5_delete: Ta bort
+txt_2_5_delete_fromarchive: Ta bort från arkivet
+txt_2_5_langflag: Visa det arkiverade objektets namn som text i UTF-8; avmarkera rutan för att ersätta utökade tecken med "?"
+txt_2_5_encpj: Koda jobbdefinitionens text i UTF-8
+txt_2_5_execommand: Exekverbar fil eller kommando
+txt_2_5_help: Hjälp
+txt_2_5_langhint: Tips: Att ersätta utökade tecken (specialtecken) med tecknet "?" kan förbättra syntax om arkivets teckenuppsättning inte på ett korrekt sätt kan konverteras på den nuvarande datorn
+txt_2_5_mini_help: Minihandledning (tutorial)
+txt_2_5_offline_help: PeaZips hjälpfil
+txt_2_5_tray: Minimera till Aktivitetsfältet
+txt_2_5_remove: Ta bort
+txt_2_5_hintpaths: Högerklicka för att öppna systemets och användarens sökvägar
+txt_2_5_selectapp: Välj program
+txt_2_5_strafter: Sträng efter inmatningsnamn
+txt_2_5_strbefore: Sträng före inmatningsnamn
+txt_2_5_encoding: Teckenkodning
+txt_2_5_nopw: den här arkivtypen stöder inte kryptering
+txt_2_4_draghint: [drag och släpp i Utforskarens adressfält]
+txt_2_4_tb: Anpassa verktygsfältets knappar (startar om PeaZip)
+txt_2_4_adding: Lägga till
+txt_2_4_advclip: Avancerat: Håll flera samtidiga urklipp i Urklipp (inga dubletter), rensa när de klistras in
+txt_2_4_yanswers: Answers
+txt_2_4_itemsheight: Justera objektens höjd automatiskt
+txt_2_4_clearclipboard: Rensa Urklipp (Esc)
+txt_2_4_wcommons: Commons
+txt_2_4_copyfrom: Kopiera från
+txt_2_4_deletebookmarks: Vill du radera listan över bokmärkta filer och mappar?
+txt_2_4_documents: Dokument
+txt_2_4_wenc: Wikipedia
+txt_2_4_extractfrom: Packa upp från
+txt_2_4_hexp: Förhandsgranska Hex
+txt_2_4_operation: Operation
+txt_2_4_path: sökvägen är skrivskyddad, var vänlig välj en skrivbar målsökväg
+txt_2_4_removefromclipboard: Tag bort från Urklipp
+txt_2_4_stdclip: Standard: Håll ett enda urklipp i Urklipp, rensa när det klistras in
+txt_2_4_totalmem: totalt minne
+txt_2_4_gvideo: Videor
+txt_2_4_wbook: Wikibook
+txt_2_4_wnews: Wikinews
+txt_2_4_wsrc: Wikisource
+txt_2_4_wdict: Wiktionary
+txt_2_3_pw_errorchar: : det här tecknet kan inte användas i lösenord med PeaZips grafiska användargränssnitt (GUI) under nuvarande system, var vänlig byt lösenord eller välj Konsoll-läget i Verktyg > Inställningar
+txt_2_3_envstr: Visa miljövariabler
+txt_2_3_never_pw: Fråga inte efter lösenord
+txt_2_3_home: Användarens hemmapp
+txt_2_3_on_pw: Vid uppacknings-, listnings- och testoperationer från systemmenyer:
+txt_2_3_test_pw100: Testa för kryptering i arkiv <100MB
+txt_2_3_test_pw: Testa för kryptering (kan gå långsamt)
+txt_exclude_recourse: "uteslut" rekursiva kataloger
+txt_action_extopen: Funktionen "Packa upp och öppna med assoc. program"
+txt_error_passwordnotmatch: Fälten "Lösenord" och "Bekräfta lösenord" överensstämmer inte, var vänlig rätta till det
+txt_action_preview: Funktionen "Förhandsgranska med associerat program"
+txt_preview_hint: Funktionen "Förhandsgranskning" utför samma uppgift som "Packa upp och öppna" men till en tillfällig sökväg i målmappen, som automatiskt tas bort när arkivet stängs.
+txt_better: (bättre)
+txt_default2: (standard)
+txt_faster: (snabbare)
+txt_fastermem: (snabbare, lägre minnesanv.)
+txt_tempdir: (PeaZips tillfälliga arbetsmapp)
+txt_stream: (anges av "Strömkontroll")
+txt_slowermem: (långsammare, högre minnesanv.)
+txt_store: (lagra, snabbast)
+txt_newfolder: (i ny mapp)
+txt_7z_exitcodeunknown: : Okänt fel i arbetet
+txt_list_isfolder: [mapp]
+txt_none: <ingen>
+txt_fd: 1.44 MB floppy-disk
+txt_7z_exitcode1: 1: Varning: Icke-fatalt fel; d.v.s. filer saknas eller är låsta
+txt_attach10: 10 MB (begränsning för bilaga)
+txt_7z_exitcode2: 2: Fatalt fel inträffade
+txt_7z_exitcode255: 255: Arbetet stoppades av användaren
+txt_fat32: 4 GB (max. FAT32-filstorlek)
+txt_dvd: 4.7 GB DVD
+txt_attach5: 5 MB (begränsning för bilaga)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: Fel: Fick felaktig kommandorad
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7Z: Funktionsrikt arkivformat med hög kompressionsgrad
+txt_dvddl: 8.5 GB DVD DL
+txt_7z_exitcode8: 8: Fel: Det finns inte tillräckligt minnesutrymme för den begärda operationen
+txt_abort: Vill du avbryta schemalagda filkopierings-/filförlyttnings-operationer?
+txt_about: Om
+txt_action: Funktion
+txt_action_hint: Vid öppnande eller förhandsgransk. med assoc. program
+txt_add: Lägg till
+txt_add_existing_archive: Lägg till (om arkivet existerar)
+txt_add_archive: Lägg till arkiv
+txt_add_files: Lägg till fil(er)
+txt_add_folder: Lägg till mapp
+txt_add_path: Lägg till sökväg
+txt_add_tolayout: Lägg till markerade filer och mappar till arkivets layout
+txt_add_toarchive: Lägg till i arkiv
+txt_add_tobookmarks: Lägg till i bokmärken
+txt_address_hint: Adress: Accepterar jokertecknen ? för tecken och * för sträng; avgränsande " eller ' behövs ej.
+txt_adv_filters: Avancerade filter
+txt_algo: Algoritm
+txt_all: alla
+txt_all_default: Alla (standard)
+txt_all_type: Alla objekt av den här typen
+txt_all_date: Alla objekt av ett datum...
+txt_all_psize: Alla objekt av en packstorlek...
+txt_all_attributes: Alla objekt med samma attribut
+txt_all_size: Alla objekt av en storlek...
+txt_error_input_upx: medger en enda exekverbar fil (programfil) som inmatningsvärde
+txt_always_pw: Fråga alltid efter lösenord
+txt_ignore_ext: Ignorera alltid sökvägar för "Packa upp och..."
+txt_ignore_disp: Ignorera alltid sökvägar för "Packa upp visade..."
+txt_ignore_sel: Ignorera alltid sökvägar för "Packa upp markerade..."
+txt_key_hint: Lägg till nyckelfilens hash-värde till lösenordet; arkivet kan dekrypteras av PeaZip och andra program som följer samma standard, eller lägger till hash-värdet som en del av lösenordet
+txt_timestamp: Lägg till en tidsstämpel i arkivnamnet
+txt_appoptions: Programinställningar
+txt_type_description_arc: ARC: Experimentellt arkivformat, kraftfullt, effektivt och funktionsrikt
+txt_archive: Arkiv
+txt_un7z_browse_ok: bläddringen i arkivet lyckades
+txt_interface: Gränssnitt för arkivbläddrare
+txt_archivecreation: Skapa arkiv
+txt_tarbefore_hint: Arkivera först data i TAR-formatet, innan det arkiveras i specificerat format.
+txt_archive_hint: Arkivera, komprimera, klyv och skydda filer, mappar och volymer
+txt_compressionratio_hint: Arkivets kompressionsgrad
+txt_archiving: Arkivering:
+txt_cl_long: Argumenten ser ut att överstiga maxstorleken för PeaZips front end, var vänlig välj färre ingångsfiler (d.v.s. välj kataloger istället för enskilda filer)
+txt_overwrite_askbefore: Fråga innan överskrivning sker (används i konsolläget)
+txt_associated: Associerat program
+txt_attributes: Attribut
+txt_author: Författare
+txt_ren_existing: Döp automatiskt om redan existerande filer
+txt_ren_extracted: Döp automatiskt om uppackade filer
+txt_autofolder: Vill du automatiskt skapa en ny mapp att packa upp arkivet till?
+txt_back: Bakåt
+txt_backend: Användargränssnitt för back end binary-kompilatorer
+txt_backupexe: Backup av exekverbara programfiler (rekommenderas)
+txt_bettercompression: Bättre komprimering
+txt_blogs: Bloggar
+txt_blowfish: Blowfish448 (64-bitblock)
+txt_bookmarks: Bokmärken
+txt_browse: Bläddra
+txt_browser: Bläddrare
+txt_aborted_error: Bläddringen av arkivet avbröts, det skulle ta för lång tid. Du kan begränsa urvalet genom att sök- eller filterfunktionerna (eller genom att välja bort "Platt utseende"); uppacknings-, listnings- och testoperationer påverkas inte av den här händelsen.
+txt_list_browsing: Bläddring:
+txt_archive_root: Bläddring: Arkivets rotkatalog
+txt_type_description_bzip2: BZip2: Ganska kraftfull komprimering, medelsnabb
+txt_pw_empty: Kan inte acceptera ett teckenfritt lösenord, var vänlig ange ett lösenord eller avmarkera rutan "Kryptera"
+txt_add_error: Kan inte lägga till/uppdatera eller radera objekt; antagligen stöder arkivtypen endast bläddring/uppackning eller har inte stöd för just den här operationen (d.v.s. det är en multivolym eller solitt), eller så kunde inte PeaZip fullt ut hantera arkivnamnet
+txt_un7z_browse_failure: kan inte bläddra i arkivet
+txt_list_error: Kan inte lista arkivets innehåll, var vänlig undersök om arkivet är lösenordsskyddat eller skadat.
+txt_conf_cannotsave: Kan inte spara konfigurationsfilen, undersök om sökvägen är skrivbar och om tillräckligt utrymme finns
+txt_check_hint: Leta efter slumpmässig datakorruption; hash-algoritmer kan också upptäcka fientlig datamanipulation (se dokumentationen)
+txt_check: Kontrollsumme-/hashfil(er)
+txt_check_select: Kontrollsumma/hash att genomföra
+txt_clear: Rensa
+txt_clearlayout: Rensa layouten
+txt_pj_hint: Importera jobb, återställ ändringar och ladda uppdaterad definition av GUI
+txt_autoclose: Stäng PeaLauncher när jobbet är färdigt
+txt_cl: kommandorad:
+txt_compare: Jämför filer
+txt_compress: Komprimera
+txt_compress_executable: Komprimera exekverbara filer
+txt_compress_openforwriting: Komprimera filer som fortfarande är skrivbara
+txt_compression: Komprimering
+txt_compmanagement: Administrationsverktyg
+txt_pw_confirm: Bekräfta lösenord
+txt_console: Konsoll
+txt_console_interface: Konsoll: Inbyggt gränssnitt
+txt_content: Innehåll
+txt_controlpanel: Kontrollpanelen
+txt_convert: Konvertera disk till NTFS
+txt_copy: Kopiera (Ctrl+C)
+txt_copyto: Kopiera till...
+txt_create: Skapa
+txt_create_archive: Skapa arkiv
+txt_title_create: Skapa arkiv, komprimera, kryptera, klyva...
+txt_create_keyfile: Skapa nyckelfil
+txt_create_folder: Skapa ny mapp
+txt_create_theme: Skapa ett nytt tema utifrån angivna inställningar:
+txt_rr: Skapa återställningsposter
+txt_create_sfx: Skapa självuppackande arkiv
+txt_cr_current: Komprimeringsgrad för nuvarande sökväg eller filter
+txt_custom: Anpassad
+txt_type_description_custom: Anpassad (avancerade användare): Ange namn och parametrar för exekverbara filer
+txt_customapp: Välj program...
+txt_custom_parameters: Anpassade parametrar
+txt_customsize: Anpassad storlek
+txt_cut: Klipp ut (Ctrl+X)
+txt_datetime: Datum/tid
+txt_default: standard
+txt_default_compression: Standardkomprimering
+txt_default_format: Standardformat
+txt_theme_default: Standardtema
+txt_hard_reset_hint: Radera bokmärkesfilen
+txt_desktop: Skrivbordet
+txt_dictionary: Ordbok
+txt_dirs: katalog(er),
+txt_dis: Mångtydighet:
+txt_disk_cleanup: Diskrensning
+txt_disk_defrag: Diskdefragmentering
+txt_disk_management: Diskhantering
+txt_dispaly: Visa resultat som
+txt_displayedmnu_obj: visade
+txt_displayedobjects: Visade objekt
+txt_nocompress: Komprimera inte
+txt_delete: Vill du ta bort markerad(e) fil(er)? Operationen kan inte ångras och raderade filer kommer inte att kunna återställas från Papperskorgen
+txt_wipe: Vill du ta bort markerad(e) fil(er) med "säker borttagning"? Operationen kan inte ångras och raderade filer kommer inte att kunna återställas.
+txt_done: Klar
+txt_edit: Redigera
+txt_elapsed: förfluten tid:
+txt_error_emptycl: Tom kommandorad!
+txt_encrypt: Kryptera
+txt_encrypted: krypterad
+txt_encryption: Kryptering
+txt_note: Ange anteckning/beskrivning
+txt_random_keys: Ange slumpvis valda tecken
+txt_random_keys_hint: Ange slumpvis valda tecken (som du inte behöver komma ihåg)
+txt_ent: Entropiutvärdering
+txt_ent_tools: Entropisamplingsverktyg
+txt_eqorlarger: samma som eller större än markerat objekt
+txt_eqorrecent: samma som eller nyare än markerat objekt
+txt_eqorolder: samma som eller äldre än markerat objekt
+txt_eqorsmaller: samma som eller mindre än markerat objekt
+txt_equal: samma som markerat objekt
+txt_erase_hint: Säker borttagning av filer: Skriver över med slumpad data, döljer storleken, byter namn, varefter de tas bort
+txt_extraction_error: Fel vid uppackning av det markerade objektet. Om arkivet är lösenordsskyddat, vänligen ange lösenordet
+txt_exclude_hint: Uteslut fil(er), en per rad; använd * och ? som jokertecken; avgränsande " eller ' behövs ej.
+txt_exclusion_recourse: Uteslutningsfilter rekursiva för kataloger
+txt_exclusion: Uteslutning:
+txt_exe: Exekverbar fil
+txt_overwrite_qry: finns redan i målsökvägen; vill du ersätta den/dem med filen/filerna med samma namn från källsökvägen? (Avbryt: Hoppa över kopieringen av det här objektet)
+txt_confirm_overwrite: finns redan; vill du ersätta den? (nej för att hoppa över)
+txt_explore_outpath: Utforska målsökvägen
+txt_explore_path: Utforska sökvägen
+txt_ext: Ext:
+txt_caption_extract: Packa upp
+txt_ext_nopath: Packa upp (utan sökväg)
+txt_ext_all: Packa upp alla
+txt_ext_allhere: Packa upp alla här
+txt_ext_allto: Packa upp alla till...
+txt_extopen_custom: Packa upp och öppna med associerat standardprogram
+txt_extopen_with: Packa upp och öppna med...
+txt_ext_disp_here: Packa upp visade objekt här
+txt_ext_disp: Packa upp visade objekt
+txt_ext_disp_to: Packa upp visade objekt till...
+txt_ext_here: Packa upp här
+txt_ext_sel_here: Packa upp markerade objekt här
+txt_ext_sel: Packa upp markerade objekt
+txt_ext_sel_to: Packa upp markerade objekt till...
+txt_extobj: Packa upp objektet
+txt_newfoldermenu: Packa upp till ny mapp
+txt_extto: Packa upp till...
+txt_level_fast: Snabb
+txt_fastcompr: Snabb komprimering
+txt_fastopen: Snabböppningsrutin, avbryt bläddringen om listan överstiger
+txt_level_fastest: Snabbast
+txt_favformats: Favoritformat
+txt_file: Arkiv
+txt_filebrowser: Filbläddrare / arkivbläddrare
+txt_filetools: Filverktyg
+txt_files: fil(er),
+txt_nfiles: Filer
+txt_fs: Filsystem
+txt_type_custom_selected: filtypen stöds för tillfället inte av PeaZip, men du kan försöka tillåta PeaZip att öppna den här filtypen under fliken "Inställningar". Vill du fortsätta, och öppna filen?
+txt_filters_recourse: filter rekursiva för kataloger
+txt_filters: Filter
+txt_flat: Platt (visa alla)
+txt_list_flat: Platt utseende:
+txt_unit_floppy: Floppy-disk
+txt_foldername: Mappnamn
+txt_nfolders: Mappar
+txt_error_input_multi: Formatet medger en enda fil som inmatningsvärde; du kan använda "Först TAR"-alternativet för att spara inmatningen i ett .TAR-arkiv innan det arkiveras i det valda formatet, annars kan du välja ett annat format. TIPS: Välj arkivformat efter att du har valt inmatningsdata: "Först TAR"-alternativet kommer då att ställas in automatiskt.
+txt_format_options: Formatinställningar
+txt_fwd: Framåt
+txt_list_found: Hittade:
+txt_free: Ledigt (B)
+txt_free2: ledigt
+txt_name_full: Fullständigt namn
+txt_function: Funktion
+txt_general: Allmänt
+txt_multithreading: Generisk multitrådning
+txt_go_browser: Gå till filbläddraren
+txt_go_path: Gå till objektets sökväg
+txt_guicl: Grafiskt (GUI) + Konsoll
+txt_guipealauncher: Grafiskt (GUI): PeaLauncher som wrapper
+txt_graphic: Grafikmapp
+txt_gridaltcolor: Tabellernas alternativa radfärg
+txt_gridrowheight: Tabellernas radhöjd
+txt_gui: Grafiskt anv.gränssnitt (GUI)
+txt_type_description_gzip: GZip: Snabb komprimering
+txt_here: här
+txt_list_history: Historik
+txt_homeroot: Datorns/arkivets rotnivå
+txt_quickbrowse_hint: Om bläddringen har stoppats kan användaren begränsa urvalet genom att använda sök- eller filterfunktioner; uppacknings-, listnings- och testfunktionerna påverkas inte på något sätt.
+txt_backupexe_hint: Om någonting går fel och det leder till att den resulterande filen inte fungerar, kan du återställa den ursprungliga exekverbara filen från den automatiska backupkopian.
+txt_attach: Om e-postprogrammet stöder det kommandot, kommer arkivet att bli bilagt i ett nytt e-brev.
+txt_images: Bilder
+txt_include_hint: Inkludera fil(er), en per rad; använd * och ? som jokertecken; avgränsande " eller ' behövs ej.
+txt_filters_hint: Inkluderings- och uteslutningsfilter för 7z-binaryfiler, var vänlig och läs noggrant igenom 7-Zips dokumentation för att förstå hur sådana filter fungerar.
+txt_inclusion_recourse: Inkluderingsfilter rekursiva för kataloger
+txt_inclusion: Inkludering:
+txt_error_function: Inkorrekt funktion efterfrågades
+txt_info: Info
+txt_infoall: Info för alla
+txt_infodisp: Info för visade objekt
+txt_infosel: Info för markerade objekt
+txt_inputinfo: Inmatningsinformation
+txt_input_list: Inputningslista:
+txt_iop: inmatning, utmatning, parametrar
+txt_ipo: inmatning, parametrar, utmatning
+txt_input: inmatning:
+txt_integrity: Integritetskontroll
+txt_chunk_size: Ogiltig anpassad storlek, var vänlig korrigera det med ett numeriskt värde
+txt_invertsel: Invertera markeringar
+txt_type_exe: är en exekverbar Windows-fil, vill du köra den? ("Nej" för att öppna den i PeaZips arkivbläddrare; endast NSIS-installationsfiler, 7-Zips sfx-filer och .MSI-installationsfiler kan bläddras på det sättet)
+txt_return_to_archive: är för närvarande öppet; vill du bläddra i det?
+txt_not_accessible: är inte längre tillgänglig
+txt_type_unsupported: är inte en arkivtyp som stöds av PeaZip
+txt_checkname_failed: är ett ogiltigt namn.
+txt_not_accessible_list: är inte tillgänglig, var vänlig kontrollera om den tillhandahållna fillistan är korrekt och à jour
+txt_theme_create_error: Det gick inte att skapa temat, försök att använda ett giltigt mappnamn som temanamn och att välja en skrivbar sökväg
+txt_theme_exists: Temat existerar redan, var vänlig ange en annan sökväg
+txt_job_code: jobbkod:
+txt_job_definition_saved: Jobbdefinitionen sparades utan fel i
+txt_job_success: Jobb avslutat utan fel!
+txt_join: Sammanfoga
+txt_joinfiles: Sammanfoga filer
+txt_keyfile: Nyckelfil
+txt_keyfile_not_found: Nyckelfilen hittas inte eller kan inte läsas. Var vänlig välj en annan nyckelfil.
+txt_keyfile_notcreated: Ingen nyckelfil skapades
+txt_larger: större än markerat objekt
+txt_lastused: Senast använda
+txt_launch: Starta jobb
+txt_layout: Layout
+txt_filelist_savedas: Layouten sparades som
+txt_level: Nivå
+txt_license: Licens
+txt_caption_list: Lista
+txt_list_details: Lista (med detaljer)
+txt_list_all: Lista alla
+txt_list_disp: Lista visade objekt
+txt_list_sel: Lista markerade objekt
+txt_toggle_warning: Att lista sökvägens innehåll i Platt utseende kan ta lång tid, vill du ändå fortsätta?
+txt_loadfile: Ladda fil
+txt_loadlayout: Ladda layout
+txt_unit_hd: Lokal disk
+txt_localization: Språk
+txt_lpaqver: LPAQ-version
+txt_type_description_lpaq: LPAQ: Snabbare version av PAQ, mycket god komprimering
+txt_maininterface: Huvudgränssnitt
+txt_maxcomp: Maximal komprimering
+txt_level_maximum: Maximal
+txt_restartrequired: Kan kräva att PeaZip startas om för att ändringarna skall tillämpas
+txt_required_memory: MB minnesutrymme krävs
+txt_method: Metod
+txt_misc: Diverse
+txt_modify: Ändra
+txt_morecontrols: Fler alternativ (historik, bokmärken, ...)
+txt_morerecent: nyare än markerat objekt
+txt_ent_hint: Flytta runt muspekaren, skriv med skrivbordstangenterna i fältet till vänster om "Ladda fil", och ladda filer för att samla in entropidata från systemet...
+txt_moveto: Flytta till...
+txt_mypc: Datorns rotkatalog
+txt_list_na: i.u.
+txt_name: Namn
+txt_naming: Namngivningspolicy
+txt_unit_remote: Nätverksenhet
+txt_newarchive: Nytt arkiv
+txt_cnewfolder: Ny mapp
+txt_news: Nyheter
+txt_no: Nej
+txt_noinput: Inget tillgängligt inmatningsvärde mottaget
+txt_nocompress_hint: Ingen komprimering (snabbare)
+txt_split_noinput: Inget inmatningsvärde valt; var vänlig välj en fil att klyva
+txt_open_noinput: Inget inmatningsvärde valt; var vänlig välj ett arkiv (det första arkivets volym för multivolymarkiv)
+txt_list_nomatch: ingen träff
+txt_singlethread: Ingen multitrådning
+txt_none2: (ingen)
+txt_nonsolid: Ej solitt
+txt_level_normal: Normal
+txt_copy_error: kunde inte kopieras eller flyttas, felkod:
+txt_description: Beskrivning
+txt_compare_second: Välj nu en fil att jämföra med
+txt_peaobj: Objektkontroll
+txt_displayed_obj: objekt
+txt_olderthan: äldre än markerat objekt
+txt_on: på
+txt_ondblclick: Vid dubbelklick på arkiv:
+txt_opacity: Opacitet
+txt_open: Öppna
+txt_openarchive: Öppna arkiv
+txt_title_open: Öppna arkiv, dekryptera, sammanfoga...
+txt_open_bookmark: Öppna bokmärke
+txt_cphere: Öppna Kommandotolken här
+txt_open_file: Öppna fil
+txt_open_files: Öppna fil(er)
+txt_open_path: Öppna sökväg
+txt_opensource: Portabel Open Source-arkiverare
+txt_openwith: Öppna med...
+txt_aborted: Operationen avbröts
+txt_unit_cd: Optisk enhet
+txt_options: Inställningar
+txt_other: Övrigt
+txt_otherparams: Övriga parametrar (fri redigering)
+txt_oip: utmatning, inmatning, parametrar
+txt_opi: utmatning, parametrar, inmatning
+txt_output: utmatning:
+txt_overwrite: Ersätt redan existerande filer
+txt_compressed_size: Packad
+txt_paqver: PAQ-version
+txt_type_description_paq: PAQ: Långsam men extremt kraftfull komprimerare
+txt_pio: parametrar, inmatning, utmatning
+txt_poi: parametrar, utmatning, inmatning
+txt_parameters: Parametrar:
+txt_error_partial: Stöd för partiell uppackning är inte implementerad för nuvarande arkivtyp
+txt_passes: Överskrivn.
+txt_pw: Lösenord
+txt_pwlength: Lösenordslängd i antal tecken (4..64)
+txt_un7z_browse_pw: lösenord kanske krävs
+txt_un7z_browse_pw_other: lösenordet kan vara felaktigt
+txt_paste: Klistra in (Ctrl+V)
+txt_path: Sökväg:
+txt_pea_appcolor: Programmets bakgrundsfärg
+txt_pea_textcolor: Textfärg
+txt_type_description_pea: PEA: Säkerhetsorienterat arkivformat med snabb komprimering
+txt_peazip_new: PeaZip (ny instans)
+txt_peazip_help: Hjälp (Internet, på engelska)
+txt_peazip_web: PeaZips hemsida (på engelska)
+txt_performall: Utför alla understödda algoritmer
+txt_name_provide: Nytt namn (var vänlig undvik tecknen \ / : * ? ' " < > och | )
+txt_upxorstrip: Var vänlig välj Strimling (Stripping) och/eller UPX för binary-filen
+txt_not_removable_file: Du måste stänga den öppna filen, för att PeaZip skall kunna ta bort den:
+txt_not_removable: Du måste stänga alla öppna filer, för att PeaZip skall kunna ta bort mappen:
+txt_custom_executable_missing: Var vänlig och ange den anpassade exekverbara filens namn
+txt_type_unsupported_select: Var vänlig välj en arkivtyp som stöds av PeaZip:
+txt_no_theme_name: Var vanlig specificera ett temanamn
+txt_please_wait: Var god vänta
+txt_copy_wait: Var god vänta tills dess nuvarande schemalagda filkopierings-/filförflyttningsoperationer är avslutade, innan du schemalägger andra operationer av samma slag
+txt_previewwith: Förhandsgranska med...
+txt_projectadmin: Projektledare:
+txt_type_description_quad: QUAD/BALZ: ROLZ-baserade filkomprimerare med hög prestanda
+txt_quickdelete: Ta bort
+txt_quit: Avsluta
+txt_unit_ram: RAM-disk
+txt_read: Läs:
+txt_recentarchives: Senast använda arkiv   
+txt_rr_hint: Återställningsposter gör det möjligt att försöka laga arkiv om data har korrumperats
+txt_search_refine: Förfina sökfiltren; accepterar jokertecknen ? och *
+txt_fefreshf5: Uppdatera fönstret (F5)
+txt_release: version:
+txt_unit_removable: Borttagbar enhet
+txt_remove_bookmark: Ta bort bokmärke
+txt_remove_external_unit: Säker borttagning av maskinvara
+txt_removeselected: Ta bort markerade objekt
+txt_rename: Byt namn
+txt_caption_repair: Reparera
+txt_restartrequired2: Kräver att PeaZip startas om för att ändringarna skall tillämpas
+txt_reset: Återställ
+txt_reset_archivename: Återställ arkivnamn
+txt_hardreset: Återställ bokmärken
+txt_reset_theme: Återställ till PeaZips standardtema
+txt_soft_reset: Starta om programmen genom att använda standardkonfigurationsvärden, rensa historik över senast använda arkiv, rör inte bokmärken.
+txt_restore_att: återställ originalattribut
+txt_run_as: Kör som (kan inte byta till användare med blankt lösenord)
+txt_run_as2: Kör som annan användare
+txt_sample: Sampel:
+txt_saveas: Spara som
+txt_savehistory: Spara historik över senast använda arkiv
+txt_save_infolder: Spara i mapp (auto)
+txt_savejob: Spara jobb
+txt_savejobdefinition: Spara jobbdefinition
+txt_savejobdefinition_hint: Spara jobbdefinition som vanlig text; du kan använda den från dina skript
+txt_savelayout: Spara layout
+txt_save_winstate: Kom ihåg huvudfönstrets nuvarande utseende
+txt_search: Sök (rekursivt), kan ta tid
+txt_searchanddrag: Sök och drag hit
+txt_searchfor: Sök efter:
+txt_nrsearch: Sök här (ej rekursivt)
+txt_search_hint: Sök i arkivets kataloger efter träffar med filter
+txt_search_web: Sök på Internet
+txt_list_searching: Söker...
+txt_securedelete: Säker borttagning (filer)
+txt_default_description: Välj en funktion eller drag filer hit
+txt_selectall: Markera allt
+txt_selectdir: Välj mapp
+txt_selected_obj: markerade
+txt_selected_objects: Markerade objekt
+txt_sfx: Självuppackande
+txt_sendbymail: Skicka med e-post (om det stöds)
+txt_set_defaults: Ställ in programmets standardparametrar
+txt_settings: Inställningar
+txt_sfx_interface: sfx-gränssnitt
+txt_showhints: Visa tips
+txt_show_messages: Visa informationsmeddelanden
+txt_showpw: Visa lösenordsfältets innehåll
+txt_singlevol: Enkel volym
+txt_size: Storlek
+txt_sizeb: Storlek (B)
+txt_skip_existing: Hoppa över redan existerande filer
+txt_slowercomp: Långsammare komprimering men lika snabb dekomprimering
+txt_smaller: mindre än markerat objekt
+txt_solid: Solitt
+txt_solid_block: Solitt block
+txt_solid_auto: Solitt, justera automatiskt
+txt_solid_extension: Solitt, gruppera efter filtyp
+txt_tarbeforepj: Ledsen, kan inte importera jobbdefinitionens kommandorad när du väljer "Först TAR"-alternativet, eftersom jobbet utförs som två separata kommandon
+txt_listtest: Ledsen, listnings- och testoperationer är ännu inte implementerade för det här formatet
+txt_sortbysel: Sortera efter markeringsstatus
+txt_list_sorting: Sorterar...
+txt_speed: hastighet
+txt_split: Klyv
+txt_type_description_split: Klyv en fil, med integritetskontroll som tillvalsmöjlighet
+txt_split_file: Klyv fil
+txt_list_nostats: ingen statistik tillgänglig
+txt_status: Status
+txt_level_store: Lagra
+txt_stream_control: Strömkontroll
+txt_strip: Strimla (Strip) innan UPX (rekommenderas)
+txt_keyfile_created: En nyckelfil skapades utan fel:
+txt_suggestpw: Föreslå lösenord
+txt_noupx: Symboler strimlade, UPX-komprimering utgick
+txt_syntax: Syntax:
+txt_sysbenchmark: Systemprestandakontroll
+txt_benchmark: Systemprestandakontroll (benchmarking) kommer att ta några minuter och kommer att ta all tillgänglig CPU och minnesutrymme i anspråk. Systemet kanske inte kommer att svara under prestandakontrollen; vill du ändå köra den?
+txt_systools: Systemverktyg
+txt_tarbefore: Först TAR
+txt_type_description_tar: TAR: Huvudsakligt arkiveringsformat i UNIX-system
+txt_taskman: Aktivitetshanteraren
+txt_caption_test: Testa
+txt_testall: Testa alla
+txt_testdisp: Testa visade objekt
+txt_testpw: Testa lösenord / nyckelfil
+txt_testsel: Testa markerade objekt
+txt_col_hint: Färgen bör väljas så att den passar med ikonfärgerna och med andra element i det grafiska användargränssnittet (GUI)
+txt_bookmarks_hint: Den kompletta och redigeringsbara listan över bokmärken finns tillgänglig i filbläddringsgränssnittet, genom att klicka på "Fler alternativ"-ikonen och på "Växla Historik/Bokmärken"
+txt_archive_noinput_tolist: Layouten är tom: Var vänlig använd Lägg till fil(er), Lägg till mapp eller Ladda layout för att lägga till objekt i arkivets layout
+txt_theme: Tema
+txt_icons_found: Temat laddades utan fel.
+txt_themename: Temanamn
+txt_icons_not_found: Temat kunde inte laddas korrekt. Försök att byta till standardtemat, eller till ett tema som du vet fungerar.
+txt_theme_create_success: temat skapades utan fel i
+txt_theme_not_loadable: Tema- och grafikmappar måste finnas i PeaZips programmapp (under PeaZip\res\themes)
+txt_theming: Ange tema
+txt_extand_error: Den här funktionen kan bara utföras på ett objekt i taget
+txt_threads: Trådar
+txt_titlescolor: Rubrikfärg
+txt_to: till
+txt_toggle_browseflat: Växla Bläddrare/Platt utseende
+txt_toggle_historybookmarks: Växla Historik/Bokmärken
+txt_toolbarscolor: Verktygsfältens färg
+txt_tools: Verktyg
+txt_best: Optimala inställningar (långsam)
+txt_type: Typ
+txt_level_ultra: Ultra
+txt_error_openfile: Kunde inte öppna den angivna filen
+txt_cl_hint: UNACE och UPX körs alltid i konsolläget; listnings-, testnings- och systemprestandakontrolljobb körs alltid i GUI
+txt_ace_missing: UNACE-insticksprogrammet saknas; om du vill hantera ACE-arkiv kan du ladda ner insticksprogrammet från PeaZips hemsida (eftersom det är en UNACE Closed Source-funktion, är inte funktionen inkluderad i baspaketet)
+txt_units: enheter
+txt_unit_unknown: Okänd enhetstyp
+txt_un7z_pw_untested: Ej testad
+txt_up: Upp en nivå
+txt_update: Uppdatera (om arkivet existerar)
+txt_type_description_upx: UPX: Komprimerar endast exekverbara filer
+txt_advfilters: Använd avancerade filter
+txt_openfiles_hint: Använd den här inställningen för att i arkivet lägga till filer som är öppna för skrivning för andra program (användbart vid backupjobb)
+txt_usenet: Usenet
+txt_user_name: Användarnamn; använd användare@DOMÄN eller formen DOMÄN\användare om nödvändigt.
+txt_using: Använder:
+txt_volumepea: Volymkontroll
+txt_volume_size: Volymstorlek
+txt_type_ext_uns: packades upp utan fel
+txt_websearch: Sökning på Internet
+txt_websites: Hemsidor
+txt_word: Ord
+txt_write: Skriv:
+txt_ramdompw_hint: Härifrån kan du kopiera det slumpmässigt genererade lösenordet
+txt_exe_hint: Du kan helt fritt ange namnet på och parametrarna för den exekverbara filen för anpassad komprimering, och välja syntaxets uppbyggnad. Var vänlig notera att du även kan ändra kommandots syntax manuellt, under "Konsoll"-fliken.
+txt_pj_hint2: Du kan importera jobbdefinitionen från det grafiska anv.gränssnittets (GUI) front end i memo-fältet nedan. Efter det kan du redigera, köra eller spara det utan att ändra eller förlora jobbet som är definerat för GUI:s front end.
+txt_type_description_zip: ZIP: Snabbt arkiverings- och komprimeringsformat, huvudformatet i Windows-system
+txt_zipcrypto_hint: ZipCrypto (legacy)
+
+=== end PeaZip text group ===
+
+=== PeaLauncher text group ===
+
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: Öppna arkiv
+txt_2_5_ace_missing: UNACE-tillägget saknas; om du vill kunna hantera ACE-arkiv kan du ladda ner tillägget från PeaZips hemsida (eftersom UNACE är sluten källkod, ingår inte tillägget i standardprogrammet)
+txt_2_3_pw_errorchar_gwrap: : det här tecknet kan inte användas av PeaLauncher i lösenord under nuvarande system. Var vänlig ändra lösenord eller använd PeaZip i Konsolläget (Verktyg > Inställningar)
+txt_2_3_renameexisting: Byt automatiskt namn på redan existerande filer
+txt_2_3_renameextracted: Byt automatiskt namn på uppackade filer
+txt_2_3_cancel: Avbryt
+txt_2_3_encryption: Kryptering
+txt_2_3_extinnew: Packa upp till ny mapp
+txt_2_3_keyfile: Nyckelfil
+txt_2_3_kf_not_found_gwrap: Nyckelfilen hittas inte eller kan inte läsas. Var vänlig välj en annan nyckelfil.
+txt_2_3_moreoptions: Fler inställningar...
+txt_2_3_nopaths: Inga sökvägar
+txt_2_3_options: Inställningar
+txt_2_3_overexisting: Ersätt redan existerande filer
+txt_2_3_pw: Lösenord
+txt_2_3_skipexisting: Hoppa över redan existerande filer
+txt_job_unknown: : Ett okänt fel inträffade
+txt_stdjob: [animationen kommer att stoppas och en popupruta kommer att meddela när jobbet slutförts]
+txt_benchmarkjob: [systemet kommer att svara långsammare än vanligt under tiden som systemprestandakontrollen genomförs (några minuter)]
+txt_defragjob: [kommer inte att vara kontaktbar under defragmentering, du kan låta den arbeta i bakgrunden]
+txt_consolejob: [du kan se en detaljerad förloppsbeskrivning i jobbets konsollfönster]
+txt_job1: 1: Varning: Icke-fatalt fel; d.v.s. några filer fattas eller är låsta
+txt_job127: 127: Kan inte genomföra den begärda operationen
+txt_job2: 2: Ett fatalt fel inträffade
+txt_job255: 255: Jobbet stoppades av användaren
+txt_job7: 7: Fel: Fick felaktig kommandorad
+txt_job8: 8: Fel: Det finns inte tillräckligt minnesutrymme för den begärda operationen
+txt_autoclose: Stäng det här fönstret när jobbet avslutas
+txt_crscale: Kompressionsgrad (lägre, bättre):
+txt_console: Konsoll
+txt_benchscale: Core 2 Duo 6600-rating, motsvarande MHz-hastighet.
+txt_create: Skapa
+txt_done: Klar:
+txt_nocl: Tom kommandorad
+txt_error: Fel:
+txt_explore: Utforska
+txt_extto: Packa upp till
+txt_halt: Stoppa systemet när jobbet avslutas
+txt_halted: Stoppad:
+txt_hardware: hårdvara
+txt_high: hög prioritet
+txt_checkpw: Tips: Undersök om ett lösenord behövs för att köra jobbet
+txt_idle: låg prioritet
+txt_input: Inmatning:
+txt_jpaused: Jobbet pausat
+txt_jresumed: Jobbet återstartat
+txt_job_started: Jobbet startade
+txt_jobstatus: Jobbstatus:
+txt_jstopped: Jobbet stoppades av användaren
+txt_jobstopped: Jobbet stoppades av användaren; du kan inspektera det hittills genomförda arbetet genom att klicka på "Utforska"-knappen eller genom att läsa jobbloggen
+txt_job_success: Jobbet genomfördes utan fel
+txt_lt: Lista/testa/reparera arkiv
+txt_normal: normal prioritet
+txt_ok: Ok
+txt_output: Utmatning:
+txt_pause: Paus
+txt_paused: pausad,
+txt_p_high: Prioritet angiven som hög
+txt_p_idle: Prioritet angiven som låg
+txt_p_normal: Prioritet angiven som normal
+txt_p_realtime: Prioritet angiven som realtid
+txt_rating: Rating:
+txt_rt: realtidsprioritet
+txt_report: Rapport
+txt_resume: Återta
+txt_priority: Högerklicka för att ange arbetets prioritet
+txt_running: kör,
+txt_isrunning: Kör...
+txt_saveas: Spara som
+txt_savejob: Spara arbetsdefinition (kan inkludera lösenord!)
+txt_savelog: Spara arbetslogg
+txt_software: mjukvara
+txt_speedscale: Hastighet, logaritmisk skala (högre, bättre):
+txt_status: Status
+txt_stop: Stopp
+txt_bench: Systemprestandakontroll
+txt_threads: Trådar:
+txt_time: Tid:
+
+=== end PeaLauncher text group ===
+
+=== about text group ===
+
+SKAPA ARKIV
+
+1) Lägg till objekt till arkivets layout från systemets kontext- och Skicka till-menyer, genom att dra och släppa eller från PeaZips knappar och menyer;
+2) Klicka på "Skapa"-knappen för att påbörja skapandet av ett nytt arkiv.
+
+Använd:
+- "Inställningar"-fliken för att ställa in arkivformat samt komprimerings- och krypteringsrelaterade parametrar; 
+- "I/O"-fliken för inmatnings- och utmatningsinställningar;
+- "Filter"-fliken för att använda avancerade uteslutningsfilter, om det är tillgängligt för det valda arkivformatet;
+- "Konsoll"-fliken för att analysera och ställa in jobbets syntax, eller exportera jobbet som en kommandorad.
+
+Alternativt, med ett enkelt handgrepp kan du lägga till varje enskilt inmatningsobjekt till ett separat arkiv från systemets kontextmeny, och från Skicka till-menyn kan du lägga till flera objekt till ett enda arkiv.
+
+I arkivlayouten kan du även:
+- Dubbelklicka på ett objekt för att öppna det;
+- Markera en fil och trycka "\" eller "Högerklicka el. Arkiv > Filverktyg > Klyv fil" för att klyva den;
+- Markera en fil och trycka "<" eller "Högerklicka el. Arkiv > Filverktyg > Jämför filer" för att byte för byte jämföra den med en annan fil;
+- Markera flera objekt och trycka "?" eller "Högerklicka el. Arkiv > Filverktyg > Kontrollsumme-/hashfil(er)" för kontrollsumme- och hashfiler;
+- Markera flera objekt och trycka "*" eller "(Arkiv > Filverktyg >) el. högerklicka > Säker borttagning (filer)" för säker filborttagning.
+
+
+ÖPPNA ARKIV
+
+1) Öppna arkiv genom filassociation, eller från systemets kontextmeny- och Skicka till-menyval, eller från PeaZips knappar och menyer
+2a) Klicka "Packa upp alla" för att packa upp arkivet, eller "Packa upp alla till" för att få välja målsökväg;
+2b) Dubbelklicka eller tryck Enter på ett arkiverat objekt för att förhandsgranska det med associerat program, eller öppna det i PeaZip om det är ett arkiv, eller utforska det om det är en mapp/katalog;
+2c) Markera arkiverade objekt och mittenklicka eller tryck mellanslag för att packa upp dem (och tillfrågas om målsökväg);
+2d) Högerklicka för att använda kontextmenyvalen och utföra alla tillgängliga funktioner, som att packa upp markerade eller visade objekt, förhandsgranska, testa, lista, lägga till eller ta bort filer etc...
+Tips: Om du vill packa upp arkivet till en helt ny mapp, använd "Packa upp till ny mapp"-väljaren (ON/OFF = PÅ/AV) i kontextmenyn (eller under "I/O"-fliken), eller tryck \ eller Ctrl+N när du är i arkivbläddraren.
+
+Använd:
+- "Inställningar"-fliken för att ställa in formatspecifika parametrar;
+- "I/O"-fliken för inmatnings- och utmatningsinställningar, inklusive "Packa upp till ny mapp"-väljaren (även tillgänglig i kontextmenyn);
+- "Filter"-fliken för att använda avancerade inkluderings- och uteslutningsfilter, om det är tillgängligt för arkivformatet;
+- "Konsoll"-fliken för att analysera och ställa in jobbets syntax, eller exportera jobbet som en kommandorad.
+
+Alternativt kan du packa upp flera arkiv samtidigt från systemets kontextmeny.
+
+
+OM PEAZIP
+
+PeaZip free archiver är ett portabelt, Open Source-baserat (sv. öppen källkod) arkiverings-, krypterings- och filklyvningsverktyg; som stöder och hanterar ett stort urval arkiv- och komprimeringsformat.
+
+Skriver: 7Z, 7Z-sfx, ARC, BZ2, GZ, PAQ/LPAQ, PEA, QUAD, klyning, TAR, UPX, ZIP
+
+Läser: Se hela listan på http://peazip.sourceforge.net/peazip-free-archiver.html 
+
+Andra/anpassade arkivtyper kan hanteras för skrivning och läsning genom att specificera anpassade exekverbara filer och syntax under "Inställningar"-fliken.
+
+Andra funktioner: klyva/sammanfoga filer genom filspanning (file spanning), radera filer (säker filborttagning), jämförelser, kontrollsumme- och hashfiler, systemprestandakontroll (benchmarking), skapa slumpade lösenord och nyckelfiler.
+
+I PeaZip kan du redigera, spara and återställa arkivens layouter; applicera kraftfulla, multipla filter på arkivens innehåll; hantera flera arkiv samtidigt; exportera jobbdefinitioner som kommandorader; kryptera med AES256 etc.
+PeaZip_portable är ett självständigt program med samma funktioner som PeaZip; det behöver inte installeras och kan användas från flyttbara enheter (USB-minnen, fjärrkontrollerade sökvägar etc.) utan att påverka eller förändra värdsystemet.
+De vanligast använda funktionerna är integrerade i kontext- och Skicka till-menyerna (på Windows) och som .desktop-filer för kontextuella menyer (på Linux); systemintegrationen utförs automatiskt med installationspaketen och kan anpassas av användare både när det gäller installationspaket ochd portabla paket (se dokumentationen på Internet, på engelska).
+PeaZip kan användas av flera plattformar och kan köras på 32- och 64-bitars Windows (9x, 2000, XP, Vista) och Linux.
+
+Nerladdningsbara filer och versions- och ändringsloggar: http://peazip.sourceforge.net/
+Alla nerladdningsbara filer: http://sourceforge.net/projects/peazip/
+Hjälp (på engelska): http://peazip.sourceforge.net/peazip-help.html
+Vanliga frågor (FAQ): http://peazip.sourceforge.net/faq.html
+
+
+Tusen tack till alla som har bidragit till PeaZip-projektet genom att utveckla Open Source-mjukvara som har använts i det här programmet (se PeaZips hemsida för en fullständig lista), och till alla användare som bidrager med feedback, erfarenheter och goda råd.

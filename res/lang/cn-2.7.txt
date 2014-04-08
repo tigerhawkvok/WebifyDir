@@ -1,0 +1,781 @@
+﻿=== PeaZip language file ===
+简体中文
+2.7
+翻译: Aerowolf
+Last rev. by: Giorgio Tani (please review the translation)
+Last rev.: 20090909
+
+=== PeaZip text group ===
+
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (folders)
+txt_2_6_advanced: Advanced
+txt_2_6_plalways: Always keep open to inspect job's report
+txt_2_6_plsmart: Keep open only if needed (error, list or test reports)
+txt_2_6_rec: Recoursive: search in subdirectories
+txt_2_6_special: Special formats (ACE, ARC, PEA)
+txt_2_5_sessionio: (this session)
+txt_2_5_advanced: Advanced edit: place spaces between parameter strings and filename if needed
+txt_2_5_basic: Basic edit: application and parameters before input name
+txt_2_5_cannotrun: Cannot run
+txt_2_5_custeditors: Custom editors, players, antivirus scanners etc... (override system's file associations)
+txt_2_5_delete: Delete
+txt_2_5_delete_fromarchive: Delete from archive
+txt_2_5_langflag: Display archived object's name as UTF-8 text; uncheck to replace extended characters with "?"
+txt_2_5_encpj: Encode job definition as UTF-8 text
+txt_2_5_execommand: Executable or command
+txt_2_5_help: Help
+txt_2_5_langhint: Hint: replacing extended characters with "?" jolly character can improve syntax if archive's character set cannot be successfully converted on the current machine
+txt_2_5_mini_help: Mini tutorial
+txt_2_5_offline_help: PeaZip help
+txt_2_5_tray: Reduce to tray
+txt_2_5_remove: Remove
+txt_2_5_hintpaths: Rightclick to open system's and user's paths
+txt_2_5_selectapp: Select application
+txt_2_5_strafter: String after input name
+txt_2_5_strbefore: String before input name
+txt_2_5_encoding: Text encoding
+txt_2_5_nopw: this type of archives does not support encryption
+txt_2_4_draghint: [drag to Explorer with enabled Address bar]
+txt_2_4_tb: Adapt toolbar buttons (restarts PeaZip)
+txt_2_4_adding: Adding
+txt_2_4_advclip: Advanced: keep multiple selections in clipboard (no duplicates), clear on paste
+txt_2_4_yanswers: Answers
+txt_2_4_itemsheight: Auto-size items height
+txt_2_4_clearclipboard: Clear clipboard (Esc)
+txt_2_4_wcommons: Commons
+txt_2_4_copyfrom: Copy from
+txt_2_4_deletebookmarks: Do you want to delete the list of bookmarked files and folders?
+txt_2_4_documents: Documents
+txt_2_4_wenc: Encyclopedia
+txt_2_4_extractfrom: Extract from
+txt_2_4_hexp: Hex preview
+txt_2_4_operation: Operation
+txt_2_4_path: path is not writeable (missing, or read-only), please select a writeable output path
+txt_2_4_removefromclipboard: Remove from clipboard
+txt_2_4_stdclip: Standard: keep a single selection in clipboard, clear cut operations on paste
+txt_2_4_totalmem: total memory
+txt_2_4_gvideo: Video
+txt_2_4_wbook: Wikibook
+txt_2_4_wnews: Wikinews
+txt_2_4_wsrc: Wikisource
+txt_2_4_wdict: Wiktionary
+txt_2_3_pw_errorchar: : 在当前系统、PeaZip图形界面中，此字符不能用在密码中，请修改密码或者在“工具>设置”中选择终端模式
+txt_2_3_envstr: 显示环境变量
+txt_2_3_never_pw: 不再询问密码
+txt_2_3_home: 用户目录
+txt_2_3_on_pw: 从系统菜单在解压缩/列表/测试操作上:
+txt_2_3_test_pw100: 测试加密 <100MB档案
+txt_2_3_test_pw: 测试加密 (可能较慢)
+txt_exclude_recourse: "排除"依赖的子目录
+txt_action_extopen: "使用关联的程序解压缩并打开"动作
+txt_error_passwordnotmatch: "密码"和"确认密码"区域不匹配，请修改
+txt_action_preview: "使用关联的程序预览"动作
+txt_preview_hint: "预览"动作执行与"解压缩并打开"相同的任务，但在输出目录中创建一个临时路径，并在关闭档案时自动删除。
+txt_better: (较好)
+txt_default2: (默认)
+txt_faster: (较快)
+txt_fastermem: (较快，占用内存较少)
+txt_tempdir: (PeaZip临时工作文件夹)
+txt_stream: (由"流控制"设定)
+txt_slowermem: (较慢，占用内存较多)
+txt_store: (存储，最快)
+txt_newfolder: (在新文件夹中)
+txt_7z_exitcodeunknown: : 作业中未知错误
+txt_list_isfolder: [文件夹]
+txt_none: <无>
+txt_fd: 1.44 MB软盘
+txt_7z_exitcode1: 1: 警告: 非致命错误；比如某些文件丢失或者被锁定
+txt_attach10: 10 MB (附加限制)
+txt_7z_exitcode2: 2: 发生致命错误
+txt_7z_exitcode255: 255: 作业被用户关闭
+txt_fat32: 4 GB (FAT32中文件最大尺寸)
+txt_dvd: 4.7 GB DVD
+txt_attach5: 5 MB (附加限制)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: 错误:命令行不正确
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7z: 高压缩率的功能丰富的档案格式
+txt_dvddl: 8.5 GB DVD DL
+txt_7z_exitcode8: 8:错误:没有足够的内存完成请求的操作
+txt_abort: 放弃预定的文件复制/移动操作吗?
+txt_about: 关于
+txt_action: 动作
+txt_action_hint: 使用关联程序打开或预览的动作
+txt_add: 添加
+txt_add_existing_archive: 添加(如果档案存在)
+txt_add_archive: 添加档案
+txt_add_files: 添加档案
+txt_add_folder: 添加文件夹
+txt_add_path: 添加路径
+txt_add_tolayout: 添加选定的文件和文件夹到档案布局中
+txt_add_toarchive: 添加到档案
+txt_add_tobookmarks: 添加到书签
+txt_address_hint: 地址:接受通配符?替代字符和*替代字符串；不需要"或'界定
+txt_adv_filters: 高级过滤器
+txt_algo: 运算法则
+txt_all: 所有
+txt_all_default: 所有(默认)
+txt_all_type: 此类型的所有对象
+txt_all_date: 此日期的使用对象...
+txt_all_psize: 此打包尺寸的所有对象...
+txt_all_attributes: 相同属性的所有对象
+txt_all_size: 此尺寸的所有对象...
+txt_error_input_upx: 允许单个的可执行文件作为输入
+txt_always_pw: 总是询问密码
+txt_ignore_ext: 对"解压缩并…"，总是忽略路径
+txt_ignore_disp: 对"解压缩显示的…"，总是忽略路径
+txt_ignore_sel: 对"解压缩选定的…"，总是忽略路径
+txt_key_hint: 附加密钥文件的hash到密码；档案可以使用PeaZip和其他符合同样标准到程序，或者输入hash作为密码到一部分来解密
+txt_timestamp: 附加时间戳到档案名
+txt_appoptions: 程序选项
+txt_type_description_arc: ARC: 强大、高效且功能丰富的、实验性的档案
+txt_archive: 档案
+txt_un7z_browse_ok: 档案浏览成功
+txt_interface: 档案浏览器界面
+txt_archivecreation: 档案创建
+txt_tarbefore_hint: 早于特定类型到TAR格式中到档案数据。
+txt_archive_hint: 打包、压缩、分割和保留私有文件、文件夹和卷
+txt_compressionratio_hint: 档案压缩率
+txt_archiving: 打包:
+txt_cl_long: 参数超越了PeaZip前端能够接受的最大尺寸，请选择较小的文件(比如选择目录替代单个文件)
+txt_overwrite_askbefore: 覆盖前询问(用于控制台模式中)
+txt_associated: 关联的程序
+txt_attributes: 属性
+txt_author: 作者
+txt_ren_existing: 自动重命名已有文件
+txt_ren_extracted: 自动重命名解压缩到文件
+txt_autofolder: 自动创建用于解压缩文件到其中到新文件夹吗?
+txt_back: 后退
+txt_backend: 后台二进制用户界面
+txt_backupexe: 备份可执行文件(推荐)
+txt_bettercompression: 更好的压缩
+txt_blogs: Blog
+txt_blowfish: Blowfish448 (64位块)
+txt_bookmarks: 书签
+txt_browse: 浏览
+txt_browser: 浏览器[&B]
+txt_aborted_error: 浏览档案耗时太久，已停止。你可以使用搜索或过滤功能缩小选择(或退出"平板查看");解压缩/列表/测试操作不受此操作影响。
+txt_list_browsing: 浏览:
+txt_archive_root: 浏览:档案根目录
+txt_type_description_bzip2: BZip2: 十分强大到压缩，速度一般
+txt_pw_empty: 不能接受空密码，请输入密码或者取消对"加密"选项的选择
+txt_add_error: 不能添加/更新或删除对象；可能只支持对此档案类型浏览/解压缩，或不支持这些特定操作(比如多卷或者固实压缩)，或PeaZip不能完全出来档案名称
+txt_un7z_browse_failure: 不能浏览档案
+txt_list_error: 不能列出档案内容，请检查档案是否有密码保护或者已经损坏。
+txt_conf_cannotsave: 不能保存配置文件，请检查路径是否允许写入并且有剩余空间
+txt_check_hint: 检查偶然数据中断；hash运算法则适用于检测恶意数据篡改(参见文档)
+txt_check: 校验/hash文件
+txt_check_select: 要执行的校验/hash
+txt_clear: 清除
+txt_clearlayout: 清除布局
+txt_pj_hint: 点击到输入作业，恢复修改并加载从GUI定义的数据
+txt_autoclose: 作业完成时关闭PeaLauncher
+txt_cl: 命令行:
+txt_compare: 比较文件
+txt_compress: 压缩
+txt_compress_executable: 压缩可执行文件
+txt_compress_openforwriting: 为写入而打开比较文件
+txt_compression: 压缩
+txt_compmanagement: 计算机管理
+txt_pw_confirm: 确认密码
+txt_console: 控制台
+txt_console_interface: 控制台: 本地接口
+txt_content: 内容
+txt_controlpanel: 控制面板
+txt_convert: 转换磁盘为NTFS格式
+txt_copy: 复制(Ctrl+C)
+txt_copyto: 复制到...
+txt_create: 创建
+txt_create_archive: 创建档案
+txt_title_create: 创建档案、压缩、加密、分割...
+txt_create_keyfile: 创建密钥文件
+txt_create_folder: 创建文件夹
+txt_create_theme: 从当前设置创建新主题:
+txt_rr: 创建恢复记录
+txt_create_sfx: 创建自解压档案
+txt_cr_current: 当前路径或过滤器压缩率
+txt_custom: 自定义
+txt_type_description_custom: 自定义(适宜于高级用户): 输入可执行文件名称和参数
+txt_customapp: 自定义程序
+txt_custom_parameters: 自定义参数
+txt_customsize: 自定义尺寸
+txt_cut: 剪切(Ctrl+X)
+txt_datetime: 日期/时间
+txt_default: 默认
+txt_default_compression: 默认压缩
+txt_default_format: 默认格式
+txt_theme_default: 默认主题
+txt_hard_reset_hint: 删除书签文件
+txt_desktop: 桌面
+txt_dictionary: 字典
+txt_dirs: 目录，
+txt_dis: 提示:
+txt_disk_cleanup: 磁盘清理
+txt_disk_defrag: 磁盘碎片整理
+txt_disk_management: 磁盘管理
+txt_dispaly: 结果显示为
+txt_displayedmnu_obj: 显示的
+txt_displayedobjects: 显示的对象
+txt_nocompress: 不压缩
+txt_delete: 需要删除选定的文件吗?此操作不能撤销，文件将无法从回收站恢复
+txt_wipe: 您确信要删除选定的文件吗?此操作不能撤销，文件将无法恢复
+txt_done: 完成
+txt_edit: 编辑[&E]
+txt_elapsed: 已耗时:
+txt_error_emptycl: 空命令行!
+txt_encrypt: 加密
+txt_encrypted: 已加密
+txt_encryption: 加密
+txt_note: 输入笔记/详细资料
+txt_random_keys: 按任意健
+txt_random_keys_hint: 按任意健(不必记忆)
+txt_ent: Enthropy评估
+txt_ent_tools: Enthropy示例工具
+txt_eqorlarger: 等于或大于选定的对象
+txt_eqorrecent: 等于或比选定对象更接近
+txt_eqorolder: 等于或旧于选定对象
+txt_eqorsmaller: 等于或小于选定对象
+txt_equal: 等于选定对象
+txt_erase_hint: 擦除文件:使用随机数据覆盖、掩饰大小、重命名、妥善删除
+txt_extraction_error: 解压缩选定对象出错。如果档案受密码保护，请提供密码
+txt_exclude_hint: 排除文件，每个一行;使用通配符*和?; 不需要"和'界定
+txt_exclusion_recourse: 排除过滤器依赖的子目录
+txt_exclusion: 排除:
+txt_exe: 可执行
+txt_overwrite_qry: 存在于目标路径；用源路径中相同名称的文件覆盖吗? (取消: 跳过复制此对象)
+txt_confirm_overwrite: 已经操作；覆盖吗? (不跳过)
+txt_explore_outpath: 浏览输出路径
+txt_explore_path: 转到路径
+txt_ext: 扩展名:
+txt_caption_extract: 解压缩
+txt_ext_nopath: 解压缩(没有路径)
+txt_ext_all: 全部解压缩
+txt_ext_allhere: 全部解压缩到此处
+txt_ext_allto: 全部解压缩到...
+txt_extopen_custom: 解压缩并使用自定义到程序打开
+txt_extopen_with: 解压缩并使用此程序打开...
+txt_ext_disp_here: 解压缩显示到内容到此处
+txt_ext_disp: 解压缩显示到对象
+txt_ext_disp_to: 解压缩显示的对象到...
+txt_ext_here: 解压缩此处
+txt_ext_sel_here: 解压缩选定的对象到此处
+txt_ext_sel: 解压缩选定对象
+txt_ext_sel_to: 解压缩选定对象到...
+txt_extobj: 解压缩对象
+txt_newfoldermenu: 解压缩到新文件夹
+txt_extto: 解压缩到...
+txt_level_fast: 快速
+txt_fastcompr: 快速压缩
+txt_fastopen: 快速打开例行程序，如果列表超越，停止浏览
+txt_level_fastest: 最快
+txt_favformats: 收藏的格式
+txt_file: 文件[&F]
+txt_filebrowser: 文件浏览器/档案浏览器
+txt_filetools: 文件工具
+txt_files: 文件，
+txt_nfiles: 文件
+txt_fs: 文件系统
+txt_type_custom_selected: 文件类型不能被PeaZip直接支持，但您可以尝试在"选项"标签中配置PeaZip来打开此文件类型。打开此文件吗?
+txt_filters_recourse: 过滤器依赖的子目录
+txt_filters: 过滤器
+txt_flat: 平板模式 (全部显示)
+txt_list_flat: 平板查看:
+txt_unit_floppy: 软盘
+txt_foldername: 文件夹名称
+txt_nfolders: 文件夹
+txt_error_input_multi: 格式允许单个文件作为输入；您可以使用"TAR之前"切换到保存输入为a .TAR档案之前，否则您可以选择其它格式。提示：有选定的输入数据之后选择档案格式："TAR之前"开关将被自动设置
+txt_format_options: 格式选项
+txt_fwd: 前进
+txt_list_found: 发现:
+txt_free: 剩余
+txt_free2: 剩余
+txt_name_full: 完整路径
+txt_function: 功能
+txt_general: 常规
+txt_multithreading: 普通多线程
+txt_go_browser: 转到文件浏览器
+txt_go_path: 转到对象路径
+txt_guicl: 图形界面 + 控制台
+txt_guipealauncher: 图形界面: 由PeaLauncher提供
+txt_graphic: 图形界面文件夹
+txt_gridaltcolor: 导线交替色彩
+txt_gridrowheight: 导线行高
+txt_gui: GUI(图形用户界面)
+txt_type_description_gzip: GZip:快速压缩
+txt_here: 到此处
+txt_list_history: 历史
+txt_homeroot: 计算机/档案根目录级别
+txt_quickbrowse_hint: 如果浏览被停止，用户可以使用搜索和过滤功能缩小选择；解压缩/列表/测试功能不受此影响。
+txt_backupexe_hint: 如果某些操作出错，导致非致命性结果，您可以从自动备份的拷贝中恢复原始的可执行文件
+txt_attach: 如果邮件客户段支持此命令，档案将被附加到一封新邮件之后
+txt_images: 图像
+txt_include_hint: 包含文件，每个一行；使用*和?通配符；不需要"和'界定
+txt_filters_hint: 针对7z包含或排除过滤器，请仔细阅读7-Zip文档搞清楚这些过滤器如何工作
+txt_inclusion_recourse: 包含过滤器依赖的子文件夹
+txt_inclusion: 包含:
+txt_error_function: 请求的功能不正确
+txt_info: 信息
+txt_infoall: 所有的信息
+txt_infodisp: 在显示的对象上的信息
+txt_infosel: 在选定的对象上的信息
+txt_inputinfo: 输入信息
+txt_input_list: 输入列表:
+txt_iop: 输入、输出、参数
+txt_ipo: 输入、参数、输出
+txt_input: 输入:
+txt_integrity: 完整性检查
+txt_chunk_size: 自定义大小无效，请修改为数值
+txt_invertsel: 反选
+txt_type_exe: 是Windows可执行文件，想要运行吗? (选"否"将在PeaZip档案浏览器中打开；仅NSIS安装程序、7-Zip自解压文件sfx和.MSI安装程序可以用此方式浏览)
+txt_return_to_archive: 正在被打开；想要浏览它吗?
+txt_not_accessible: 不能再被访问
+txt_type_unsupported: 是不被支持的档案格式
+txt_checkname_failed: 不是有效的名称。
+txt_not_accessible_list: 是不可访问的，请检查提供的文件列表是否正确并且已经更新
+txt_theme_create_error: 不能创建主题，请尝试为文件夹使用一个有效的名称作为主题名称，并选择一个可写的路径
+txt_theme_exists: jet已经存在，请提供一个不同的路径
+txt_job_code: 作业代码:
+txt_job_definition_saved: 作业定义成功保存在
+txt_job_success: 作业成功完成!
+txt_join: 假如
+txt_joinfiles: 加入文件
+txt_keyfile: 密钥文件
+txt_keyfile_not_found: 不能发现或者读取密钥文件。请另外选择一个密钥文件。
+txt_keyfile_notcreated: 密钥文件未被创建
+txt_larger: 大于选定的对象
+txt_lastused: 最后使用的
+txt_launch: 启动作业
+txt_layout: 布局
+txt_filelist_savedas: 布局另存为
+txt_level: 级别
+txt_license: 许可
+txt_caption_list: 列表
+txt_list_details: 列表(有详细资料)
+txt_list_all: 全部列出
+txt_list_disp: 列出显示的对象
+txt_list_sel: 列出选定的对象
+txt_toggle_warning: 以平板视图列出路径的内容耗时较长，继续吗?
+txt_loadfile: 载入文件
+txt_loadlayout: 载入布局
+txt_unit_hd: 本地磁盘
+txt_localization: 本地化
+txt_lpaqver: LPAQ版本
+txt_type_description_lpaq: LPAQ: PAQ的最快版本，压缩极好
+txt_maininterface: 主界面
+txt_maxcomp: 最大压缩模式
+txt_level_maximum: 最大
+txt_restartrequired: 需要重启程序才能生效
+txt_required_memory: MB(需要内存)
+txt_method: 方法
+txt_misc: 更多
+txt_modify: 调整
+txt_morecontrols: 更多控制(历史、书签...)
+txt_morerecent: 更多比选定对象更近期的
+txt_ent_hint: 在编辑区域移动鼠标、回车键，从系统中载入文件到集中enthropy...
+txt_moveto: 移动到...
+txt_mypc: 计算机根目录
+txt_list_na: n/a
+txt_name: 名称
+txt_naming: 命名协议
+txt_unit_remote: 网络驱动
+txt_newarchive: 新建档案
+txt_cnewfolder: 新建文件夹
+txt_news: 新闻
+txt_no: 不
+txt_noinput: 不能访问接受的输入
+txt_nocompress_hint: 不压缩(较快)
+txt_split_noinput: 没有选定的输入；请选择要分割的文件
+txt_open_noinput: 没有选定的输入；请选择一个档案(多卷档案的第一个卷)
+txt_list_nomatch: 不匹配
+txt_singlethread: 非多线程
+txt_none2: 无
+txt_nonsolid: 非固实
+txt_level_normal: 正常
+txt_copy_error: 未成功复制或移动，错误代码:
+txt_description: 笔记
+txt_compare_second: 选择选择要比较的文件
+txt_peaobj: 对象控制
+txt_displayed_obj: 对象
+txt_olderthan: 旧于选定的对象
+txt_on: 位于
+txt_ondblclick: 双击动作:
+txt_opacity: 不透明
+txt_open: 打开
+txt_openarchive: 打开档案
+txt_title_open: 打开档案、解密、加入...
+txt_open_bookmark: 打开书签
+txt_cphere: 在此处打开命令提示符
+txt_open_file: 打开文件
+txt_open_files: 打开文件
+txt_open_path: 打开路径
+txt_opensource: 打开便携档案
+txt_openwith: 使用此打开...
+txt_aborted: 操作被放弃
+txt_unit_cd: 光驱
+txt_options: 选项
+txt_other: 其他
+txt_otherparams: 其他参数(自由编辑)
+txt_oip: 输出、输入、参数
+txt_opi: 输出、参数、输入
+txt_output: 输出:
+txt_overwrite: 覆盖已有文件
+txt_compressed_size: 打包
+txt_paqver: PAQ版本
+txt_type_description_paq: PAQ: 慢但非常强大的压缩工具
+txt_pio: 参数、输入、输出
+txt_poi: 参数、输出、输入
+txt_parameters: 参数:
+txt_error_partial: 对于当前档案类型，部分解压缩未能执行
+txt_passes: 次数
+txt_pw: 密码
+txt_pwlength: 字符密码长度(4..64)
+txt_un7z_browse_pw: 需要密码
+txt_un7z_browse_pw_other: 密码可能错误
+txt_paste: 粘贴(Ctrl+V)
+txt_path: 路径:
+txt_pea_appcolor: Pea程序色彩
+txt_pea_textcolor: Pea文字色彩
+txt_type_description_pea: PEA: 快速压缩的、适应安全的档案格式
+txt_peazip_new: PeaZip (新实例)
+txt_peazip_help: PeaZip帮助(在线)
+txt_peazip_web: PeaZip项目网址
+txt_performall: 执行所有支持的运算法则
+txt_name_provide: 请避免使用\ / : * ? ' " < > |等字符
+txt_upxorstrip: 请选择二进制壳或者UPX
+txt_not_removable_file: 为了PeaZip能够移除正在使用的文件，请关闭它:
+txt_not_removable: 为了PeaZip能够移除文件夹，请关闭正在使用的文件:
+txt_custom_executable_missing: 请提供自定义可执行程序的名称
+txt_type_unsupported_select: 请选择可支持的档案类型:
+txt_no_theme_name: 请指定主题名称
+txt_please_wait: 请等待
+txt_copy_wait: 在执行其他预定的同类型操作之前，请等待当前的预定的文件复制/移动操作完成
+txt_previewwith: 使用此预览...
+txt_projectadmin: 项目管理员:
+txt_type_description_quad: BALZ/QUAD: 高性能、基于ROLZ文件压缩程序
+txt_quickdelete: 快速删除
+txt_quit: 退出[&X]
+txt_unit_ram: RAM磁盘
+txt_read: 读取:
+txt_recentarchives: 近期档案   
+txt_rr_hint: 恢复记录允许在数据损坏情况时尝试修复档案
+txt_search_refine: 精练搜索过滤器，接受?和*通配符
+txt_fefreshf5: 刷新(F5)
+txt_release: 发布:
+txt_unit_removable: 可移动设备
+txt_remove_bookmark: 清除书签
+txt_remove_external_unit: 卸载可移动设备
+txt_removeselected: 清除选定对象
+txt_rename: 重命名
+txt_caption_repair: 修复
+txt_restartrequired2: 需要重启程序才能生效
+txt_reset: 重设
+txt_reset_archivename: 重设档案名称
+txt_hardreset: 重设书签
+txt_reset_theme: 重设为内嵌的主题
+txt_soft_reset: 使用默认配置重新启动程序，清除近期的档案历史，但不改变书签
+txt_restore_att: 恢复原始属性
+txt_run_as: 以…运行(使用空密码不能切换到用户)
+txt_run_as2: 以不同用户运行
+txt_sample: 示例: 
+txt_saveas: 另存为
+txt_savehistory: 保存最后使用的档案的历史
+txt_save_infolder: 保存在文件夹(自动)
+txt_savejob: 保存作业
+txt_savejobdefinition: 保存作业定义
+txt_savejobdefinition_hint: 保存作业定义为纯文本；您可以从脚本使用它
+txt_savelayout: 保存布局
+txt_save_winstate: 保存主窗口状态
+txt_search: 搜索(recoursive)，会花费一些时间
+txt_searchanddrag: 搜索并拖到此处
+txt_searchfor: 搜索:
+txt_nrsearch: 搜索此处(non recoursive)
+txt_search_hint: 使用过滤器中档案的子目录中搜索匹配的内容
+txt_search_web: 在网络中搜索
+txt_list_searching: 搜索...
+txt_securedelete: 安全删除(文件)
+txt_default_description: 选择某个功能或拖动文件到此处
+txt_selectall: 全选
+txt_selectdir: 选择目录
+txt_selected_obj: 选定
+txt_selected_objects: 选定的对象
+txt_sfx: 自解压
+txt_sendbymail: 用邮件发送(如果支持)
+txt_set_defaults: 设置程序的默认参数
+txt_settings: 设置
+txt_sfx_interface: sfx界面
+txt_showhints: 显示提示
+txt_show_messages: 显示信息
+txt_showpw: 显示密码区域内容
+txt_singlevol: 单个卷
+txt_size: 大小
+txt_sizeb: 大小
+txt_skip_existing: 跳过已有文件
+txt_slowercomp: 压缩较慢，但相应地，解压缩快
+txt_smaller: 小于选定对象
+txt_solid: 固实 
+txt_solid_block: 固实块
+txt_solid_auto: 固实，自动调节
+txt_solid_extension: 固实，以扩展名分组
+txt_tarbeforepj: 对不起，使用".TAR之前"开关时，不能导入作业定义命令行，因为作业被执行为二个不同的命令
+txt_listtest: 对不起，对于此格式，列表/测试操作没有被执行
+txt_sortbysel: 以选择的状态排序
+txt_list_sorting: 排序...
+txt_speed: 速度
+txt_split: 分割
+txt_type_description_split:使用随机真实性检查分割文件
+txt_split_file: 分割文件
+txt_list_nostats: 静态无效
+txt_status: 状态
+txt_level_store: 存储
+txt_stream_control: 流控制
+txt_strip: 在UPX之前脱壳(推荐)
+txt_keyfile_created: 成功创建密钥文件为:
+txt_suggestpw: 建议密码
+txt_noupx: 符号解压，UPX压缩已省略
+txt_syntax: 语法:
+txt_sysbenchmark: 系统基准程序
+txt_benchmark: 系统基准测试将耗用几分钟并使用所有可用的CPU和内存资源。在此期间，系统可能没有响应；要运行吗？
+txt_systools: 系统工具
+txt_tarbefore: TAR之前
+txt_type_description_tar: TAR: UNIX系统上的主流档案格式
+txt_taskman: 任务管理器
+txt_caption_test: 测试
+txt_testall: 全部测试
+txt_testdisp: 测试显示的对象
+txt_testpw: 测试密码/密钥文件
+txt_testsel: 测试选定对象
+txt_col_hint: 为了图标色彩和其他GUI元素完美结合，应当选择色彩
+txt_bookmarks_hint: 点击"更多控制"和"显示/隐藏历史/书签"，可以在文件浏览器中使用书签的完整的、可编辑的列表
+txt_archive_noinput_tolist: 布局为空:请使用添加文件、添加文件夹或者载入布局到常用档案布局
+txt_theme: 主题
+txt_icons_found: 主题载入成功。
+txt_themename: 主题名称
+txt_icons_not_found: 主题未正确载入。尝试切换到默认主题，或可使用的一个。
+txt_theme_create_success: 主题成功创建在
+txt_theme_not_loadable: 主题和图形界面文件夹必须位于PeaZip路径之中
+txt_theming: 主题
+txt_extand_error: 在单个对象时，此功能可以被执行
+txt_threads: 线程
+txt_titlescolor: 标题色彩
+txt_to: 到
+txt_toggle_browseflat: 显示/隐藏浏览/平板查看
+txt_toggle_historybookmarks: 显示/隐藏历史/书签
+txt_toolbarscolor: 工具栏色彩
+txt_tools: 工具[&T]
+txt_best: 尝试最好设置(慢)
+txt_type: 类型
+txt_level_ultra: 极度
+txt_error_openfile: 不能打开指定的文件
+txt_cl_hint: UNACE和UPX总是使用终端模式运行，列表、测试和基准测试作业总是使用GUI模式运行
+txt_ace_missing: UNACE插件缺失；要处理ACE档案，您可以从PeaZip主页下载此插件(因为UNACE封闭源代码，插件未被包括在基本的软件包中)
+txt_units: 单元
+txt_unit_unknown: 未知的驱动器类型
+txt_un7z_pw_untested: 未测试
+txt_up: 向上
+txt_update: 更新(假如档案存在)
+txt_type_description_upx: UPX: 仅压缩可执行文件
+txt_advfilters: 使用高级过滤器
+txt_openfiles_hint: 使用此选项以便包含档案文件，打开由其它程序写入(在备份事有用)
+txt_usenet: Usenet
+txt_user_name: 用户名; 使用用户@域或域\用户表，如果需要。
+txt_using: 使用:
+txt_volumepea: 卷控制
+txt_volume_size: 卷大小
+txt_type_ext_uns: 被成功解压缩
+txt_websearch: 网络搜索
+txt_websites: 网址
+txt_word: 字节
+txt_write: 写:
+txt_ramdompw_hint: 您可以从此处复制随机生成的密码
+txt_exe_hint: 您可以自由输入可执行文件名和参数来自定义压缩，并选择语法结构。请注意您也可以在"控制台"标签中手动修改命令的语法。
+txt_pj_hint2: 在下面的备注区域，您可以从GUI前端导入作业的定义。然后，从GUI前端没有修改或丢失作业定义时，您可以编辑、启动或保存它。
+txt_type_description_zip: ZIP: 快速打包/压缩格式， Windows系统主流格式
+txt_zipcrypto_hint: ZipCrypto (legacy)
+
+=== end PeaZip text group ===
+
+=== PeaLauncher text group ===
+
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: 打开档案
+txt_2_5_ace_missing: UNACE插件缺失；要处理ACE档案，您可以从PeaZip主页下载此插件(因为UNACE封闭源代码，插件未被包括在基本的软件包中)
+txt_2_3_pw_errorchar_gwrap: : 在当前系统下，此字符不能被PeaLauncher用在密码中，请修改密码或在终端模式中使用PeaZip(工具>设置)
+txt_2_3_renameexisting: 自动重命名已有文件
+txt_2_3_renameextracted: 自动重命名已解压缩软件
+txt_2_3_cancel: 取消
+txt_2_3_encryption: 加密
+txt_2_3_extinnew: 解压缩到新文件夹
+txt_2_3_keyfile: 密钥文件
+txt_2_3_kf_not_found_gwrap: 不能发现或读取密钥文件。请选择其他密钥文件。
+txt_2_3_moreoptions: 更多选项...
+txt_2_3_nopaths: 没有路径
+txt_2_3_options: 选项
+txt_2_3_overexisting: 覆盖已有文件
+txt_2_3_pw: 密码
+txt_2_3_skipexisting: 跳过已有文件
+txt_job_unknown: : 遭遇未知错误
+txt_stdjob: [动画将停止且在完成时作业将弹出]
+txt_benchmarkjob: [在运行基准测试期间，系统响应将变慢几分钟]
+txt_defragjob: [碎片整理期间将无法响应，您可以让它运行在后台]
+txt_consolejob: [在作业到会话窗口，您可以看到详细过程]
+txt_job1: 1: 警告: 非致命错误；比如某些文件丢失或被锁定
+txt_job127: 127: 不能执行请求到操作
+txt_job2: 2: 发生致命错误
+txt_job255: 255: 作业被用户停止
+txt_job7: 7: 错误: 输入命令行不正确
+txt_job8: 8: 错误: 没有足够到内存执行请求到操作
+txt_autoclose: 作业完成时关闭此窗口
+txt_crscale: 压缩率(较低、更好):
+txt_console: 控制台
+txt_benchscale: Core 2 Duo 6600级别，相当MHz速度。
+txt_create: 创建
+txt_done: 完成:
+txt_nocl: 空命令行
+txt_error: 错误:
+txt_explore: Explore
+txt_extto: 解压缩到
+txt_halt: 作业完成时关闭系统
+txt_halted: 关闭:
+txt_hardware: 硬件
+txt_high: 高优先级
+txt_checkpw: 提示: 检查运行作业是否需要密码
+txt_idle: 空闲优先级
+txt_input: 输入:
+txt_jpaused: 作业暂停
+txt_jresumed: 作业继续
+txt_job_started: 作业开始
+txt_jobstatus: 作业状态:
+txt_jstopped: 作业被用户停止
+txt_jobstopped: 作业被用户停止；您可以点击"探索"来检查作业的部分成果或读取作业记录
+txt_job_success: 作业成功完成
+txt_lt: 列表/测试/修复 档案
+txt_normal: 正常优先级
+txt_ok: 确定
+txt_output: 输出:
+txt_pause: 暂停
+txt_paused: 暂停，
+txt_p_high: 优先级设置为高
+txt_p_idle: 优先级设置为空闲
+txt_p_normal: 优先级设置为正常
+txt_p_realtime: 优先级设置为实时
+txt_rating: 级别:
+txt_rt: 实时优先级
+txt_report: 报告
+txt_resume: 继续
+txt_priority: 右键设置作业优先级
+txt_running: 运行，
+txt_isrunning: 运行...
+txt_saveas: 另存为
+txt_savejob: 保存作业定义(可以包括密码!)
+txt_savelog: 保存作业记录
+txt_software: 软件
+txt_speedscale: 速度，对数比例(更高，更好):
+txt_status: 状态
+txt_stop: 停止
+txt_bench: 系统基准测试
+txt_threads: 线程:
+txt_time: 时间:
+
+=== end PeaLauncher text group ===
+
+=== about text group ===
+
+创建档案
+
+1) 使用拖拽或从程序按钮和菜单，将项目从系统右键菜单添加到档案布局并发送到菜单；
+2) 点击"创建"按钮可开始档案创建。
+
+使用:
+- "选项"标签可自定义档案格式并压缩和加密相关的参数； 
+- "I/O"标签用于设置输入/输出选项；
+- "过滤器"标签用于设置使用高级排除过滤器，如果可以选择档案格式；
+- "控制台"标签用于发现并自定义作业语法，或输出作业为命令行。
+
+或者，在单个过程中，您可以从系统右键菜单中添加每个输入项目到单独的档案中，并且从发送到菜单您可以添加多个项目到一个档案中。
+
+中档案布局中您也可以:
+- 双击一个对象来打开它
+- 选择一个文件并按"\"键，或"文件工具>分割文件" 来分割它
+- 选择一个文件并按"<"键，或"文件工具>比较文件"来逐字节地将其与其他文件进行比较
+- 选择多个对象并按"?"键，或"文件工具> 校验/hash文件"来校验/hash文件
+- 选择多个对象并按"*"键，或"安全删除"来安全删除文件
+
+
+打开档案
+
+1) 由文件关联，或从系统右键菜单和发送到菜单项目，或从PeaZip菜单和按钮打开档案；
+2a) 点击"全部解压缩"可解压缩档案，或"全部解压缩到"并输入输出路径；
+2b) 在关联的档案对象上双击或按回车键可预览它，或如果是档案在PeaZip中打开档案，或如果是目录则浏览它；
+2c) 选择打包的对象并按鼠标中键或空格键可解压缩它(会询问输出路径)；
+2d) 右击使用右键菜单可以执行所有可用的功能，比如解压缩选定的或显示对象，预览、测试、列表、添加或删除等等...
+提示: 如果您想解压缩档案到一个新目录，请使用右键菜单(或I/O标签)中的"解压缩到新文件夹"开关，或在档案浏览器中按\或Ctrl+N。
+
+使用:
+- "选项"标签可自定义指定格式的参数；
+- "I/O"标签可设置输入/输出选项，包括"解压缩到新文件夹"开关(在右键菜单中也可使用)；
+- "过滤器"标签用于高级的包含和排除过滤，如果档案格式可用；
+- "控制台"标签可分析并自定义作业语法，或者导出作业为命令行。
+
+相应地，在右键菜单中您可以一次解压缩多个档案。
+
+
+关于PEAZIP
+
+PeaZip自由压缩器是一款便携的、开源的打包、加密和分割文件工具；它支持处理众多档案和压缩格式。
+
+可生成的压缩包格式: 7Z、7Z自解压、ARC、BZ2、GZ、PAQ/LPAQ、PEA、QUAD、分割、TAR、UPX、ZIP
+
+可读取的压缩包格式:请查看http://peazip.sourceforge.net/peazip-free-archiver.html的完整列表
+
+自定义档案在"选项"标签可处理读写特定的自定义可执行文件和语法。
+
+其他功能: 分割/合并文件(文件范围)、擦除文件(安全删除)、比较、校验和hash文件、系统基准测试、生成随机密码和密钥文件。
+
+PeaZip允许布局、保存并恢复档案布局；对档案内容允许强大的多个过滤器；一次处理多个档案；输出作业定义为命令行；使用AES256等加密。
+PeaZip_portable是与PeaZip功能相同的一款独立的程序；它不需要安装并可以在可移动设备中使用(优盘、远程路径...)，而对主机系统不做如何修改。
+大多数使用功能集成在"发送到"和右键菜单(在Windows在)和右键菜单中的.desktop文件(在Linux中)；系统集成authomatic在安装包中，并且可以由用户自定义安装或便携包(查看在线文档)。
+PeaZip可以跨平台运行在32位和64位的Windows (9x、2000、XP、Vista)和Linux上。
+
+下载和查看修改记录，请访问: http://peazip.sourceforge.net/
+各类下载: http://sourceforge.net/projects/peazip/
+在线帮助: http://peazip.sourceforge.net/peazip-help.html
+FAQ: http://peazip.sourceforge.net/faq.html
+
+
+非常感谢帮助PeaZip项目成长和此程序中使用的开源软件(完整列表请访问网址)发展的所有人士，以及所有提供反馈、经验和建议到用户。

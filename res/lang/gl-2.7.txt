@@ -1,0 +1,774 @@
+﻿=== PeaZip language file ===
+Galego
+2.7
+Traducido por: Antón Méixome
+Last rev. by: Giorgio Tani (please review the translation)
+Last rev.: 20090909
+
+=== PeaZip text group ===
+
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (folders)
+txt_2_6_advanced: Advanced
+txt_2_6_plalways: Always keep open to inspect job's report
+txt_2_6_plsmart: Keep open only if needed (error, list or test reports)
+txt_2_6_rec: Recoursive: search in subdirectories
+txt_2_6_special: Special formats (ACE, ARC, PEA)
+txt_2_5_sessionio: (esta sesión)
+txt_2_5_advanced: Edición avanzada: coloque espacios entre los parámetros y el nombre del archivo, si es necesario
+txt_2_5_basic: Edición Básica: aplicación y parametros después del nombre de entrada
+txt_2_5_cannotrun: No puede ejecutarse
+txt_2_5_custeditors: Personalizar editores, reproductores, antivirus scanners etc... (sobreescribir las asociaciones del sistema)
+txt_2_5_delete: Borrar
+txt_2_5_delete_fromarchive: Borrar del archivo
+txt_2_5_langflag: Display archived object's name as UTF-8 text; uncheck to replace extended characters with "?"
+txt_2_5_encpj: Codificar el trabajo como texto UTF-8
+txt_2_5_execommand: Ejecutable o comando
+txt_2_5_help: Ayuda
+txt_2_5_langhint: Sugerencia: reemplazar los caracteres extendidos con "?" carácter comodín puede mejorar la sintaxis si los carácteres del archivo no pueden ser convertidos con éxito en el equipo actual
+txt_2_5_mini_help: Mini tutorial
+txt_2_5_offline_help: PeaZip ayuda
+txt_2_5_tray: Minimizar a la bandeja
+txt_2_5_remove: Eliminar
+txt_2_5_hintpaths: Click botón derecho para abrir las rutas del sistema y el usuario
+txt_2_5_selectapp: Seleccionar aplicación
+txt_2_5_strafter: Cadena después del nombre de entrada
+txt_2_5_strbefore: Cadena antes del nombre de entrada
+txt_2_5_encoding: Codificación del texto
+txt_2_5_nopw: este tipo de archivos no soporta encriptación
+txt_2_4_draghint: [arrastra a Explorer coa barra de enderezos invisíbel]
+txt_2_4_tb: Adaptar botóns da barra de tarefas (riavvia PeaZip)
+txt_2_4_adding: Engadir
+txt_2_4_advclip: Avanzada: gardar seleccións no portapapeis (non duplicados), despexar tras pegar
+txt_2_4_yanswers: Respostas
+txt_2_4_itemsheight: Redimensionamento de obxectos automático
+txt_2_4_clearclipboard: Despexar portapapeis (Esc)
+txt_2_4_wcommons: Commons
+txt_2_4_copyfrom: Copia de
+txt_2_4_deletebookmarks: Se desexa anular a lista de ficheiros e cartafol preferido?
+txt_2_4_documents: Docunentos
+txt_2_4_wenc: Enciclopedia
+txt_2_4_extractfrom: Extraer de
+txt_2_4_hexp: Contido hexadecimal
+txt_2_4_operation: Operación
+txt_2_4_path: está en modo de só lectura, seleccionar un camiño accesíbel á escritura para a saída.
+txt_2_4_removefromclipboard: Eliminar do portapapeis
+txt_2_4_stdclip: Estándar: gardar unha soa selección, elimina as operacións de corte tras o pegado
+txt_2_4_totalmem: memoria total
+txt_2_4_gvideo: Video
+txt_2_4_wbook: Wikibook
+txt_2_4_wnews: Wikinews
+txt_2_4_wsrc: Wikisource
+txt_2_4_wdict: Wiktionary
+txt_2_3_pw_errorchar: : PeaZip non pode usar estes caracteres como parte dun contrasinal no sistema operativo utilizado; escoller un contrasinal diferente ou empregar o modo de consola en Herramientas > Opcións
+txt_2_3_envstr: Mostra variábel de contorno
+txt_2_3_never_pw: Non preguntar o contrasinal
+txt_2_3_home: Home do usuario
+txt_2_3_on_pw: Nas operacións de extracción/listaxe/comprobación nos menús do sistema:
+txt_2_3_test_pw100: Comprobar arquivos <100MB
+txt_2_3_test_pw: Comprobar arquivos (lento)
+txt_exclude_recourse: Modo recursivo de excluír subcartafoles 
+txt_action_extopen: Acción "Extraer e abrir coa aplicación asociada"
+txt_error_passwordnotmatch: "contrasinal" e "Confirmación de contrasinal" non corresponden, corrixa
+txt_action_preview: Acción "Previsualizar co aplicativo asociado"
+txt_preview_hint: Acción "Previsualizar" executa a mesma tarefa como "Extraer e abrir", mas a saída temporal dun camiño no directorio, automaticamente removidos cando o ficheiro é fechado.
+txt_better: (mellor)
+txt_default2: (predeterminado)
+txt_faster: (acelerado)
+txt_fastermem: (acelerado, menos memoria)
+txt_tempdir: (Pasta de traballo temporal de PeaZip)
+txt_stream: (establecido polo "controlo de Fluxo")
+txt_slowermem: (lento, máis memória)
+txt_store: (almacenar, máis rápido)
+txt_newfolder: (a novo cartafol)
+txt_7z_exitcodeunknown: : Erro descoñecido no traballo
+txt_list_isfolder: [cartafol]
+txt_none: <ningún>
+txt_fd: Manexar disquetes 1.44MB
+txt_7z_exitcode1: 1: Atención: erro non fatal(s), ou sexa, faltan algúns ficheiros ou bloqueado
+txt_attach10: 10MB (límite de anexos)
+txt_7z_exitcode2: 2: Ocorreu erro fatal
+txt_7z_exitcode255: 255: Traballo parado polo o usuario
+txt_fat32: 4GB (máximo tamaño do ficheiro en FAT32)
+txt_dvd: 4.7GB DVD
+txt_attach5: 5MB (límite de anexos)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: Erro: ten liña de comando incorrecta
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7Z: formato de ficheiro rico con alto ratio de compresión
+txt_dvddl: 8.5GB DVD DL
+txt_7z_exitcode8: 8: Erro: non ten memoria suficiente para a operación pretendida
+txt_abort: Anular a tarefa de operacións de copiar / mover do ficheiro?
+txt_about: Sobre
+txt_action: Acción
+txt_action_hint: Acción de abrir ou visualizar coa aplicación asociada
+txt_add: Engadir
+txt_add_existing_archive: Engadir a (se existir ficheiro)
+txt_add_archive: Engadir un ficheiro
+txt_add_files: Engadir un(s) ficheiro(s)
+txt_add_folder: Engadir un cartafol
+txt_add_path: Engadir un camiño
+txt_add_tolayout: Engadir aos ficheiros e cartafoles seleccionados o deseño do ficheiro
+txt_add_toarchive: Engadir ao ficheiro
+txt_add_tobookmarks: Engadir aos favoritos
+txt_address_hint: Enderezo: acepta caracteres de substitución, ? para caracteres e * para a cadeas; non precisa " nin ' como delimitadores
+txt_adv_filters: Filtros avanzados
+txt_algo: Algoritmo
+txt_all: Todos
+txt_all_default: Todos (predeterminado)
+txt_all_type: Todos os obxectos deste tipo
+txt_all_date: Todos os obxectos con data ...
+txt_all_psize: Todos os obxectos arquivados con tamaño ...
+txt_all_attributes: Todos os obxectos cos mesmos atributos
+txt_all_size: Todos os obxectos con tamaño ...
+txt_error_input_upx: Permite un único ficheiro executábel como entrada
+txt_always_pw: Pedir sempre un contrasinal para extraer / comprobar / listar do menú do contexto do sistema
+txt_ignore_ext: Ignorar sempre camiños para "Extraer e..."
+txt_ignore_disp: Ignorar sempre camiños para "Extraer mostrado..."
+txt_ignore_sel: Ignorar sempre camiños para "Extraer seleccionados..."
+txt_key_hint: Anexar hash do ficheiro chave para o contrasinal, o ficheiro pode ser decodificado por PeaZip e outras aplicacións de acordo co mesmo padrón, ou dixitando o hash como parte do contrasinal
+txt_timestamp: Anexar marca de tempo ao nome do ficheiro
+txt_appoptions: Opcións de aplicativos
+txt_type_description_arc: ARC: arquivo experimental, poderoso, eficiente e de característica rica
+txt_archive: Ficheiro
+txt_un7z_browse_ok: Ficheiro explorado correctamente
+txt_interface: Interface de explorar ficheiro
+txt_archivecreation: Crear ficheiro
+txt_tarbefore_hint: Datos do ficheiro en formato TAR antes do tipo especificado.
+txt_archive_hint: Arquivar, comprimir, dividir e manter privados ficheiros, cartafoles e volumes
+txt_compressionratio_hint: Ratio da compresión do ficheiro
+txt_archiving: arquivar:
+txt_cl_long: Os argunentos parece que exceden o tamaño máximo que pode ser visualizado coa interface de PeaZip, seleccione menos ficheiros de entrada (ou sexa, seleccionar cartafoles en vez de ficheiros)
+txt_overwrite_askbefore: Preguntar antes de sobrescribir (para ser usado no modo de consola)
+txt_associated: aplicativo asociado
+txt_attributes: Atributos
+txt_author: Autor
+txt_ren_existing: Auto-renomear ficheiros existentes
+txt_ren_extracted: Auto-renomear ficheiros extraídos
+txt_autofolder: Crear automaticamente novo cartafol para extraer o ficheiro en?
+txt_back: Volver
+txt_backend: Binarios backend da interface do utilizador
+txt_backupexe: Backup executábel (recomendado)
+txt_bettercompression: Mellor compresión
+txt_blogs: Blog
+txt_blowfish: Blowfish448 (64 bits blocos)
+txt_bookmarks: Favoritos
+txt_browse: Explorar
+txt_browser: Explorar
+txt_aborted_error: Anulada a exploración do ficheiro, levaría moito tempo. Pode restrinxir a selección ao usar filtros de procura ou función (ou saír "Flat view"); operacións de extraer / lista / teste non son afectados por este problema.
+txt_list_browsing: Exploración:
+txt_archive_root: Explorar: Ficheiros da raíz
+txt_type_description_bzip2: bzip2: compresión bastante poderosa, velocidade media
+txt_pw_empty: non é posíbel aceptar o contrasinal baleiro, por favor, escriba un contrasinal ou desmarque a opción "Cifrar"
+txt_add_error: non é posíbel Engadir / actualizar ou eliminar obxecto(s); probabelmente, o tipo de ficheiro ten como opción explorar / extraer, ou non soporta esa operación en particular (ou sexa, el é multi-volume ou sólidos), ou PeaZip non pode manipular o nome do ficheiro totalmente
+txt_un7z_browse_failure: non pode explorar o ficheiro
+txt_list_error: non é posíbel listar contido do ficheiro, verifique se o ficheiro está corrompido ou protexido por contrasinal.
+txt_conf_cannotsave: non é posíbel gardar ficheiro de configuración, verifique se o camiño pode ser escrito e con algún espazo libre
+txt_check_hint: Verificar a eventual corrupción de datos; os algoritmos hash son adecuados para detectar a adulteración maliciosa de datos (vexa a docunentación)
+txt_check: Suma de comprobación / hash de ficheiro(s)
+txt_check_select: Suma de comprobación / hash para desempeñar
+txt_clear: Despexar
+txt_clearlayout: Despexar deseño 
+txt_pj_hint: Prema para importar traballo, redefinir os cambios e cargar definicación actualizada desde a GUI
+txt_autoclose: Cerrar PeaLauncher cando complete o traballo
+txt_cl: liña de comando:
+txt_compare: Comparar ficheiros
+txt_compress: Comprimir
+txt_compress_executable: Compresión executábel
+txt_compress_openforwriting: Compactar ficheiros abertos para a escrita
+txt_compression: Compresión
+txt_compmanagement: Xestión de computador
+txt_pw_confirm: Confirmar chave
+txt_console: Consola
+txt_console_interface: Consola: interface nativa
+txt_content: Contido
+txt_controlpanel: Panel de control
+txt_convert: Converter disco para NTFS
+txt_copy: Copiar (Ctrl + C)
+txt_copyto: Copiar para...
+txt_create: Crear
+txt_create_archive: Crear ficheiro
+txt_title_create: Crear ficheiro, comprimir, cifrar, dividir ...
+txt_create_keyfile: Crear Ficheiro Chave
+txt_create_folder: Crear unha nova cartafol
+txt_create_theme: Crear novo tema a partir das configuracións actuais:
+txt_rr: Crear recuperación de rexistos
+txt_create_sfx: Crear ficheiro auto-extraíbel
+txt_cr_current: Camiños actual ou filtrar ratio de compresión
+txt_custom: Personalizar
+txt_type_description_custom: Personalizar (usuarios avanzados): entra nome executábel e parámetros
+txt_customapp: Personalizar aplicativo
+txt_custom_parameters: Parámetros personalizados
+txt_customsize: Tamaño personalizado
+txt_cut: Curtar (Ctrl + X)
+txt_datetime: Data / Hora
+txt_default: Padron
+txt_default_compression: Compresión predeterminada
+txt_default_format: Formato predeterminado
+txt_theme_default: Tema predeterminado
+txt_hard_reset_hint: Borrar ficheiro de favoritos
+txt_desktop: Escritorio
+txt_dictionary: Dicionario
+txt_dirs: directorio(s),
+txt_dis: Desambiguación:
+txt_disk_cleanup: Limpar o disco
+txt_disk_defrag: Desfragmentar o disco
+txt_disk_management: Xestión de discos
+txt_dispaly: Mostrar resultados como
+txt_displayedmnu_obj: Mostrados
+txt_displayedobjects: obxectos mostrados
+txt_nocompress: non comprimir
+txt_delete: Quere borrar os ficheiros seleccionado(s)? A operación non pode ser desfeita e os ficheiros non serán recuperábeis desta reciclaxe
+txt_wipe: Quere realmente borrar os ficheiro seleccionado(s)? A operación non pode ser desfeita e os ficheiros non serán recuperábeis
+txt_done: Aplicar
+txt_edit: Editar
+txt_elapsed: Transcorrido:
+txt_error_emptycl: Baleirar a liña de comandos
+txt_encrypt: Cifrar
+txt_encrypted: Cifrado
+txt_encryption: Cifrado
+txt_note: Escriba nota / descrición
+txt_random_keys: Escriba chaves aleatorias
+txt_random_keys_hint: Escriba chaves aleatorias (non ten que lembrarse)
+txt_ent: Avaliación de entropía
+txt_ent_tools: Mostra de ferramentas de entropía
+txt_eqorlarger: Igual ou maior que o obxecto seleccionado
+txt_eqorrecent: Igual ou máis recente que o obxecto seleccionado
+txt_eqorolder: Idade igual ou superior que o obxecto seleccionado
+txt_eqorsmaller: Igual ou menor que o obxecto seleccionado
+txt_equal: Igual ao obxecto seleccionado
+txt_erase_hint: Borrar ficheiros: sobrescribir con datos aleatorios, tamaño máscara, renomear, borrar definitivamente
+txt_extraction_error: Erro ao extraer o obxecto seleccionado. Se o ficheiro está protexido por favor escriba o contrasinal
+txt_exclude_hint: Excluír ficheiro(s), unha por liña; usar * e ? caracteres de substitución; " e ' non son necesarios delimitadores
+txt_exclusion_recourse: Recurso de filtros de exclusión de subcartafoles
+txt_exclusion: Exclusión:
+txt_exe: O executábel
+txt_overwrite_qry: Existe camiño no destino; sobrescribir con ficheiro(s) co mesmo nome de camiño fonte? (Anular: avanzar copiar este obxecto)
+txt_confirm_overwrite: existe; por riba del? (para non avanzar)
+txt_explore_outpath: Explorar camiño de saída
+txt_explore_path: Explorar camiño
+txt_ext: Ext:
+txt_caption_extract: Extraer
+txt_ext_nopath: Extraer (sen camiño)
+txt_ext_all: Extraer todos
+txt_ext_allhere: Extraer todos aquí
+txt_ext_allto: Extraer todo en
+txt_extopen_custom: Extraer e abrir co aplicativo asociado
+txt_extopen_with: Extraer e abrir con...
+txt_ext_disp_here: Extraer selecionados aqui
+txt_ext_disp: Extracción dos obxecto(s) seleccionados
+txt_ext_disp_to: Extracción dos  obxecto(s) seleccionados para...
+txt_ext_here: Extraer aqui
+txt_ext_sel_here: Extraer seleccionado aquí
+txt_ext_sel: Extraer obxecto seleccionado(s)
+txt_ext_sel_to: Extraer obxecto seleccionado(s) para...
+txt_extobj: Extraer o obxecto
+txt_newfoldermenu: Extraer a novo cartafol
+txt_extto: Extraer a...
+txt_level_fast: Rápido
+txt_fastcompr: compresión rápida
+txt_fastopen: Apertura rápida de rutina, parar de explorar lista de sobrepasar
+txt_level_fastest: Mais rápido
+txt_favformats: Formatos favoritos
+txt_file: Ficheiro
+txt_filebrowser: Explorar ficheiro / Explorar arquivo
+txt_filetools: Ferramentas de ficheiros
+txt_files: Ficheiro(s),
+txt_nfiles: Ficheiros
+txt_fs: Sistema de ficheiros
+txt_type_custom_selected: O tipo de ficheiro non é directamente apoiado por PeaZip, mais pode tentar configurar PeaZip para abrir ese tipo de ficheiro en "Opcións" no menú. Proseguir coa apertura deste ficheiro?
+txt_filters_recourse: Recurso de filtro(s) subcartafoles
+txt_filters: Filtros
+txt_flat: Plana (mostrar todos)
+txt_list_flat: Vista plana:
+txt_unit_floppy: Disquete
+txt_foldername: Nome do cartafol
+txt_nfolders: Cartafoles
+txt_error_input_multi: O formato permite un único ficheiro como entrada, pode usar "TAR antes de" pasar cambiar e gardar ficheiro nunha entrada .TAR, caso contrario, pode escoller outro formato. DICA: escolleu o formato de ficheiro depois de ter seleccionado datos de entrada: "TAR antes de" será definido automaticamente
+txt_format_options: Opcións de formato
+txt_fwd: Encamiñar
+txt_list_found: Encontrado:
+txt_free: Libre
+txt_free2: libre
+txt_name_full: Nome completo
+txt_function: Función
+txt_general: Xeral
+txt_multithreading: Xenérica multi-leitura
+txt_go_browser: Ir para o explorador de ficheiro
+txt_go_path: Vai para o camiño da oposición
+txt_guicl: Interface + consola
+txt_guipealauncher: Interface: embebida en PeaLauncher
+txt_graphic: Cartafol da interface
+txt_gridaltcolor: Grellas de cores alternadas
+txt_gridrowheight: Grellas de altura de liña
+txt_gui: GUI
+txt_type_description_gzip: Gzip: compresión rápida
+txt_here: Aquí
+txt_list_history: Historial
+txt_homeroot: Home / raiz dos ficheiros
+txt_quickbrowse_hint: De se parar a exploración por parte do utilizador, pode restrinxir a selección ao usar a busca ou filtrar funcións; funcións de extraer / lista / comprobar non se ven afectadas de forma ningunha.
+txt_backupexe_hint: Se algunha cousa corre mal e non conduce a un resultado funcional, pode recuperar o executábel orixinal a partir da copia automática de backup
+txt_attach: Se o cliente de e-mail permite o comando, o ficheiro será anexo a un novo e-mail
+txt_images: Imaxes
+txt_include_hint: Incluír ficheiro(s), unha por liña; usar * e ? caracteres de substitución; " e' non son necesarios delimitadores
+txt_filters_hint: Filtros de inclusión e exclusión para binario 7z, por favor, lea con Atención documentación 7-Zip para entender como funcionan os filtros
+txt_inclusion_recourse: Inclusión do recurso de filtros subdirectorios
+txt_inclusion: Inclusión:
+txt_error_function: Función solicitada incorrecta
+txt_info: Info
+txt_infoall: Informacións sobre todas as
+txt_infodisp: Información sobre os obxecto(s) mostrados
+txt_infosel: Información sobre os obxecto(s) seleccionado(s)
+txt_inputinfo: Entrada de información
+txt_input_list: Entrada de lista:
+txt_iop: Entrada, saída, parámetros
+txt_ipo: Entrada, parámetros de saída
+txt_input: Entrada:
+txt_integrity: Comprobar a integridade
+txt_chunk_size: Tamaño personalizado inválido, por favor, corrixir nun valor numérico
+txt_invertsel: Inverter selección
+txt_type_exe: É un executábel Windows, quere executalo? ( "Non" para abrilo no ficheiro do explorador PeaZip; só NSIS instaladores, 7-Zip's e SFX. Os instaladores MSI poden ser explorados con ese método)
+txt_return_to_archive: Está actualmente aberto; Quere exploralo?
+txt_not_accessible: Xa non é acesíbel
+txt_type_unsupported: non é un tipo de ficheiro compatíbel
+txt_checkname_failed: non é un nome válido.
+txt_not_accessible_list: non é acesíbel, comprobe se a lista fornecida do ficheiro é correcta e actualizada
+txt_theme_create_error: non foi posíbel crear o tema, tente usar un nome válido para un cartafol  co nome do tema e que escolleu un camiño posíbel
+txt_theme_exists: Xa existe, forneza un camiño diferente
+txt_job_code: Código traballo:
+txt_job_definition_saved: Definicións dos traballos gardadas correctamente en txt_job_success: Traballo concluído correctamente!
+txt_job_success: Job successfully completed!
+txt_join: Unir
+txt_joinfiles: Unir ficheiros
+txt_keyfile: Ficheiro chave
+txt_keyfile_not_found: O ficheiro chave non pode ser encontrado ou lido. Por favor, escolla un outro ficheiro chave.
+txt_keyfile_notcreated: O ficheiro chave non foi creado
+txt_larger: Maior que o obxecto seleccionado
+txt_lastused: Último usado
+txt_launch: Lanzar traballo
+txt_layout: Deseño
+txt_filelist_savedas: Deseño gardado como
+txt_level: Nivel
+txt_license: Licenza
+txt_caption_list: Lista
+txt_list_details: Lista (con detalles)
+txt_list_all: Lista todos os
+txt_list_disp: Lista obxecto(s) exhibido(s)
+txt_list_sel: Lista obxecto(s) seleccionado(s)
+txt_toggle_warning: Vista plana da Lista do contido do camiño pode demorar moito tempo, continuar mesmo así?
+txt_loadfile: Cargar ficheiro
+txt_loadlayout: Cargar deseño
+txt_unit_hd: Disco local
+txt_localization: Localización
+txt_lpaqver: Versión LPAQ
+txt_type_description_lpaq: LPAQ: versión máis rápida do PAQ, moi boa compresión
+txt_maininterface: Interface principal
+txt_maxcomp: Modo de compresión máxima
+txt_level_maximum: Máximo
+txt_restartrequired: Pode requirir reinicio do aplicativo para que o pedimento poida ser aplicado
+txt_required_memory: MB de memoria esixida
+txt_method: Método
+txt_misc: Variado
+txt_modify: Modificar
+txt_morecontrols: Máis controis (historia, favoritos, ...)
+txt_morerecent: Máis recente que o obxecto seleccionado
+txt_ent_hint: Mova o rato, o teclado entra no campo de edición, cargar ficheiros de recoller entropía a partir do sistema...
+txt_moveto: Mover para...
+txt_mypc: O meu computador
+txt_list_na: n / a
+txt_name: Nome
+txt_naming: Política de nomeado
+txt_unit_remote: Controlador de rede
+txt_newarchive: Novo ficheiro
+txt_cnewfolder: Novo cartafol
+txt_news: Novas
+txt_no: Non
+txt_noinput: Contribución recibida non accesíbel
+txt_nocompress_hint: Sen compresión (rápida)
+txt_split_noinput: Entrada non seleccionada; por favor, seleccione un ficheiro para dividir
+txt_open_noinput: Entrada non seleccionada; por favor, seleccione un ficheiro (primeiro ficheiro do volume de ficheiros multi-volume)
+txt_list_nomatch: non coincide
+txt_singlethread: non multi-lectura
+txt_none2: Ningún
+txt_nonsolid: non sólidos
+txt_level_normal: Normal
+txt_copy_error: non copiados ou movidos correctamente, código de erro:
+txt_description: Notas
+txt_compare_second: Agora seleccione o ficheiro a ser comparado con
+txt_peaobj: Controle obxecto
+txt_displayed_obj: obxecto(s)
+txt_olderthan: Idade superior obxecto seleccionado
+txt_on: a
+txt_ondblclick: Ao duplo prema facer:
+txt_opacity: Opacidade
+txt_open: Abrir
+txt_openarchive: Abrir ficheiro
+txt_title_open: Abrir ficheiro, descifrar, xuntar...
+txt_open_bookmark: Abrir favorito
+txt_cphere: Abrir comando aqui
+txt_open_file: Abrir o ficheiro
+txt_open_files: Abrir ficheiro(s)
+txt_open_path: Abrir camiño
+txt_opensource: Arquivador portátil de fonte aberta
+txt_openwith: Abrir con...
+txt_aborted: Operación anulada
+txt_unit_cd: Unidade óptica
+txt_options: Opcións
+txt_other: Outros
+txt_otherparams: Outros parámetros (edición libre)
+txt_oip: Saída, entrada, parámetros
+txt_opi: Saída, parámetros de entrada
+txt_output: Saída:
+txt_overwrite: Substituír os ficheiros existentes
+txt_compressed_size: Paquetes de
+txt_paqver: Versión PAQ
+txt_type_description_paq: PAQ: lenta, mas compresión extremadamente poderosa
+txt_pio: Parámetros de entrada, saída
+txt_poi: Parámetros de saída, entrada
+txt_parameters: Parámetros:
+txt_error_partial: A extracción parcial non foi implementada para o tipo de ficheiro
+txt_passes: Pasaxes
+txt_pw: Contrasinal
+txt_pwlength: Amplitude do contrasinal en caracteres (4 .. 64)
+txt_un7z_browse_pw: Pode ser necesario contrasinal
+txt_un7z_browse_pw_other: O contrasinal pode estar errado
+txt_paste: Pegar (Ctrl + V)
+txt_path: Camiño:
+txt_pea_appcolor: Cor da aplicación PeaZip
+txt_pea_textcolor: Cor do texto da aplicación PeaZip
+txt_type_description_pea: PEA: seguranza orientada para o formato de compresión rápida do ficheiro
+txt_peazip_new: PeaZip (nova instancia)
+txt_peazip_help: Axuda do PeaZip (online)
+txt_peazip_web: Web do Proxecto PeaZip
+txt_performall: Lanzar todos os algoritmos compatíbeis
+txt_name_provide: Por favor, evite os caracteres \ /: *? ' "<> |
+txt_upxorstrip: Por favor, escolleu a Faixa e / ou UPX sobre o binário
+txt_not_removable_file: Por favor peche o ficheiro en uso, con fin de permitir que PeaZip poida eliminalo:
+txt_not_removable: Por favor peche os ficheiros en uso, de modo que permita a PeaZip eliminar o cartafol:
+txt_custom_executable_missing: Por favor forneza o nome personalizado do executábel
+txt_type_unsupported_select: Seleccione un tipo de ficheiro suportado:
+txt_no_theme_name: Especifique un nome para o tema
+txt_please_wait: Por favor, agarde
+txt_copy_wait: Por favor agarde, está axendada accións copiar / mover ficheiro para completar antes de programación doutras accións do mesmo tipo
+txt_previewwith: Previsualizar con...
+txt_projectadmin: Administrador do Proxecto:
+txt_type_description_quad: BALZ / QUAD: alto rendemento nos ficheiros baseado en compresores tipo ROLZ
+txt_quickdelete: Borrar rápido
+txt_quit: Saír
+txt_unit_ram: Disco RAM
+txt_read: Lea:
+txt_recentarchives: Ficheiros Recentes
+txt_rr_hint: Recuperar rexistros permite a tentativa de corrixir ficheiros en caso de corrupción de datos
+txt_search_refine: Refinar filtro de procura, acepta ? e * caracteres de substitución
+txt_fefreshf5: Recargar (F5)
+txt_release: Versión:
+txt_unit_removable: Unidade extraíbel
+txt_remove_bookmark: Eliminar favorito
+txt_remove_external_unit: Retirar unidade externa(s)
+txt_removeselected: Eliminar o obxecto seleccionado(s)
+txt_rename: Renomear
+txt_caption_repair: Reparación
+txt_restartrequired2: Para aplicar esixe o reinicio do aplicativo
+txt_reset: Restaurar
+txt_reset_archivename: Restaura nome do ficheiro
+txt_hardreset: Restaurar favoritos
+txt_reset_theme: Restaurar o tema orixinal
+txt_soft_reset: Reiniciar aplicativo e usar a configuración de valores predeterminados, limpar historial dos últimos ficheiros, non alterar os favoritos
+txt_restore_att: Restaurar atributos orixinais
+txt_run_as: Lanzar como (non pode mudar de usuario con contrasinal en branco)
+txt_run_as2: Lanzar como outro usuario
+txt_sample: Mostra:
+txt_saveas: Gardar como
+txt_savehistory: Gardar histórico dos últimos ficheiros usados
+txt_save_infolder: Gardar no cartafol (auto)
+txt_savejob: Gardar trabalho
+txt_savejobdefinition: Gardar definicións do traballo
+txt_savejobdefinition_hint: Gardar definicións do traballo como texto simple, pode usalo a partir dos seus scripts
+txt_savelayout: Gardar deseño
+txt_save_winstate: Gardar estado da xanela principal
+txt_search: procura (intensiva), pode demorar algun tempo
+txt_searchanddrag: Procure e arrastre ata aquí
+txt_searchfor: Procurar:
+txt_nrsearch: Procurar aquí (non intensiva)
+txt_search_hint: procura nos subcartafoles do ficheiro para os correspondentes con filtro(s)
+txt_search_web: procura na web
+txt_list_searching: A procurar...
+txt_securedelete: Limpeza segura (ficheiros)
+txt_default_description: Seleccione unha función ou arrastar ficheiros para aqui
+txt_selectall: Seleccionar todos
+txt_selectdir: Seleccionar cartafol
+txt_selected_obj: Seleccionados
+txt_selected_objects: Os obxectos seleccionados
+txt_sfx: Auto-extrair
+txt_sendbymail: Enviar por e-mail (de ser posíbel)
+txt_set_defaults: Definir parámetros predeterminados do aplicativo
+txt_settings: Configuracións
+txt_sfx_interface: Interface SFX
+txt_showhints: Mostrar 
+txt_show_messages: Mostrar mensaxes de información
+txt_showpw: Mostrar o  contido do campo Chave
+txt_singlevol: Volume Único
+txt_size: Tamaño
+txt_sizeb: Tamaño (B)
+txt_skip_existing: Ignorar os ficheiros existentes
+txt_slowercomp: compresión mais lenta, mas descompresión igualmente rápida
+txt_smaller: Menor que o obxecto seleccionado
+txt_solid: Sólido
+txt_solid_block: Bloque Sólido
+txt_solid_auto: Sólido, autoaxuste
+txt_solid_extension: Sólido, por grupo de extensión
+txt_tarbeforepj: Desculpe, mais non pode importar a definición da liña de comando do traballo ao usar ".TAR antes de", unha vez que o traballo é realizado como dous comandos distintos
+txt_listtest: Desculpe, a función lista / comprobar non é para Xa adecuada neste formato
+txt_sortbysel: Selección Clasificar por estado
+txt_list_sorting: Orde...
+txt_speed: Velocidade
+txt_split: Dividir
+txt_type_description_split: Dividir un ficheiro coa opción de verificar integridade
+txt_split_file: Dividir ficheiro
+txt_list_nostats: Estado non dispoñíbel
+txt_status: Estado
+txt_level_store: Arquivo
+txt_stream_control: Control de fluxo
+txt_strip: Faixa antes UPX (recomendado)
+txt_keyfile_created: Creado con suceso como Ficheiro Chave:
+txt_suggestpw: Suxestións de contrasinal
+txt_noupx: Símbolos desvendados, compresión UPX omitida
+txt_syntax: Sintaxe:
+txt_sysbenchmark: Proba de rendemento do sistema
+txt_benchmark:  Proba de rendemento do sistema terá alguns minutos e utilizará todos os recursos dispoñíbeis CPU e memoria. O sistema pode non responder durante o benchmark; executalo mesmo así?
+txt_systools: Ferramentas de sistema
+txt_tarbefore: Antes TAR
+txt_type_description_tar: TAR: Formato mainstream de ficheiro en sistemas UNIX
+txt_taskman: Xestión de tarefas
+txt_caption_test: Comprobar
+txt_testall: Comprobar todos
+txt_testdisp: Comprobar o obxecto(s) mostrado
+txt_testpw: Comprobar a chave / Ficheiro chave
+txt_testsel: Comprobar o obxecto seleccionado(s)
+txt_col_hint: As cores deven ser escollidas de forma que se integren ben coa ícona de cores e outros elementos da GUI
+txt_bookmarks_hint: A completa e editábel lista de favoritos está dispoñíbel na interface do explorador do ficheiro, ao clicar no "Máis controis" e na ícona "Mudar historial / favoritos"
+txt_archive_noinput_tolist: O deseño está baleiro: use Engadir ficheiro(s), Xuntar cartafol(es) ou Caregar Deseño para cubrir os ficheiros do deseño
+txt_theme: Tema
+txt_icons_found: Tema cargado correctamente.
+txt_themename: Nome do Tema
+txt_icons_not_found: Tema non cargado correctamente. Tente cambiar ao tema predeterminado, ou para un funcional coñecido.
+txt_theme_create_success: Tema creado correctamente en
+txt_theme_not_loadable: O cartafol de Temas e Gráficos de PeaZip ten de estar no cartafol de instalación correspondente
+txt_theming: Temas
+txt_extand_error: Esta función pode ser realizada nun único obxecto en cadanseu momento
+txt_threads: Liñas
+txt_titlescolor: Cor de Títulos
+txt_to: Para
+txt_toggle_browseflat: Alternar vista explorar / plana
+txt_toggle_historybookmarks: Alternar histórico / favoritos
+txt_toolbarscolor: Cor da Barra de ferramentas
+txt_tools: Ferramentas
+txt_best: Tentar mellores definicións (lenta)
+txt_type: Tipo
+txt_level_ultra: ultra
+txt_error_openfile: non é posíbel abrir o ficheiro especificado
+txt_cl_hint: Lanzar sempre UNACE e UPX usando o modo consola; lista, comprobar e traballos de comprobación de rendemento lanzar sempre usando o modo GUI
+txt_ace_missing: UNACE plugin non está instalado; para a manipulación de ficheiros ACE pode descargar o plugin no PeaZip's website (UNACE pechándose, o plugin non está caracterizado no paquete básico)
+txt_units: Unidades
+txt_unit_unknown: Controlador de tipo descoñecido
+txt_un7z_pw_untested: non testado
+txt_up: Arriba
+txt_update: Actualización (se existir ficheiro)
+txt_type_description_upx: UPX: Compactar ficheiros executábeis só
+txt_advfilters: Utilización de filtros avanzados
+txt_openfiles_hint: Use esta opción para incluír no ficheiro para escrita de ficheiros abertos por outras aplicacións (backup útil en postos de traballo)
+txt_usenet: Usenet
+txt_user_name: Nome do usuario; empregar usuario @ dominio ou DOMINIO \ usuario se necesario.
+txt_using: Usando:
+txt_volumepea: Control de Volune
+txt_volume_size: Tamaño do Volune
+txt_type_ext_uns: Foi extraído correctamente
+txt_websearch: procura no Web
+txt_websites: Websites
+txt_word: Word
+txt_write: Escriba para:
+txt_ramdompw_hint: Pode copiar a chave aleatoria xerada a partir de aquí
+txt_exe_hint: Pode entrar libremente no nome do executábel e parámetros de compresión personalizada, e escolleu a construción da sintaxe. Observe que tamén pode alterar manualmente o comando da sintaxe na guía da "Consola".
+txt_pj_hint2: Pode importar o traballo a partir da definición da interface da GUI no campo abaixo da nota. Logo, pode editar, lanzar ou gardalo sen alterar ou perder o traballo definido para a interface da GUI.
+txt_type_description_zip: UF: ficheiro / compresión formato rápido, mainstream en sistemas Windows
+txt_zipcrypto_hint: ZipCrypto (herdado)
+
+=== end PeaZip text group ===
+
+=== PeaLauncher text group ===
+
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: Abrir ficheiro
+txt_2_5_ace_missing: UNACE plugin esta perdido; para manejar los archivos ACE puede descargar el plugin del sitio web de PeaZip (siendo UNACE código restringido, el plugin no forma parte del paquete básico)
+txt_2_3_pw_errorchar_gwrap: : este caracter no puede ser usado por PeaLauncher en contraseñas bajo el sistema operativo actual, por favor cambia la contraseña o usa PeaZip en modo Consola (Herramientas > Configuraciones)
+txt_2_3_renameexisting: Renombrado automático de los archivos existentes
+txt_2_3_renameextracted: Renombrado automático de los archivos extraidos
+txt_2_3_cancel: Cancelar
+txt_2_3_encryption: Encriptación
+txt_2_3_extinnew: Extraer en un nuevo directorio
+txt_2_3_keyfile: fichero de claves
+txt_2_3_kf_not_found_gwrap: Archivo de claves no puede ser encontrado o leido. Por favor selecciona un archivo de claves diferente.
+txt_2_3_moreoptions: Más opciones...
+txt_2_3_nopaths: No 
+txt_2_3_options: Opciones
+txt_2_3_overexisting: Sobreescribir los archivos existentes
+txt_2_3_pw: Contraseña
+txt_2_3_skipexisting: Omitir los archivos existentes
+txt_job_unknown: : Erro descoñecido encontrado
+txt_stdjob: [a animación parará e o traballo será exhibido ao quedar completado]
+txt_benchmarkjob: [o sistema responderá lentamente mentres se executa o benchmark (algúns minutos)]
+txt_defragjob: [non irá responder encuanto transcorre a desfragmentación, pódeo deixar correr en segundo plano]
+txt_consolejob: [pode ver a evolución do traballo na xanela da consola]
+txt_job1: 1: Atención: erro non fatal(s), vale dicir, faltan algúns ficheiros ou está bloqueado
+txt_job127: 127: non é posíbel executar a operación solicitada
+txt_job2: 2: Ocorreu un erro fatal
+txt_job255: 255: Traballo anulado polo usuario
+txt_job7: 7: Erro: Ten liña de comando incorrecta
+txt_job8: 8: Erro: non ten memoria suficiente para a operación pretendida
+txt_autoclose: Pechar esta xanela ao completar o traballo
+txt_crscale: Taxa de compresión volumétrica (menor, mellor):
+txt_console: Consola
+txt_benchscale: Avaliación Core Duo 2 6600, equivalente a MHz de velocidade.
+txt_create: Crear
+txt_done: Terminado:
+txt_nocl: Baleirar a liña de comando
+txt_error: Erro:
+txt_explore: Explorar
+txt_extto: Extraer a
+txt_halt: Parar sistema, cando complete o traballo
+txt_halted: Interrompido:
+txt_hardware: hardware
+txt_high: Alta prioridade
+txt_checkpw: Suxestión: verifique se o contrasinal é necesario para executar o traballo
+txt_idle: Prioridade cando non está sendo empregado
+txt_input: Entrada:
+txt_jpaused: Traballo en pausa
+txt_jresumed: Traballo reiniciado
+txt_job_started: Traballo comezado
+txt_jobstatus: Estado do traballo:
+txt_jstopped: Traballo interrompido polo usuario
+txt_jobstopped: Traballo interrompido polo usuario, pode revisar o  resultado parcial do traballo ao premer no botón "Explorar" ou a leitura do traballo diario
+txt_job_success: Traballo concluído correctamente 
+txt_lt: Lista / comprobar / reparación do ficheiro
+txt_normal: Prioridade normal
+txt_ok: Ok
+txt_output: Saída:
+txt_pause: Pausa
+txt_paused: en pausa,
+txt_p_high: Definir prioridade para alta
+txt_p_idle: Definir prioridade para cando non é empregado
+txt_p_normal: Definir prioridade para normal
+txt_p_realtime: Definir prioridade para tempo real
+txt_rating: Nota:
+txt_rt: Prioridade en tempo real
+txt_report: Relatorio
+txt_resume: Continuar
+txt_priority: Botón do lado dereito do rato para definir a prioridade da tarefa
+txt_running: Lanzar,
+txt_isrunning: Procesando...
+txt_saveas: Gardar como
+txt_savejob: Gardar definición do traballo (pode incluír un contrasinal!)
+txt_savelog: Gardar o traballo diario
+txt_software: Software
+txt_speedscale: Velocidade, escala logarítmica (maior, mellor):
+txt_status: Estado
+txt_stop: Parar
+txt_bench: Proba de rendemento do sistema
+txt_threads: Liñas:
+txt_time: Tempo:
+
+=== end PeaLauncher text group ===
+
+=== about text group ===
+
+
+CREAR ARQUIVOS
+
+1) Engada elementos para ao ficheiro de configuración do sistema e menú contexto de SendTo, a arrastar e soltar ou do aplicativo de botóns e menús;
+2) Prema en "Crear" no botón para iniciar a creación do ficheiro.
+
+Utilización:
+-- "Opcións" guía para personalizar o formato do ficheiro e compresión e cifrado de parámetros relacionados;
+-- "I / O" guía para opcións de entrada / saída;
+-- "Filtros" guía para a utilización de filtros avançados de exclusão, se estiver disponíbel para o formato do ficheiro escollido;
+-- "Consola" guía de análise e personalización da sintaxe do traballo, ou exportar traballo como liña de comando.
+
+Alternativamente, nun único paso pode Engadir cada elemento a unha entrada separada a partir de ficheiro menú de contexto do sistemae, e a partir do menú SendTo pode Engadir varios ítems a un único ficheiro.
+
+No deseño do ficheiro pode tamén:
+-- Prema dúas veces nun obxecto para abrir
+-- Seleccione un ficheiro e presione "\" ou "Ferramentas Ficheiro > Split file" dividilo
+-- Seleccione un ficheiro e pressione "<" ou "Ferramentas Ficheiro > Comparar ficheiros" byte a byte para comparala con outro ficheiro
+-- Seleccionar varios obxectos e presionar "?" ou "Ferramentas Ficheiro> Checksum / hash ficheiro(s)" a checksum / ficheiros hash
+-- Seleccionar varios obxectos e prima "*" ou "Secure Borrar (ficheiros)" para a eliminación segura de ficheiros
+
+
+ABRIR ARQUIVOS
+
+1) Abrir ficheiros en asociación de ficheiro, ou de contexto do sistema de entradas e SendTo menu, ou a partir de botóns e menús PeaZip's
+2) Prema en "Extraer tudo" para extraer o ficheiro, ou "Extraer a todos" de ser perguntado sobre o camiño de saída;
+2b) Prema dúas veces ou prema enter nun obxecto arquivado cunha pré-visualización asociada a pedimento, ou abrilo no caso ficheiro PeaZip, ou explorase repertorio;
+2c) Seleccione obxectos arquivados e botón do medio do rato ou prema a barra de espazo para extraer deles (sendo solicitado para o camiño de saída);
+2d) Botón do lado dereito do rato ou utilización contexto menú entradas para desempeñar todas as funcións dispoñíbeis, como extraer obxectos selecionados ou dispoñibilizados, visualizar, comprobar, lista, Engadir ou Borrar ficheiros etc ..
+Nota: se quere extraer un ficheiro a un novo cartafol, use "Extraer a un novo cartafol" mudar no contexto do menú (ou guía I / O), ou prema en \ ou Ctrl + N, mentres que, no explorador do ficheiro.
+
+
+SOBRE PEAZIP
+
+O compresor libre PeaZip é portátil e open source, ten cifrado e ferramenta de división de ficheiros; acepta moitos formatos de compresión de ficheiros coñecidos.
+
+Escrita: 7Z, 7Z-sfx, ARC, BZ2, GZ, PAQ/LPAQ, PEA, QUAD, split, TAR, UPX, ZIP
+
+Lectura: 7Z, ACE, ARC/WRC, ARJ, BZ/BZ2/TBZ, CAB, CHM/CHW/HXS, COMPOUND (MSI, DOC, XLS, PPT), CPIO, GZ/TGZ, ISO, Java (JAR, EAR, WAR), LZH/llA, Linux (DEB, PET/PUP, RPM, SLP), NSIS, OOo, PAK/PK3/PK4, PAQ/LPAQ, PEA, QUAD, RAR, split, TAR, U3P, WIM/SWM, XPI, Z/TZ/TAZ, ZIP/SMZIP
+
+Ficheiros / Ficheiros personalizados poden ser manipulados para a escrita e a leitura especificando executábeis personalizados e sintaxe no menú "Opcións".
+
+Outras capacidades: dividir / unir ficheiros (file span), Borrar ficheiros (secure deletion), comparación, comprobación de suma e ficheiros hash, probas de rendemento de sistema, xeración de contrasinais aleatorios e ficheiros chave.
+
+PeaZip permite editar, gardar e restaurar o deseño dos ficheiros; aplica poderosos múltiplos filtros ao contido dos ficheiros; manexa múltiplos ficheiros dunha soa vez; exporta como liña de comnado definicións dos traballos; cifra con AES256 etc.
+PeaZip_portable é un aplicativo sen instalación coas mesmas características do PeaZip; non precisa de ser instalado e pode ser usado a partir de calquera unidade extraíbel (USB keys, camiños remotos...) non alterando para nada o sistema anfitrião.
+Moitas das funcións usadas están integradas no menu SendTo e no menu do aplicativo (en Windows) e como ficheiros .desktop para menú contexto (en Linux); integración co sistema é automática nos paquetes de instalación e poden ser personalizados polos os usuarios nos instalábeis ou portátiles (ver documentación online).
+PeaZip é unha plataforma cruzada e execútase en Windows (9x, 2000, XP, Vista) 32 e 64 bit e Linux.
+
+Downloads and changelog: http://peazip.sourceforge.net/
+All downloads: http://sourceforge.net/projects/peazip/
+Online help: http://peazip.sourceforge.net/peazip-help.html
+FAQ: http://peazip.sourceforge.net/faq.html
+
+
+Many thanks to all people contributing to PeaZip project's growth developing Open Source software components used in this application (see website for complete list), and to all users contributing with feedback, experience and advices.

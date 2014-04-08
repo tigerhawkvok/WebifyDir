@@ -1,0 +1,785 @@
+﻿=== PeaZip language file ===
+Nederlands / Dutch
+2.7
+Translated by: Myckel Habets
+Last rev. by: Giorgio Tani (please review the translation)
+Last rev.: 20090909
+
+=== PeaZip text group ===
+
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (mappen)
+txt_2_6_advanced: Geavanceerd
+txt_2_6_plalways: Altijd openhouden om het taakrapport te bekijken
+txt_2_6_plsmart: Alleen openhouden als het nodig is (fout, lijst of testrapporten)
+txt_2_6_rec: Recursief: zoeken in subdirectories
+txt_2_6_special: Speciale formaten (ACE, ARC, PEA)
+txt_2_5_sessionio: (deze sessie)
+txt_2_5_advanced: Geavanceerd bewerken: plaats indien nodig spaties tussen parameter regels en bestandsnaam
+txt_2_5_basic: Standaard bewerken: toepassing en parameters voor invoernaam
+txt_2_5_cannotrun: Kan niet starten
+txt_2_5_custeditors: Aangepaste editors, spelers, antivirus scanners, etc... (overschrijf systeem bestandsassociaties)
+txt_2_5_delete: Verwijderen
+txt_2_5_delete_fromarchive: Verwijderen uit archief
+txt_2_5_langflag: Gearchiveerd objectnaam weergeven als UTF-8 tekst; uitvinken om uitgebreide tekens te vervangen met "?"
+txt_2_5_encpj: Codeer taakdefinitie als UTF-8 tekst
+txt_2_5_execommand: Uitvoerbaar bestand of commando
+txt_2_5_help: Help
+txt_2_5_langhint: Hint: vervangen van uitgebreide tekens door het "?" teken kan de syntax verbeteren als de tekenset op in het archief op de huidige machine niet succesvol geconverteerd kan worden
+txt_2_5_mini_help: Mini-handleiding
+txt_2_5_offline_help: PeaZip help
+txt_2_5_tray: Verkleinen naar taakbalk
+txt_2_5_remove: Verwijderen
+txt_2_5_hintpaths: Rechtsklikken opent systeem- en gebruikerspaden
+txt_2_5_selectapp: Selecteer toepassing
+txt_2_5_strafter: Tekenregel na invoernaam
+txt_2_5_strbefore: Tekenregel voor invoernaam
+txt_2_5_encoding: Tekstcodering
+txt_2_5_nopw: deze soort archieven ondersteunen geen encryptie
+txt_2_4_draghint: [sleep naar Verkenner met actieve adresbalk]
+txt_2_4_tb: Pas taakbalkknoppen aan (herstart PeaZip)
+txt_2_4_adding: Toevoegen
+txt_2_4_advclip: Geavanceerd: behoud meerdere selecties in klembord (geen duplicaten), wissen bij plakken
+txt_2_4_yanswers: Antwoorden
+txt_2_4_itemsheight: Itemhoogte automatisch aanpassen
+txt_2_4_clearclipboard: Klembord wissen (Esc)
+txt_2_4_wcommons: Commons
+txt_2_4_copyfrom: Kopieër van
+txt_2_4_deletebookmarks: Wilt u de lijst met bladwijzers naar bestanden en mappen wissen?
+txt_2_4_documents: Documenten
+txt_2_4_wenc: Encyclopedie
+txt_2_4_extractfrom: Uitpakken van
+txt_2_4_hexp: Hex voorbeeld
+txt_2_4_operation: Handeling
+txt_2_4_path: pad is alleen-lezen, selecteer a.u.b. een schrijfbaar uitvoerpad
+txt_2_4_removefromclipboard: Verwijder van klembord
+txt_2_4_stdclip: Standaard: behoud een enkele selectie in klembord, wis kniphandelingen bij plakken
+txt_2_4_totalmem: totale geheugen
+txt_2_4_gvideo: Video
+txt_2_4_wbook: Wikibook
+txt_2_4_wnews: Wikinews
+txt_2_4_wsrc: Wikisource
+txt_2_4_wdict: Wiktionary
+txt_2_3_pw_errorchar: : dit teken kan onder het huidige systeem niet door PeaZip GUI in wachtwoorden gebruikt worden, verander uw wachtwoord of kies Console modus in Gereedschappen > Instellingen
+txt_2_3_envstr: Omgevingsvariabelen weergeven
+txt_2_3_never_pw: Vraag niet om wachtwoord
+txt_2_3_home: Gebruiker's thuismap
+txt_2_3_on_pw: Bij uitpak-, lijst- of testhandelingen vanuit systeemmenu's:
+txt_2_3_test_pw100: Test op encryptie <100MB archieven
+txt_2_3_test_pw: Test op encryptie (kan langzaam zijn)
+txt_exclude_recourse: beschermde subdirs "uitsluiten"
+txt_action_extopen: "Uitpakken en openen met geassocieerde toepassing" actie
+txt_error_passwordnotmatch: Velden "Wachtwoord" en "Bevestig wachtwoord" komen niet overeen, corrigeer deze a.u.b.
+txt_action_preview: "Voorbeeld met geassocieerde toepassing" actie
+txt_preview_hint: "Voorbeeld" actie voert dezelfde taak uit als "Uitpakken en openen" maar naar een tijdelijk pad in de uitvoerdirectory en automatisch verwijderd als het archief weer gesloten wordt.
+txt_better: (beter)
+txt_default2: (standaard)
+txt_faster: (sneller)
+txt_fastermem: (sneller, minder geheugen)
+txt_tempdir: (PeaZip's tijdelijke werkdirectory)
+txt_stream: (ingesteld door "Streambesturing")
+txt_slowermem: (langzamer, meer geheugen)
+txt_store: (bewaren, snelst)
+txt_newfolder: (naar nieuwe map)
+txt_7z_exitcodeunknown: : Onbekende fout in taak
+txt_list_isfolder: [map]
+txt_none: <geen>
+txt_fd: 1.44 MB Floppy Disk
+txt_7z_exitcode1: 1: Waarschuwing: niet-fatale fout(en): bijv. enkele bestanden ontbreken of niet leesbaar
+txt_attach10: 10 MB (bijvoeglimiet)
+txt_7z_exitcode2: 2: Fatale fout heeft zich voorgedaan
+txt_7z_exitcode255: 255: Taak gestopt door de gebruiker
+txt_fat32: 4 GB (max FAT32 bestandsgrootte)
+txt_dvd: 4.7 GB DVD
+txt_attach5: 5 MB (bijvoeglimiet)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: Fout: verkreeg onjuiste commandoregel
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7Z: archiefformaat met vele opties en hoge compressieratio
+txt_dvddl: 8.5 GB DVD DL
+txt_7z_exitcode8: 8: Fout: niet genoeg geheugen voor gevraagde handeling
+txt_abort: Geplande bestand kopieer-, verplaatshandelingen afbreken?
+txt_about: Over
+txt_action: Actie
+txt_action_hint: Actie bij openen of voorbeeld met geassocieerde toepassing
+txt_add: Toevoegen
+txt_add_existing_archive: Toevoegen (indien archief bestaat)
+txt_add_archive: Archief toevoegen
+txt_add_files: Bestand(en) toevoegen
+txt_add_folder: Map toevoegen
+txt_add_path: Pad toevoegen
+txt_add_tolayout: Geselecteerde bestanden en mappen aan layout van archief toevoegen
+txt_add_toarchive: Aan archief toevoegen
+txt_add_tobookmarks: Aan bladwijzers toevoegen
+txt_address_hint: Adres: accepteert wildcards ? voor tekens en * voor regels; hoeft geen " or ' afscheiding te gebruiken
+txt_adv_filters: Geadvanceerde filters
+txt_algo: Algoritme
+txt_all: alles
+txt_all_default: Alles (standaard)
+txt_all_type: Alle objecten van dit type
+txt_all_date: Alle objecten met datum...
+txt_all_psize: Alle objecten met ingepakte grootte...
+txt_all_attributes: Alle objecten met dezelfde attributen
+txt_all_size: Alle objecten met grootte...
+txt_error_input_upx: staat maar een enkel uitvoerbaar bestand als invoer toe
+txt_always_pw: Altijd naar wachtwoord bij uitpak-, test,- en lijsthandelingen vanuit systeemmenu vragen
+txt_ignore_ext: Altijd paden negeren voor "Uitpakken en..."
+txt_ignore_disp: Altijd paden negeren voor "Weergegeven uitpakken..."
+txt_ignore_sel: Altijd paden negeren voor "Geselecteerde uitpakken..."
+txt_key_hint: Voeg hash van sleutelbestand aan wachtwoord toe; het archief kan ontsleuteld worden door Peazip en andere toepassingen die dezelfde standaard volgen, of door de hash als onderdeel van het wachtwoord op te geven
+txt_timestamp: Voeg tijdsaanduiding aan archiefnaam toe
+txt_appoptions: Toepassingsopties
+txt_type_description_arc: ARC: experimenteel archiefformaat, krachtig, efficiënt en vele opties
+txt_archive: Archief
+txt_un7z_browse_ok: archief succesvol verkend
+txt_interface: Archiefverkennerinterface
+txt_archivecreation: Aanmaken archief
+txt_tarbefore_hint: Archiefgegevens in TAR formaat voordat naar opgegeven type gezet wordt.
+txt_archive_hint: Archiveer, comprimeren, splitsen en privé bestanden, mappen en volumes behouden
+txt_compressionratio_hint: Compressieratio van archief
+txt_archiving: Archiveren:
+txt_cl_long: Argumenten gaan over de maximum grootte die de PeaZip frontend aankan, selecteer a.u.b. minder invoerbestanden (bijv. selecteer directories i.p.v. losse bestanden)
+txt_overwrite_askbefore: Vraag voor overschrijven (om in console modus te gebruiken)
+txt_associated: geassocieerde toepassing
+txt_attributes: Attributen
+txt_author: Auteur
+txt_ren_existing: Auto-hernoemen van bestaande bestanden
+txt_ren_extracted: Auto-hernoemen van uitgepakte bestanden
+txt_autofolder: Automatisch een nieuwe map aanmaken om het archief naar uit te pakken?
+txt_back: Terug
+txt_backend: Backend binaire gebruiksinterface
+txt_backupexe: Backup uitvoerbaar bestand (aanbevolen)
+txt_bettercompression: betere compressie
+txt_blogs: Blogs
+txt_blowfish: Blowfish448 (64 bit blokken)
+txt_bookmarks: Bladwijzers
+txt_browse: Bladeren
+txt_browser: Verkenner
+txt_aborted_error: Verkennen van archief gestopt, het zou anders te lang duren. U kan de selectie gerichter maken door zoeken of filterfuncties te gebruiken (of "Platte weergave" te verlaten); uitpakken/lijst/test-handelingen zijn hierdoor niet beïnvloed.
+txt_list_browsing: Verkennen:
+txt_archive_root: Verkennen: archief root
+txt_type_description_bzip2: BZip2: vrije krachtige compressie, gemiddelde snelheid
+txt_pw_empty: Kan geen lege wachtwoorden accepteren, geef a.u.b. een wachtwoord op of vink de "Versleutelen"optie uit
+txt_add_error: Kan geen object(en) toevoegen/updaten of verwijderen; mogelijk heeft het archieftype alleen verkennen/uitpak ondersteuning, of ondersteunt het die specifieke handeling (bijv. het is multi-volume of vast) niet, of PeaZip kan de naam van het archief niet volledig aan
+txt_un7z_browse_failure: kan archief niet verkennen
+txt_list_error: Kan geen lijst van de inhoud van het archief geven, controleer of het archief niet beschadigd of door een wachtwoord beschermd is
+txt_conf_cannotsave: Kan configuratiebestand niet opslaan, controleer of het pad schrijfbaar is en dat er vrije ruimte beschikbaar is
+txt_check_hint: Controleer op gegevenscorruptie; hash algoritmen zijn geschikt om zelfs kwaadaardige gegevensaanpassingen te detecteren (zie de documentatie)
+txt_check: Controle-som/hash bestand(en)
+txt_check_select: Controle-som/hash om uit te voeren
+txt_clear: Wissen
+txt_clearlayout: Layout wissen
+txt_pj_hint: Klik om een taak te importeren, veranderingen te herinitialiseren of een gegevensdefinitie vanuit de GUI te laden
+txt_autoclose: Sluit PeaLauncher als taak voltooid is
+txt_cl: commandoregel:
+txt_compare: Bestanden vergelijken
+txt_compress: Comprimeren
+txt_compress_executable: Uitvoerbaar bestand voor compressie
+txt_compress_openforwriting: Comprimeer bestanden geopend voor schrijven
+txt_compression: Compressie
+txt_compmanagement: Computerbeheer
+txt_pw_confirm: Bevestig wachtwoord
+txt_console: Console
+txt_console_interface: console: natieve interface
+txt_content: Inhoud
+txt_controlpanel: Configuratiescherm
+txt_convert: Schijf omzetten naar NTFS
+txt_copy: Kopiëren (Ctrl+C)
+txt_copyto: Kopiëren naar...
+txt_create: Maak
+txt_create_archive: Archief aanmaken
+txt_title_create: Maak archief, samendrukken, versleutelen, splitsen...
+txt_create_keyfile: Sleutelbestand aanmaken
+txt_create_folder: Nieuwe map aanmaken
+txt_create_theme: Nieuw thema aanmaken met de huidige instellingen:
+txt_rr: Herstelgegevens aanmaken
+txt_create_sfx: Zelf-uitpakkend archief aanmaken
+txt_cr_current: Huidig pad of filtercompressieratio
+txt_custom: Aangepast
+txt_type_description_custom: Aangepast (professionele gebruikers): voer naam en parameters uitvoerbaar bestand in
+txt_customapp: aangepaste toepassing
+txt_custom_parameters: Aangepaste parameters
+txt_customsize: Aangepaste grootte
+txt_cut: Knippen (Ctrl+X)
+txt_datetime: Datum/tijd
+txt_default: standaard
+txt_default_compression: standaardcompressie
+txt_default_format: Standaard formaat
+txt_theme_default: Standaard thema
+txt_hard_reset_hint: Verwijder bladwijzersbestand
+txt_desktop: Desktop
+txt_dictionary: Woordenboek
+txt_dirs: dir(s),
+txt_dis: Meerdere verwijzingen:
+txt_disk_cleanup: Schijfopruiming
+txt_disk_defrag: Schijfdefragmentatie
+txt_disk_management: Schijfbeheer
+txt_dispaly: Resultaat weergeven als
+txt_displayedmnu_obj: weergegeven
+txt_displayedobjects: Weergegeven objecten
+txt_nocompress: niet comprimeren
+txt_delete: Weet u zeker dat u het/de geselecteerde bestand(en) wilt verwijderen? De handeling kan niet ongedaan gemaakt worden en bestanden kunnen niet vanuit prullenbak hersteld worden
+txt_wipe: Weet u zeker dat u het/de geselecteerde bestand(en) veilig wilt verwijderen? De handeling kan niet ongedaan gemaakt worden en bestanden zijn niet meer te herstellen
+txt_done: Klaar
+txt_edit: Bewerken
+txt_elapsed: verstreken:
+txt_error_emptycl: Lege commandoregel!
+txt_encrypt: Versleutelen
+txt_encrypted: versleuteld
+txt_encryption: Encryptie
+txt_note: Notitie/beschrijving invoeren
+txt_random_keys: Willekeurige sleutels invoeren
+txt_random_keys_hint: Willekeurige sleutels invoeren (u hoeft ze niet te onthouden)
+txt_ent: Entropie evaluatie
+txt_ent_tools: Entropie bemonsteringsgereedschap
+txt_eqorlarger: gelijk of groter dan geselecteerd object
+txt_eqorrecent: gelijk of recenter dan geselecteerd object
+txt_eqorolder: gelijk of ouder dan geselecteerd object
+txt_eqorsmaller: gelijk of kleiner dan geselecteerd object
+txt_equal: gelijk aan geselecteerd object
+txt_erase_hint: Verwijder bestanden: overschrijf met willekeurige gegevens, maskeer grootte, hernoemen, tenslotte verwijderen
+txt_extraction_error: Fout tijdens uitpakken van het geselecteerde object. Als het archief beschermd is door een wachtwoord, voer dit in
+txt_exclude_hint: Bestand(en) uitsluiten, een per regel; gebruik * en ? wildcards; " en ' afscheidingstekens zijn niet nodig
+txt_exclusion_recourse: Uitsluitingsfilters beschermde subdirs
+txt_exclusion: Uitsluiting:
+txt_exe: Uitvoerbaar
+txt_overwrite_qry: bestaat in doelpad; overschrijf met bestand(en) met dezelfde naam van het bronpad? (Annuleren: kopiëren van dit object overslaan)
+txt_confirm_overwrite: bestaat; overschrijven? (nee om over te slaan)
+txt_explore_outpath: Uitvoerpad verkennen
+txt_explore_path: Pad verkennen
+txt_ext: Ext:
+txt_caption_extract: Uitpakken
+txt_ext_nopath: Uitpakken (zonder pad)
+txt_ext_all: Alles uitpakken
+txt_ext_allhere: Alles hier uitpakken
+txt_ext_allto: Alles uitpakken naar...
+txt_extopen_custom: Uitpakken en openen met aangepaste toepassing
+txt_extopen_with: Uitpakken en openen met...
+txt_ext_disp_here: Weergegeven hier uitpakken
+txt_ext_disp: Weergegeven object(en) uitpakken
+txt_ext_disp_to: Weergegeven object(en) uitpakken naar...
+txt_ext_here: Hier uitpakken
+txt_ext_sel_here: Geselecteerde hier uitpakken
+txt_ext_sel: Geselecteerd(e) object(en) uitpakken
+txt_ext_sel_to: Geselecteerd(e) object(en) uitpakken naar...
+txt_extobj: Het object uitpakken
+txt_newfoldermenu: Uitpakken naar nieuwe map
+txt_extto: Uitpakken naar...
+txt_level_fast: snel
+txt_fastcompr: snelle compressie
+txt_fastopen: Snelle openingsroutine, stop verkennen als de lijst te lang is
+txt_level_fastest: snelste
+txt_favformats: Favoriete formaten
+txt_file: Bestand
+txt_filebrowser: Bestandsverkenner / archiefverkenner
+txt_filetools: Bestandshulpmiddelen
+txt_files: bestand(en),
+txt_nfiles: Bestanden
+txt_fs: Bestandssysteem
+txt_type_custom_selected: bestandstype wordt niet direct door PeaZip ondersteund, maar u kan proberen PeaZip te configureren om dit bestandstype te openen in het "Opties" tabblad. Doorgaan met openen van dit bestand?
+txt_filters_recourse: filter beschermde subdirs
+txt_filters: Filters
+txt_flat: Plat (alles weergeven)
+txt_list_flat: Platte weergave:
+txt_unit_floppy: Floppy disk
+txt_foldername: Mapnaam
+txt_nfolders: Mappen
+txt_error_input_multi: formaat staat alleen maar enkel bestand als invoer toe; u kan de "TAR eerst" optie gebruiken om de invoer eerst in een .TAR archief op te slaan, anders moet u een ander formaat kiezen. HINT: kies archiefformaat nadat invoergegevens geselecteerd zijn: "TAR eerst" zal automatisch ingesteld worden
+txt_format_options: Formaatopties
+txt_fwd: Vooruit
+txt_list_found: Gevonden:
+txt_free: Vrij
+txt_free2: vrij
+txt_name_full: Volledige naam
+txt_function: Functie
+txt_general: Algemeen
+txt_multithreading: algemene multithreading
+txt_go_browser: Ga naar bestandsverkenner
+txt_go_path: Ga naar pad van object
+txt_guicl: grafisch + console
+txt_guipealauncher: grafisch: weergegeven door PeaLauncher
+txt_graphic: Grafische map
+txt_gridaltcolor: Raster alternatieve kleur
+txt_gridrowheight: Raster rijhoogte
+txt_gui: GUI
+txt_type_description_gzip: GZip: snelle compressie
+txt_here: hier
+txt_list_history: Geschiedenis
+txt_homeroot: Thuis / archiefbasis
+txt_quickbrowse_hint: Als verkennen gestopt is kan de gebruiker de selectie beperken door zoek en filterfuncties te gebruiken; uitpakken/lijst/test functies worden niet beperkt.
+txt_backupexe_hint: Als er iets fout gaat en een niet-functioneel resultaat tot gevolg heeft, kan u het originele uitvoerbaar bestand herstellen vanuit de automatische backup kopie
+txt_attach: Als het mailprogramma dat commando ondersteunt, zal het archief bij een nieuwe mail bijgevoegd worden
+txt_images: Afbeeldingen
+txt_include_hint: Bestand(en) invoegen, een per regel; gebruik * en ? wildcards; " en ' scheidingstekens zijn niet nodig
+txt_filters_hint: Inclusie- en exclusiefilters voor 7z programma, lees de 7-Zip documentatie goed om te begrijpen hoe deze filters werken
+txt_inclusion_recourse: Inclusie filters beschermde subdirs
+txt_inclusion: Inclusie:
+txt_error_function: Onjuiste functie gevraagd
+txt_info: Info
+txt_infoall: Info van alles
+txt_infodisp: Info van weergegeven object(en)
+txt_infosel: Info van geselecteerde object(en)
+txt_inputinfo: Invoerinformatie
+txt_input_list: Invoerlijst:
+txt_iop: invoer, uitvoer, parameters
+txt_ipo: invoer, parameters, uitvoer
+txt_input: invoer:
+txt_integrity: Integriteitscontrole
+txt_chunk_size: Ongeldige aangepaste grootte, voer een correct numerieke waarde in
+txt_invertsel: Selectie omkeren
+txt_type_exe: is een windows uitvoerbaar bestand, wilt u het uitvoeren? ("Nee" opent het in PeaZip's archiefverkenner; alleen NSIS installers, 7-Zip's sfx en .MSI installers kunnen op die manier verkent worden)
+txt_return_to_archive: is momenteel open; wilt u het verkennen?
+txt_not_accessible: is niet langer toegankelijk
+txt_type_unsupported: is niet een ondersteund archieftype
+txt_checkname_failed: is niet geldige naam.
+txt_not_accessible_list: is niet toegankelijk, controleer of de gegeven lijst correct en up to date is
+txt_theme_create_error: Het was niet mogelijk het thema aan te maken, probeer een geldige naam voor een map als themanaam te geven en kies een schrijfbaar pad
+txt_theme_exists: bestaat reeds, geef a.u.b. een ander pad op
+txt_job_code: taakcode:
+txt_job_definition_saved: Taakdefinitie succesvol opgeslagen in
+txt_job_success: Taak succesvol voltooid!
+txt_join: Samenvoegen
+txt_joinfiles: Bestanden samenvoegen
+txt_keyfile: Sleutelbestand
+txt_keyfile_not_found: Sleutelbestand niet gevonden of leesbaar. Kies een ander sleutelbestand.
+txt_keyfile_notcreated: Sleutelbestand niet aangemaakt
+txt_larger: groter dan geselecteerd object
+txt_lastused: Laatst gebruikt
+txt_launch: Taak starten
+txt_layout: Layout
+txt_filelist_savedas: Layout opgeslagen als
+txt_level: Niveau
+txt_license: Licentie
+txt_caption_list: Lijst
+txt_list_details: Lijst (met details)
+txt_list_all: Lijst alles
+txt_list_disp: Lijst weergegeven object(en)
+txt_list_sel: Lijst geselecteerd(e) object(en)
+txt_toggle_warning: Listing flat view of path's content may take long time, continue anyway?
+txt_loadfile: Bestand laden
+txt_loadlayout: Layout laden
+txt_unit_hd: Lokale schijf
+txt_localization: lokalisatie
+txt_lpaqver: LPAQ versie
+txt_type_description_lpaq: LPAQ: snellere versie van PAQ, zeer goede compressie
+txt_maininterface: Hoofdinterface
+txt_maxcomp: Max compressiemodus
+txt_level_maximum: maximum
+txt_restartrequired: Herstarten van de toepassing kan nodig zijn om toe te passen
+txt_required_memory: MB geheugen vereist
+txt_method: Methode
+txt_misc: Overige
+txt_modify: Aanpassen
+txt_morecontrols: Meer aansturing (geschiedenis, bladwijzers, ...)
+txt_morerecent: recenter dan geselecteerd object
+txt_ent_hint: Verplaats de muis, voer toetsen in het bewerken veld in, laad bestanden om genoeg entropie van het systeem te verzamelen...
+txt_moveto: Verplaatsen naar...
+txt_mypc: Mijn Computer
+txt_list_na: n/a
+txt_name: Naam
+txt_naming: Benoemingsbeleid
+txt_unit_remote: Netwerkschijf
+txt_newarchive: nieuw archief
+txt_cnewfolder: Nieuwe map
+txt_news: Nieuws
+txt_no: Nee
+txt_noinput: Geen toegankelijke invoer ontvangen
+txt_nocompress_hint: geen compressie (sneller)
+txt_split_noinput: Geen invoer geselecteerd; selecteer een bestand om te splitsen
+txt_open_noinput: Geen invoer geselecteerd; selecteer een archief (eerste volume van een multi-volume archief)
+txt_list_nomatch: geen overeenkomst
+txt_singlethread: geen multithreading
+txt_none2: geen
+txt_nonsolid: Niet-vast
+txt_level_normal: normaal
+txt_copy_error: niet succesvol gekopieerd of verplaatst, foutcode:
+txt_description: Notities
+txt_compare_second: Selecteer nu het bestand om mee te vergelijken
+txt_peaobj: Objectbesturing
+txt_displayed_obj: object(en)
+txt_objects: Objecten
+txt_on: on
+txt_ondblclick: Bij dubbelklik doe:
+txt_opacity: Ondoorzichtigheid
+txt_open: Openen
+txt_openarchive: Archief openen
+txt_title_open: Archief openen, ontsleutelen, samenvoegen...
+txt_open_bookmark: Bladwijzer openen
+txt_cphere: Commandoregel hier openen
+txt_open_file: Bestand openen
+txt_open_files: Bestand(en) openen
+txt_open_path: Pad openen
+txt_opensource: Open source cross-platform archiveerprogramma
+txt_openwith: Openen met...
+txt_aborted: Handeling afgebroken
+txt_unit_cd: Optische schijf
+txt_options: Opties
+txt_other: Andere
+txt_otherparams: Andere parameters (vrij bewerken)
+txt_oip: uitvoer, invoer, parameters
+txt_opi: uitvoer, parameters, invoer
+txt_output: uitvoer:
+txt_overwrite: Overschrijf bestaande bestanden
+txt_compressed_size: Ingepakt
+txt_paqver: PAQ versie
+txt_type_description_paq: PAQ: langzaam maar extreem krachtige compressie
+txt_pio: parameters, invoer, uitvoer
+txt_poi: parameters, uitvoer, invoer
+txt_parameters: Parameters:
+txt_error_partial: gedeeltelijk uitpakken niet geïmplementeerd voor huidig archieftype
+txt_passes: Herhalingen
+txt_pw: Wachtwoord
+txt_pwlength: Wachtwoordlengte in tekens (4..64)
+txt_un7z_browse_pw: wachtwoord kan vereist zijn
+txt_un7z_browse_pw_other: wachtwoord kan onjuist zijn
+txt_paste: Plakken (Ctrl+V)
+txt_path: Pad:
+txt_pea_appcolor: Pea toepassingskleur
+txt_pea_textcolor: Pea tekstkleur
+txt_type_description_pea: PEA: beveiligingsgeoriënteerd archiefformaat met snelle compressie
+txt_peazip_new: PeaZip (nieuwe start)
+txt_peazip_help: PeaZip help (online)
+txt_peazip_web: PeaZip project website
+txt_performall: Voer alle ondersteunde algorithmes uit
+txt_name_provide: Gebruik a.u.b. niet de volgende tekens: \ / : * ? ' " < > | 
+txt_upxorstrip: Please Kies a.u.b. Strip en/of UPX op het binair bestand
+txt_not_removable_file: Sluit bestanden a.u.b., anders kan PeaZip ze niet verwijderen:
+txt_not_removable: Sluit bestanden in gebruik a.u.b., anders kan PeaZip ze niet verwijderen uit de map:
+txt_custom_executable_missing: Geef a.u.b. de naam van het aangepaste uitvoerbaar bestand
+txt_type_unsupported_select: Selecteer a.u.b. een ondersteund archieftype:
+txt_no_theme_name: Geef a.u.b. de naam van een thema op
+txt_please_wait: Even wachten a.u.b.
+txt_copy_wait: Wacht op het voltooien van de huidig ingeroosterde bestandskopieer/-verplaatshandelingen voordat andere handelingen van hetzelfde type ingeroosterd moeten worden
+txt_previewwith: Voorbeeld met...
+txt_projectadmin: Projectbeheerder:
+txt_type_description_quad: BALZ/QUAD: hoge prestatie ROLZ-gebaseerde bestandscompressie
+txt_quickdelete: Snel verwijderen
+txt_quit: Afsluiten
+txt_unit_ram: RAM-schijf
+txt_read: Leest:
+txt_recentarchives: Recente archieven   
+txt_rr_hint: Herstellingsgegevens stellen in staat archieven te corrigeren in het geval dat deze gegevens beschadigd zijn geraakt
+txt_search_refine: Zoekfilters verfijnen, accepteert ? en * wildcards
+txt_fefreshf5: Verversen (F5)
+txt_release: uitgave:
+txt_unit_removable: Verwijderbare eenheid
+txt_remove_bookmark: Bladwijzer verwijderen
+txt_remove_external_unit: Verwijder externe eenheid/-heden
+txt_removeselected: Geselecteerd(e) object(en) verwijderen
+txt_rename: Hernoemen
+txt_caption_repair: Repareren
+txt_restartrequired2: vereist herstarten van de toepassing om toe te passen
+txt_reset: Herinitialiseren
+txt_reset_archivename: Archiefnaam herinitialiseren
+txt_hardreset: Bladwijzers herinitialiseren
+txt_reset_theme: Herinitialiseer naar standaardthema
+txt_soft_reset: Herstart toepassing met de standaard configuratiewaarden, wis recente archiefgeschiedenis, laat bladwijzers staan
+txt_restore_att: herstel originele attributen
+txt_run_as: Start als (kan niet van gebruiker veranderen met leeg wachtwoord)
+txt_run_as2: Start als andere gebruiker
+txt_sample: Sample: 
+txt_saveas: Opslaan als
+txt_savehistory: Sla geschiedenis van laatst gebruikt archief op
+txt_save_infolder: Opslaan in map (auto)
+txt_savejob: Taak opslaan
+txt_savejobdefinition: Taakdefinitie opslaan
+txt_savejobdefinition_hint: Sla taakdefinities als platte tekst op; u kan deze vanuit uw scripts gebruiken
+txt_savelayout: Layout opslaan
+txt_save_winstate: Hoofdvensterstatus opslaan
+txt_search: Zoek (recursief), kan even duren
+txt_searchanddrag: Zoeken en hierheen slepen
+txt_searchfor: Zoeken naar:
+txt_nrsearch: Zoek hier (niet recursief)
+txt_search_hint: Zoek in subdirectories van archief voor overeenkomsten met filter(s)
+txt_search_web: Zoeken op het web
+txt_list_searching: Zoeken...
+txt_securedelete: Veilig verwijderen (van bestanden)
+txt_default_description: Selecteer een functie of sleep bestanden hierheen
+txt_selectall: Alles selecteren
+txt_selectdir: Selecteer directory
+txt_selected_obj: geselecteerd
+txt_selected_objects: Geselecteerde objecten
+txt_sfx: Zelf-uitpakkend
+txt_sendbymail: Verstuur met email (indien ondersteund)
+txt_set_defaults: Zet standaardparameters van de toepassing
+txt_settings: Instellingen
+txt_sfx_interface: sfx interface
+txt_showhints: Tips weergeven
+txt_show_messages: Informatieberichten weergeven
+txt_showpw: Inhoud van wachtwoordveld weergeven
+txt_singlevol: Enkel volume
+txt_size: Grootte
+txt_sizeb: Grootte (B)
+txt_skip_existing: Bestaande bestanden overslaan
+txt_slowercomp: Langzamere compressie maar even snelle decompressie
+txt_smaller: kleiner dan geselecteerd object
+txt_solid: Vast
+txt_solid_block: Vast blok
+txt_solid_auto: Vast, auto-aanpassing
+txt_solid_extension: Vast, groepeer op extensie
+txt_tarbeforepj: Sorry, kan commandoregel van taakdefinitie niet importeren als de "eerst TAR" optie actief is, omdat de taak als twee losse commando's uitgevoerd wordt 
+txt_listtest: sorry, lijst/test-handeling nog niet geïmplementeerd voor dit formaat
+txt_sortbysel: Sorteer op selectie status
+txt_list_sorting: Sorteren...
+txt_speed: snelheid
+txt_split: Splitsen
+txt_type_description_split: Splits een bestand met optionele integriteitscontrole
+txt_split_file: Splits bestand
+txt_list_nostats: statistieken niet beschikbaar
+txt_status: Status
+txt_level_store: bewaren
+txt_stream_control: Streambesturing
+txt_strip: Strippen vóór UPX (aanbevolen)
+txt_keyfile_created: Sleutelbestand succesvol aangemaakt als:
+txt_suggestpw: Wachtwoordsuggestie
+txt_noupx: Symbolen gestript, UPX compressie overgeslagen
+txt_syntax: Syntax:
+txt_sysbenchmark: Systeem benchmark
+txt_benchmark: Systeem benchmark zal enkele minuten duren en zal alle beschikbare CPU en geheugenbronnen gebruiken. Het kan zijn dat het systeem niet reageert tijdens de benchmark; toch starten?
+txt_systools: Systeemgereedschappen
+txt_tarbefore: eerst TAR
+txt_type_description_tar: TAR: archiveringsformaat, veelgebruikt op UNIX systemen
+txt_taskman: Taakbeheer
+txt_caption_test: Test
+txt_testall: Alles testen
+txt_testdisp: Test weergegeven object(en)
+txt_testpw: Test wachtwoord / sleutelbestand
+txt_testsel: Test geselecteerd(e) object(en)
+txt_col_hint: De kleur moet gekozen worden om goed met de ikoonkleuren en andere GUI elementen te integreren.
+txt_bookmarks_hint: De complete en bewerkbare lijst van bladwijzers is beschikbaar in de bestandsverkenner interface, klik op de "Meer aansturing" ikoon en op "Wissel geschiedenis/bladwijzers"
+txt_archive_noinput_tolist: De layout is leeg: Voeg a.u.b. bestand(en) of map(pen) toe of Laad Layout om de archieflayout te vullen
+txt_theme: Thema
+txt_icons_found: Thema succesvol geladen.
+txt_themename: Thema-naam
+txt_icons_not_found: Thema niet correct geladen. Probeer standaard thema te laden, of naar een zeker werkende.
+txt_theme_create_success: thema succesvol aangemaakt in
+txt_theme_not_loadable: Thema's en afbeeldingsmap moeten in PeaZip's pad zijn
+txt_theming: Thema's
+txt_extand_error: Deze functie kan maar op een object per keer toegepast worden
+txt_threads: Threads
+txt_titlescolor: Titelkleur
+txt_to: naar
+txt_toggle_browseflat: Wissel verkennen/platte weergave
+txt_toggle_historybookmarks: Wissel geschiedenis/bladwijzers
+txt_toolbarscolor: Gereedschappenbalkkleur
+txt_tools: Gereedschappen
+txt_best: probeer beste instellingen (langzaam)
+txt_type: Type
+txt_level_ultra: ultra
+txt_error_openfile: Niet in staat om opgegeven bestand te openen
+txt_cl_hint: UNACE en UPX draaien altijd in console modus; lijst, test en benchmark taken draaien altijd in de GUI modus
+txt_ace_missing: UNACE plugin ontbreekt; voor het gebruik van ACE archieven, download de plugin van de PeaZip website (UNACE is geslote bron software, de plugin is niet bijgevoegd in het basispakket)
+txt_units: eenheden
+txt_unit_unknown: Onbekende schijftype
+txt_un7z_pw_untested: Ongetest
+txt_up: Omhoog
+txt_update: bijwerken (als archief bestaat)
+txt_type_description_upx: UPX: alleen uitvoerbare bestanden comprimeren
+txt_advfilters: Gebruik geavanceerde filters
+txt_openfiles_hint: Gebruik deze optie om door andere programma's geopende archiefbestanden in te voegen (handig bij backup taken)
+txt_usenet: Usenet
+txt_user_name: Gebruikersnaam; gebruik gebruiker@DOMEIN of DOMEIN\gebruiker formaat indien nodig.
+txt_using: Gebruikt:
+txt_volumepea: Volumebeheer
+txt_volume_size: Volume grootte
+txt_type_ext_uns: was successvol uitgepakt
+txt_websearch: Web zoeken
+txt_websites: Websites
+txt_word: Woord
+txt_write: Schrijft:
+txt_ramdompw_hint: U kan het willekeurig gegenereerde wachtwoord vanuit hier kopiëren
+txt_exe_hint: You can freely enter executable name and parameters for custom compression, and chose syntax's contruction. Please note that you can also manually change command's syntax in "Console" tab.
+txt_pj_hint2: U kan de taakdefinitie vanuit de GUI interface naar het veld hier beneden importeren. Dan kunt u het aanpassen, starten en opslaan zonder de definitie van de GUI interface te veranderen of te verliezen.
+txt_type_description_zip: ZIP: snel archiverings/compressieformaat, veelgebruikt op Windows systemen
+txt_zipcrypto_hint: ZipCrypto (legacy)
+
+=== end PeaZip text group ===
+
+=== PeaLauncher text group ===
+
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: Archief openen
+txt_2_5_ace_missing: UNACE plugin ontbreekt; voor het gebruik van ACE archieven kan u deze plugin van de PeaZip website downloaden (UNACE is gesloten bron software en daarom niet aanwezig in het basispakket)
+txt_2_3_pw_errorchar_gwrap: : dit teken kan onder het huidige systeem niet door PeaLauncher in wachtwoorden gebruikt worden, verander uw wachtwoord of kies Console modus in Gereedschappen > Instellingen
+txt_2_3_renameexisting: Auto-hernoem bestaande bestanden
+txt_2_3_renameextracted: Auto-hernoem uitgepakte bestanden
+txt_2_3_cancel: Annuleren
+txt_2_3_encryption: Encryptie
+txt_2_3_extinnew: Uitpakken naar nieuwe map
+txt_2_3_keyfile: Sleutelbestand
+txt_2_3_kf_not_found_gwrap: Sleutelbestand kan niet gevonden of gelezen worden. Kies een ander sleutelbestand.
+txt_2_3_moreoptions: Meer opties...
+txt_2_3_nopaths: Geen paden
+txt_2_3_options: Opties
+txt_2_3_overexisting: Overschrijf bestaande bestanden
+txt_2_3_pw: Wachtwoord
+txt_2_3_skipexisting: Bestaande bestanden overslaan
+txt_job_unknown: : Onbekende fout tegengekomen
+txt_stdjob: [animatie zal stoppen en taak zal een popup geven bij voltooing]
+txt_benchmarkjob: [system will respond slowly while running the benchmark (some minutes)]
+txt_defragjob: [zal niet reageren tijdens defragmenteren, u kan het op de achtergrond laten lopen]
+txt_consolejob: [u kan gedetaileerde voortgang in het consolevenster van de taak zien]
+txt_job1: 1: Waarschuwing: niet-fatale fout(en); bijv. enkele bestanden ontbreken of zijn vastgezet
+txt_job127: 127: Kan gevraagde handeling niet uitvoeren
+txt_job2: 2: Fatale fout tegengekomen
+txt_job255: 255: Taak gestopt door de gebruiker
+txt_job7: 7: Fout: kreeg ongeldige commandoregel
+txt_job8: 8: Fout: niet genoeg geheugen voor gevraagde handeling
+txt_autoclose: Sluit dit venster als de taak voltooit
+txt_crscale: Compressieratio (lager, beter):
+txt_console: Console
+txt_benchscale: Core 2 Duo 6600 scoring, equivalente MHz snelheid.
+txt_create: Aanmaken
+txt_done: Klaar:
+txt_nocl: Lege commandoregel
+txt_error: Fout:
+txt_explore: Verkennen
+txt_extto: Uitpakken naar
+txt_halt: Systeemstoppen als taak voltooid
+txt_halted: Gestopt:
+txt_hardware: hardware
+txt_high: hoge prioriteit
+txt_checkpw: Hint: controleer of een wachtwoord nodig is om de taak uit te voeren
+txt_idle: idle prioriteit
+txt_input: Invoer:
+txt_jpaused: Taak gepauzeerd
+txt_jresumed: Taak hervat
+txt_job_started: Taak gestart
+txt_jobstatus: Taakstatus:
+txt_jstopped: Taak gestopt door de gebruiker
+txt_jobstopped: Taak gestopt door de gebruiker; u kan de gedeeltelijke uitkomst inspecteren door op de "Verkennen"knop te klikken of het logboek van de taak te lezen
+txt_job_success: Taak succesvol voltooid
+txt_lt: Lijst/test/repareer archief
+txt_normal: normale prioriteit
+txt_ok: Ok
+txt_output: Uitvoer:
+txt_pause: Pauze
+txt_paused: gepauzeerd,
+txt_p_high: Prioriteit naar hoog gezet
+txt_p_idle: Prioriteit naar idle gezet
+txt_p_normal: Prioriteit naar normaal gezet
+txt_p_realtime: Prioriteit naar real time gezet
+txt_rating: Scoring:
+txt_rt: real time prioriteit
+txt_report: Rapport
+txt_resume: Hervatten
+txt_priority: Rechtsklik om de prioriteit van de taak in te stellen
+txt_running: loopt,
+txt_isrunning: Loopt...
+txt_saveas: Opslaan als
+txt_savejob: Taakdefinitie opslaan (mag wachtwoord bevatten!)
+txt_savelog: Taaklogboek opslaan
+txt_software: software
+txt_speedscale: Snelheid, logaritmische schaal (hoger, beter):
+txt_status: Status
+txt_stop: Stop
+txt_bench: System benchmark
+txt_threads: Threads:
+txt_time: Tijd:
+
+=== end PeaLauncher text group ===
+
+=== about text group ===
+
+ARCHIEVEN MAKEN
+
+1) Voeg items aan de archieflayout toe vanuit het systeemcontextmenu en Kopiëren naar menu, door klikken en slepen of vanuit de kloppen en menu's in de toepassing;
+2) Klik op de "Maak" knop om het archief aan te maken.
+
+Gebruik:
+- "Opties" tabblad om archiefformaat, compressie en encryptie gerelateerde parameters aan te passen;
+- "I/O" tabblad voor invoer / uitvoer opties;
+- "Filters" tabblad voor gebruik van geavanceerde exclusiefilters, indien beschikbaar voor het gekozen archiefformaat;
+- "Console" tabblad voor analyseren en aanpassen van de taaksyntax, of de taak als commandoregel te exporteren.
+
+Alternatief, in een enkele handeling kan u ieder invoeritem naar een gescheiden archief vanuit het systeemcontextmenu schrijven, en van het Kopiëren naar menu kan u meerdere items aan een enkel archief toevoegen.
+
+In archieflayout kan u ook:
+- Op een object dubbelklikken om het te openen
+- Selecteer een bestand en druk "\" of "Bestandshulpmiddelen > Splits bestand" om het te splitsen
+- Selecteer een bestand en druk "<" of "Bestandshulpmiddelen > Bestanden vergelijken" om het byte voor byte te vergelijken met een ander bestand
+- Selecteer meerdere objecten en druk "?" of "Bestandshulpmiddelen > Controle-som/hash bestand(en)" om een controlesom of hash voor bestanden te berekenen
+- Selecteer meerdere objecten en druk "*" of "Veilig verwijderen (van bestanden)" voor veilige bestandsverwijdering
+
+
+ARCHIEVEN OPENEN
+
+1) Open archieven door bestandsassociaties, of vanuit het systeemcontectmenu en Kopiëren naar menu ingangen, of vanuit PeaZip's knoppen en menu's
+2a) Klik "Alles uitpakken" om het archief uit te pakken, of "Alles uitpakken naar" om gevraagd te worden naar een uitvoerpad;
+2b) Dubbeklik of druk enter op een gearchiveerd object om een voorbeeld te zien met een geassocieerde toepassing, of open het in PeaZip als het een archief is, of verken het als het een directory is;
+2c) Selecteer gearchiveerde objecten en drukk om de middelste muisknop of de spatiebalk om ze uit te pakken (uitvoerpad zal gevraagd worden);
+2d) Rechtsklik als u contextmenuingangen wilt gebruiken om alle beschikbare functies uit te voeren, zoals geselecteerde of weergegeven objecten uit te pakken, voorbeelden, testen, lijsten, bestanden toevoegen of verwijderen, etc...
+Hint: als u een archief naar een verse nieuwe directory wenst uit te pakken, gebruik de  "Uitpakken naar nieuwe map" optie in het contextmenu (of I/O tabblad), of druk op \ of Ctrl+N als u in de archiefverkenner bent.
+
+Gebruik:
+- "Opties" tabblad om formaat-specifieke parameters aan te passen;
+- "I/O" tabblad voor invoer / uitvoer opties, inclusief "Uitpakken naar nieuwe map" optie (ook beschikbaar vanuit context menu);
+- "Filters" tabblad voor gebruik van geavanceerde inclusie- en exclusiefilters, indien beschikbaar voor het archiefformaat;
+- "Console" tabblad voor analyseren en aanpassen van de taaksyntax, of de taak als commandoregel te exporteren.
+
+Alternatief, kan u meerdere archieven tegelijkertijd uitpakken vanuit het contextmenu van uw systeem.
+
+
+TAAL VERANDEREN
+De gebruikersinterface is beschikbaar in diverse talen: Gereedschappen > Instellingen > Localisatie
+
+
+OVER PEAZIP
+
+PeaZip vrij archiveerprogramma is een cross-platform, open source archiverings-, encryptie- en bestandssplijtingsgereedschap; het ondersteunt vele archieveer- en compressieformaten.
+
+Schrijven: 7Z, 7Z-sfx, ARC, BZ2, GZ, PAQ/LPAQ, PEA, QUAD, split, TAR, UPX, ZIP
+
+Lezen: zie volledige lijst op http://peazip.sourceforge.net/peazip-free-archiver.html
+
+Aangepaste archieven kunnen ondersteund worden door aangepaste uitvoerbare bestanden en syntaxis op te geven in het "Opties" tabblad.
+
+Andere features: splitsen/samenvoegen van bestanden, wissen bestanden (veilig verwijderen), vergelijken, controlesom en hash berekenen van bestanden, systeem benchmark, willekeurig aanmaken van wachtwoorden en sleutelbestanden.
+
+PeaZip laat u archieflayouts aanpassen, opslaan en herstellen; pas krachtige filters op archiefinhoud toe; gebruik meerdere archieven tegelijkertijd; exporteer taakdefinities als commandoregel; versleutel met AES256, etc.
+PeaZip_portable is een losstaande toepassing met dezelfde mogelijkheden als PeaZip; het vereist geen installatie en kan gebruikt worden vanaf verwijderbare media (USB sticks, externe paden...) zonder het systeem aan te passen.
+Meestgebruikte functies zijn geïntegreerd in het Kopiëer naar en context menu (op Windows) en als .desktop bestanden voor contextuele menu's (op Linux); systeemintegratie is atomatisch in installeerbare paketten en kan door gebruikers aangepast worden voor zowel installeerbare als portable paketten (zie online documentatie).
+PeaZip is cross-platform en loopt op 32 en 64 bit Windows (9x, 2000, XP, Vista) en Linux.
+
+Downloads en changelog: http://peazip.sourceforge.net/
+Alle downloads: http://sourceforge.net/projects/peazip/
+Online hulp: http://peazip.sourceforge.net/peazip-help.html
+FAQ: http://peazip.sourceforge.net/faq.html
+
+
+Veel dank aan alle mensen die bijdragen aan de groeiende PeaZip project ontwikkeling van open source componenten, gebruikt in deze toepassing (zie website voor een complete lijst), en aan alle gebruikers met feedback, ervaring en adviezen. 

@@ -1,0 +1,781 @@
+﻿=== PeaZip language file ===
+Українська
+2.7
+Перекладено Міщенко О.С., sasha[at]mishchenko.tk
+Last rev. by: Giorgio Tani (please review the translation)
+Last rev.: 20090909
+ 
+=== PeaZip text group ===
+ 
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (folders)
+txt_2_6_advanced: Advanced
+txt_2_6_plalways: Always keep open to inspect job's report
+txt_2_6_plsmart: Keep open only if needed (error, list or test reports)
+txt_2_6_rec: Recoursive: search in subdirectories
+txt_2_6_special: Special formats (ACE, ARC, PEA)
+txt_2_5_sessionio: (ця сесія)
+txt_2_5_advanced: Розширене редагування:використовується якщо треба пропуск між параметрами та іменем додатку
+txt_2_5_basic: Основне редагування: ім'я додатку
+txt_2_5_cannotrun: Не можу виконати
+txt_2_5_custeditors: Власні лаштунки асоціацій файлів
+txt_2_5_delete: Видалити
+txt_2_5_delete_fromarchive: Видалити з архіву
+txt_2_5_langflag: Відображати заархівовані файли як UTF-8; вимкнути заміну невідомих символів на “?”.
+txt_2_5_encpj: Декодувати як UTF-8 текст
+txt_2_5_execommand: Виконуваний або команда
+txt_2_5_help: Допомога
+txt_2_5_langhint: Підказка:заміна розширених символів на “?” має надає можливості читання архівуі, якщо кодування вихідних файлів неприйнятне на вашій машин.
+txt_2_5_mini_help: Початкове керівництво
+txt_2_5_offline_help: Допомога PeaZip
+txt_2_5_tray: Заховати в трей
+txt_2_5_remove: Видалити
+txt_2_5_hintpaths: Права кнопка миші вкаже на шляхи які можуть бути відкриті
+txt_2_5_selectapp: Виберіть додаток
+txt_2_5_strafter: Рядок після введеного імені
+txt_2_5_strbefore: Рядок перед введеним ім'ям
+txt_2_5_encoding: Кодування тексту
+txt_2_5_nopw: цей тип архіву не підтримує шифрування
+txt_2_4_draghint: [пересуньте до Explorer з дозволеною адресною панеллю]
+txt_2_4_tb: Адаптування кнопок панелі (перезавантаження PeaZip)
+txt_2_4_adding: Додавання
+txt_2_4_advclip: Додатково:зберегти множинні виділення в кишені(не дублікати),очистяться після копіювання
+txt_2_4_yanswers: Відповіді
+txt_2_4_itemsheight: Автовирівнювання по висоті
+txt_2_4_clearclipboard: Очистити кишеню (Esc)
+txt_2_4_wcommons: Порції
+txt_2_4_copyfrom: Копіювати з
+txt_2_4_deletebookmarks: Чи бажаєт е видалити перелік файлів та тек в закладках?
+txt_2_4_documents: Документи
+txt_2_4_wenc: Енциклопедія
+txt_2_4_extractfrom: Витягти з
+txt_2_4_hexp: Hex перегляд
+txt_2_4_operation: Дія
+txt_2_4_path: шлях лише для читання, вкажіть шлях з моливістю запису
+txt_2_4_removefromclipboard: Видалити з кишені
+txt_2_4_stdclip: Типовий:зберегти одиночні виділення в кишені,очищиться вирізання після копіювання
+txt_2_4_totalmem: всього пам'яті
+txt_2_4_gvideo: Відео
+txt_2_4_wbook: Wiki-книга
+txt_2_4_wnews: Wiki-новини
+txt_2_4_wsrc: Wikisource
+txt_2_4_wdict: Wiktionary
+txt_2_3_pw_errorchar: : Ваша операційна система не дозволяє графічній оболонці PeaZip використовувати цей символ в паролі. Будь ласка змініть пароль або виберіть режим консолі в "Знаряддя > Лаштунки"
+txt_2_3_envstr: Відобразити змінні оточення
+txt_2_3_never_pw: Не питати пароль
+txt_2_3_home: Домашня тека користувача
+txt_2_3_on_pw: Розпакувати/перегляд/перевірка з меню системи:
+txt_2_3_test_pw100: Перевірка шифрування архивів <100MB
+txt_2_3_test_pw: Перевірка шифрування (уповільнено)
+txt_exclude_recourse: Виключаючи підтеки
+txt_action_extopen: Витягнути та відкрити іншою програмою
+txt_error_passwordnotmatch: Поля "пароль" та "підтвердження пароля" не співпадають
+txt_action_preview: Перегляд іншою програмою
+txt_preview_hint: "Перегляд" - дія, схожа на "Витягнути та відкрити",  тільки дані розміщуются в тимчасову теку, і після закриття архіву будут видалені.
+txt_better: (краще)
+txt_default2: (по замовчанню)
+txt_faster: (швидше)
+txt_fastermem: (швидшее, меньше пам'яті)
+txt_tempdir: (тимчасова тека PeaZip)
+txt_stream: (встановлено "Керівником потоку")
+txt_slowermem: (повільніше, більше пам'яті)
+txt_store: (найшвидше)
+txt_newfolder: (у нову теку)
+txt_7z_exitcodeunknown: : Невідома помилка
+txt_list_isfolder: [тека]
+txt_none: <відсутній>
+txt_fd: 1.44 MB дискета
+txt_7z_exitcode1: 1: Увага: не фатальна помилка; деякі файли відсутні або заблоковані
+txt_attach10: 10 MB (ліміт вкладень)
+txt_7z_exitcode2: 2: Фатальна помилка
+txt_7z_exitcode255: 255: Завдання перевано користувачем
+txt_fat32: 4 GB (максимальний розмір файлу в FAT32)
+txt_dvd: 4.7 GB DVD
+txt_attach5: 5 MB (ліміт вкладень)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: Помилка: хибний командний рядок
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7Z: опція формату архіву з високою степінню зтиснення
+txt_dvddl: 8.5 GB DVD DL
+txt_7z_exitcode8: 8: Помилка: недостатньо пам'ятs для виконання дії
+txt_abort: Перервати заплановані дії копіювання/перемещення файлів ?
+txt_about: Про програму
+txt_action: Дія
+txt_action_hint: При відкритті чи перегляді в іншій програмі
+txt_add: Додати
+txt_add_existing_archive: додати (якщо архів існує)
+txt_add_archive: Додати архів
+txt_add_files: Додати файл
+txt_add_folder: Додати теку
+txt_add_path: Додати шлях
+txt_add_tolayout: Додати виділені файли та теки в архів
+txt_add_toarchive: Додати в архів
+txt_add_tobookmarks: Додати в закладки
+txt_address_hint: Адрес: Доlfnb значки ? для символів та * для рядків; не потребуются " або ' як розділювач
+txt_adv_filters: Додаткові фільтри
+txt_algo: Алгоритм
+txt_all: Все
+txt_all_default: Все (за замовчанням)
+txt_all_type: Всі об'єкти даного типу
+txt_all_date: Всі об'єкти з датою...
+txt_all_psize: Всі об'екти з запакованим розміром
+txt_all_attributes: Всі об'екти з даними атрибутами
+txt_all_size: Всі об'екти з розміром...
+txt_error_input_upx: дозволити поодинокі виконавчі файли на вході
+txt_always_pw: Завжди питати пароль
+txt_ignore_ext: Завжи минати шлях для "Витягнути і..."
+txt_ignore_disp: Завжди минати шлях для "Витягнути переглянуті"
+txt_ignore_sel: Завжди ігнорувати шлях для "Витягнути виділені"
+txt_key_hint: Добавити інформацію про ключовий файл в пароль; архів может буыть розшифрований PeaZip або іншою программою, або введенням цієї інформації як частини пароля
+txt_timestamp: Добавити час до імені архіву
+txt_appoptions: Опції програми
+txt_type_description_arc: ARC: пробний архіватор, потужний, эфективний та богатий опціями
+txt_archive: Архів
+txt_un7z_browse_ok: архів вдало відкрито
+txt_interface: Інтерфейс переглядача архіву 
+txt_archivecreation: Створення архиву
+txt_tarbefore_hint: Архивувати дані спочатку в TAR, а потім вже в вибраний тип архіву
+txt_archive_hint: Архівує, зтискає, разделяє окремі файли,теки та диски
+txt_compressionratio_hint: Ступінь зтискання архіву
+txt_archiving: Архівація:
+txt_cl_long: Размір файлів перевищує максимальний розмір, що може обробити PeaZip, виберіть меньшу кількість файлів
+txt_overwrite_askbefore: Запитувати перед перезаписом (використовується в консольних режимах)
+txt_associated: інша програма
+txt_attributes: Атрибути
+txt_author: Автор
+txt_ren_existing: Автоперейменування існуючих файлів
+txt_ren_extracted: Автоперейменування витягнених файлів
+txt_autofolder: Автоматично створити теку, в яку буде розпаковано архів?
+txt_back: Назад
+txt_backend: бінарний користувацький інтерфейс
+txt_backupexe: резерв. копіювання програм (рекомендується)
+txt_bettercompression: краще зтискання
+txt_blogs: Блоги
+txt_blowfish: Blowfish448 (64-бітні блоки)
+txt_bookmarks: Закладки
+txt_browse: Перегляд
+txt_browser: Корнева тека архіву
+txt_aborted_error: Перегляд архіву встановлено - це займе дуже багато часу. Ви можете користуватися функциєю фільтрів
+txt_list_browsing: Перегляд:
+txt_archive_root: Перегляд корневої теки архіву:
+txt_type_description_bzip2: BZip2: доволі сильне зтискання, середня швидкість
+txt_pw_empty: Не можна використовувати пустий пароль. Введіть пароль або не використовуйте дію шифрування
+txt_add_error: Не можу добавити, поновити або видалити об'єкти: мабуть даний тип архіву підтримує лише витягування файлів
+txt_un7z_browse_failure: не можу переглянути архів
+txt_list_error: Не можу відобразити змуст архіву: можливо архів зашифровано або пошкоджено.
+txt_conf_cannotsave: Не можу зберегти файл лаштунків. Зніміть захист від запису або перевірте наявність вільного місця на носії.
+txt_check_hint: перевірка на елементарне пошкодження даних
+txt_check: Контрольна сума/hash файли
+txt_check_select: Контрольная сума/hash для виконання
+txt_clear: Очистити
+txt_clearlayout: Очист.перелік
+txt_pj_hint: Натисніть для імпортування завдань та зкидання лаштунків
+txt_autoclose: Закрити PeaLauncher при завершенні всіх завдань
+txt_cl: командний рядок:
+txt_compare: Порівняти файли
+txt_compress: Зтиснути
+txt_compress_executable: Зтиснення виконавчих файлів
+txt_compress_openforwriting: Відкривати для запису
+txt_compression: Зтиснення
+txt_compmanagement: Керування компютером
+txt_pw_confirm: підтверждення паролю
+txt_console: Консоль
+txt_console_interface: консоль: рідной інтерфейс
+txt_content: Зміст
+txt_controlpanel: Панель керування
+txt_convert: Конвертувати диск в NTFS
+txt_copy: Копіювати (Ctrl+C)
+txt_copyto: Копіювати в...
+txt_create: Створити
+txt_create_archive: Створити архів
+txt_title_create: Створити архів, зтиснути, шифрувати, розділити...
+txt_create_keyfile: Створити ключевий файл
+txt_create_folder: Створити нову теку
+txt_create_theme: Створити нову тему з даних лаштунків:
+txt_rr: Створити записи відновлення
+txt_create_sfx: Створити саморозгортаємий архів
+txt_cr_current: Шлях або фільтр ступені стиснення
+txt_custom: Вибірково
+txt_type_description_custom: Вибірково: ввести ім'я викон.файлу і параметри
+txt_customapp: вибірковий додаток
+txt_custom_parameters: Вибіркові параметри
+txt_customsize: Вибірковий розмір
+txt_cut: Вирізати (Ctrl+X)
+txt_datetime: Дата/час
+txt_default: по замовчанню
+txt_default_compression: зтиснення по замовчанню
+txt_default_format: Формат по замовчанню
+txt_theme_default:Тема по замолчанню
+txt_hard_reset_hint: Удалить файли-закладки
+txt_desktop: Робочий стіл
+txt_dictionary: Словник
+txt_dirs: шлях(и)
+txt_dis: Оновлення:
+txt_disk_cleanup: Очистка диску
+txt_disk_defrag: Дефрагментація
+txt_disk_management: Керування диском
+txt_dispaly: Показувати результати як
+txt_displayedmnu_obj: зображено
+txt_displayedobjects: Зображено об'єкти
+txt_nocompress: не зтискати
+txt_delete: Ви впевнені що хочете видалити вибрані файли? Після цієї дії файли не можна буде відновити
+txt_wipe: Ви впевнені що хочете видалити вибрані файли? Після цієї дії файли не можна буде відновити
+txt_done: Готово
+txt_edit: Правка
+txt_elapsed: пройшло:
+txt_error_emptycl: Порожній командний рядок!
+txt_encrypt: Розшифрувати
+txt_encrypted: Розшифровано
+txt_encryption: Розшифрування
+txt_note: Введіть коментар
+txt_random_keys: Натисніть будь-які клавіші
+txt_random_keys_hint: Натисніть будь-які клавиші (не запом'ятовувати)
+txt_ent: Оцінка ентропії
+txt_ent_tools: Зразки ентропії
+txt_eqorlarger: рівним або більшим, чим виділені об'єкти
+txt_eqorrecent: рівною чи пізнішою, ніж у вибраного об'єкту
+txt_eqorolder: рівною або більш ранньою, ніж у вибраного об'єкту
+txt_eqorsmaller: рівним або меншим, ніж вибранний об'єкт
+txt_equal: як у вибраного об'єкту
+txt_erase_hint: Знищення файлів:перезапис випадковими даними,ховання розміру,перейменування,кінцеве видалення
+txt_extraction_error: Помилка витягання виділених об'єктів. Якщо архів захищено паролем, введіть його.
+txt_exclude_hint: Виключити файл(и)
+txt_exclusion_recourse: Виключення фільтрів підтек
+txt_exclusion: Виключення:
+txt_exe: Виконуваний(і)
+txt_overwrite_qry: Вже присутній; записати поверх з таким же ім'ям? (Відміна: пропустити копіювання цього файлу)
+txt_confirm_overwrite: вже існує; замінити ? (не пропускати)
+txt_explore_outpath: Огляд шляху призначення
+txt_explore_path: Огляд шляху
+txt_ext: Ext:
+txt_caption_extract: Витягти
+txt_ext_nopath: Витягти (ігнорувати шлях)
+txt_ext_all: Витягти все
+txt_ext_allhere: Витягти все сюди
+txt_ext_allto: Витягти все в ...
+txt_extopen_custom: Витягти та відкрити в іншій програмі
+txt_extopen_with: Витягти та відкрити з допомогою...
+txt_ext_disp_here: Витягти зображені
+txt_ext_disp: Витягти зображені об'єкти
+txt_ext_disp_to: Витягти зображені об'єкти в...
+txt_ext_here: Витягти сюди
+txt_ext_sel_here: Витягти виділені сюди
+txt_ext_sel: Витягти виділені об'єкти
+txt_ext_sel_to: Витягти виділені об'єкти в...
+txt_extobj: Витягти об'єкт
+txt_newfoldermenu: Витягти в нову теку
+txt_extto: Витягти в...
+txt_level_fast: швидко
+txt_fastcompr: швидке зтиснення
+txt_fastopen: Швидке відкриття,закінчується якщо файл існує
+txt_level_fastest: дуже швидко
+txt_favformats: вибрані формати
+txt_file: Файл
+txt_filebrowser: Перегляд файлу/архіву
+txt_filetools: Файлові знаряддя
+txt_files: файл(и),
+txt_nfiles: Файли
+txt_fs: Файлова система
+txt_type_custom_selected: тип файлу не підтримується PeaZip, але вы можете налагодити PeaZip щоб відкрити цей тип файлів в закладці "Лаштунки".Продовжити відкриття?
+txt_filters_recourse: підтеки фільтрів
+txt_filters: Фільтри
+txt_flat: Розгорнутий вид(зміст архивів)
+txt_list_flat: Розгорнутий вид:
+txt_unit_floppy: Дискета
+txt_foldername: Ім'я теки
+txt_nfolders: Теки
+txt_error_input_multi: формат може працювати з окремим файлом; ви можете використовувати дію "в TAR" щоб зберегти файли в форматі TAR до архівування,або можете вибрати інший формат
+txt_format_options: Лаштунки формату
+txt_fwd: Далі
+txt_list_found: Знайдено:
+txt_free: Вільно
+txt_free2: вільно
+txt_name_full: Повне ім'я
+txt_function: Функція
+txt_general: Головне
+txt_multithreading: проста багатопотоковість
+txt_go_browser: Перейти до вікна перегляду
+txt_go_path: Перейти до шляху об'єкту
+txt_guicl: графіка + консоль
+txt_guipealauncher: графіка: приховано PeaLauncher
+txt_graphic: Графічна тека
+txt_gridaltcolor: Колір таблиці
+txt_gridrowheight: Висота рядків таблиці
+txt_gui: GUI
+txt_type_description_gzip: GZip: швидке зтиснення
+txt_here: сюди
+txt_list_history: Історія
+txt_homeroot: корнева тека архіву
+txt_quickbrowse_hint: Якщо перегляд зупинено то користувач може звузити вибір, використовуючи пошук або фільтр;це не діє на витягнення та перегляд файлів
+txt_backupexe_hint: Якщо щось піде не так, ви зможете відновити додаток з резервної копії
+txt_attach: Якщо поштовий клієнт підтримує цю команду, то архів буде приєднано до нового листа
+txt_images: Зображення
+txt_include_hint: Включаючи файл(и), по одному в рядку; використовуйте символи * та ? ; " та ' як розділювачі не потребуються
+txt_filters_hint: Вмикання та вимикання фільтрів для файлів 7z, будь-ласка, прочитайте документацію 7zip щоб зрозуміти як це працює
+txt_inclusion_recourse: Вимикання фільтрів підтек
+txt_inclusion: Вмикання:
+txt_error_function: Вказано хибну функцію
+txt_info: Інфо
+txt_infoall: Інфо на всіх
+txt_infodisp: інфо по зображеним об'єктам
+txt_infosel: інфо по виділеним об'єктам
+txt_inputinfo: Вхідна інформація
+txt_input_list: Вхідной перелік:
+txt_iop:вхід,вихід,параметри
+txt_ipo: вхід,параметри,вихід
+txt_input: вхід:
+txt_integrity:Перевірка цілісності
+txt_chunk_size: Задано невірний розмір, перевірте що це за число
+txt_invertsel: Інвертувати виділене
+txt_type_exe: є додатком Windows, ви хочете виконати його? ("Ні" - переглянути за допомогою PeaZip)
+txt_return_to_archive: вже відкрито; чи бажаєте переглянути його?
+txt_not_accessible: більш не доступний
+txt_type_unsupported: не підтримується формат архіву
+txt_checkname_failed: невірне ім'я.
+txt_not_accessible_list: не доступний
+txt_theme_create_error:Неможливо створити тему, використовуйте існуючі шлях та ім'я архіву
+txt_theme_exists: вже існує, виберіть інший шлях
+txt_job_code: код завдання:
+txt_job_definition_saved: параметри завдання збережено в
+txt_job_success: Завдання виконано вдало!
+txt_join: З'єднати
+txt_joinfiles: З'єднати файли
+txt_keyfile: Ключовий файл
+txt_keyfile_not_found: Ключовий файл не знайдено або недоступний. Будь-ласка, виберіть інший
+txt_keyfile_notcreated: Ключовий файл не створено
+txt_larger: більшим, ніжм виділені об'єкти
+txt_lastused: останній раз використовувався
+txt_launch: Виконати
+txt_layout: Перелік
+txt_filelist_savedas: Перелік збережено як
+txt_level: Рівень
+txt_license: Ліцензія
+txt_caption_list: Перелік
+txt_list_details: Перелік (деталізований)
+txt_list_all: Перелік всіх
+txt_list_disp: Перелік зображених об'єктів
+txt_list_sel: Перелік виділених об'єктів
+txt_toggle_warning: Виведення переліку може зайняти певний час, продовжити?
+txt_loadfile: Відкрити файл
+txt_loadlayout: Відкр.перелік
+txt_unit_hd: Локальний диск
+txt_localization: Локалізація
+txt_lpaqver: версія LPAQ
+txt_type_description_lpaq: LPAQ: швидка версія PAQ, дуже гарне зтиснення
+txt_maininterface: Головний інтерфейс
+txt_maxcomp: Режим максимального зтиснення
+txt_level_maximum: максимум
+txt_restartrequired: Може бути потреба перезапуску додатику
+txt_required_memory: MB пам'яті потрібно
+txt_method: Метод
+txt_misc: Різне
+txt_modify: Змінити
+txt_morecontrols: Більше інформаціі (історія, закладки, ...)
+txt_morerecent: більш пізніший, ніж у виділених об'єктів
+txt_ent_hint: Рухайте мишу, введіть дані в поле редагування,завантажуйте файли...
+txt_moveto: Перемістити в...
+txt_mypc: Мій компютер
+txt_list_na: ні
+txt_name: Ім'я
+txt_naming: правила імені
+txt_unit_remote: Мережевий диск
+txt_newarchive: новий архів
+txt_cnewfolder: Нова тека
+txt_news: Новини
+txt_no: Ні
+txt_noinput: Недоступне введення
+txt_nocompress_hint: не зтисскати (швидше)
+txt_split_noinput: Не вибрано файли; виберіть файл для разділу
+txt_open_noinput: Не выбрано файли; виберіть архів 
+txt_list_nomatch: не співпадають
+txt_singlethread: немає багатопотоковості
+txt_none2: ні
+txt_nonsolid: не згуртований
+txt_level_normal: звичайний
+txt_copy_error: не вдалось зкопіювати або перемістити, помилка:
+txt_description: Нотатки
+txt_compare_second: Виберіть файл для порівняння:
+txt_peaobj: Лаштунки об'єкту
+txt_displayed_obj: об'єкт(и)
+txt_olderthan: більш ранішній,ніж у вибраних об'єктів
+txt_on: при
+txt_ondblclick: При подвійному натиску виконувати:
+txt_opacity: непрозорий
+txt_open: Відкрити
+txt_openarchive: Відкрити архів
+txt_title_open: Відкрити архів,розшифрувати,об'єднати...
+txt_open_bookmark: Відкрити закладку
+txt_cphere: Відкрити командний рядок
+txt_open_file: Відкрити файл
+txt_open_files: Відкрити файл(и)
+txt_open_path: Відкрити шлях
+txt_opensource: Портативний архіватор с відкритим кодом
+txt_openwith: Відкрити з допомогою...
+txt_aborted: Дію перервано
+txt_unit_cd: Оптичний диск
+txt_options: Лаштунки
+txt_other: Інший
+txt_otherparams: Інші лаштунки
+txt_oip: вихід, вхід, лаштунки
+txt_opi: вихід, лаштунки, вхід
+txt_output: вихід:
+txt_overwrite: Поверх існуючих файлів
+txt_compressed_size: Запаковано
+txt_paqver: версія PAQ
+txt_type_description_paq: PAQ: повільний, але дуже потужний архіватор
+txt_pio: лаштунки, вхід, вихід
+txt_poi: лаштунки, вихід, вхід
+txt_parameters: Лаштунки:
+txt_error_partial: Часткове витягнення не підтримується для даного типу архіву
+txt_passes: Проходів
+txt_pw: Пароль
+txt_pwlength: Довджина паролю в символах (4..64)
+txt_un7z_browse_pw: Може бути потреба в паролі
+txt_un7z_browse_pw_other: можливо хибний пароль
+txt_paste: Вставити(Ctrl+V)
+txt_path: Шлях:
+txt_pea_appcolor: Pea колір додатку
+txt_pea_textcolor: Pea колір тексту
+txt_type_description_pea: PEA: надійний формат архіву с швидким зтисненням
+txt_peazip_new: PeaZip (новий екземпляр)
+txt_peazip_help: PeaZip допомога (online)
+txt_peazip_web: PeaZip вебсайт проекту
+txt_performall: Виконує всі алгоритми, що підтримуються
+txt_name_provide: Будь-ласка уникайте символів  \ / : * ? ' " < > |
+txt_upxorstrip: Будь-ласка, виберіть Strip і/або UPX на виконуваних файлах
+txt_not_removable_file: Будь-ласка закрийте файл, для того щоб PeaZip зміг видалити його:
+txt_not_removable: Будь-ласка закрийте файл, для того щоб  PeaZip зміг видалити теку:
+txt_custom_executable_missing: Введіть ім'я виконуваного файлу
+txt_type_unsupported_select: Потрібно вибрати тип архіву:
+txt_no_theme_name: Потрібно ввести ім'я теми
+txt_please_wait: Будь-ласка зачекайте
+txt_copy_wait: Дочекайтеся виконання запланованих дій, перед тим як планувати інші
+txt_previewwith: Перегляд з...
+txt_projectadmin: Адміістратор проекту:
+txt_type_description_quad: BALZ/QUAD: високоякісний ROLZ-базований архіватор
+txt_quickdelete: Швидке видалення
+txt_quit: Вихід
+txt_unit_ram: RAM диск
+txt_read: Відкрити:
+txt_recentarchives: Останні архіви   
+txt_rr_hint: Дозволяє відновлювати архів у випадку його пошкодження
+txt_search_refine: Фільтр детального пошуку,використовуйте символи ? та *
+txt_fefreshf5: Оновити (F5)
+txt_release: вільний:
+txt_unit_removable: Змінний блок
+txt_remove_bookmark: Видалити закладку
+txt_remove_external_unit: Видалити золвнішні блоки
+txt_removeselected: Видалити виділені об'єкти
+txt_rename: Перейменувати
+txt_caption_repair: Виправити
+txt_restartrequired2: потребуется перезавантаження додатку
+txt_reset: Зкидання
+txt_reset_archivename: Очистити ім'я архіву
+txt_hardreset: Очистити закладки
+txt_reset_theme: Перейти до вбудованої теми
+txt_soft_reset: Перезавантаження додатку використовуючи лаштунки по замолчанню,очистити історію, не видаляти закладки
+txt_restore_att: відновити початкові атрибути
+txt_run_as: Виконати як
+txt_run_as2: Виконати від іимені іншоого користувача
+txt_sample: Приклад: 
+txt_saveas: Зберегти як
+txt_savehistory: Зберегти історію останнього відкритого архіву
+txt_save_infolder: Зберегти в теці(авто)
+txt_savejob: Зберегти
+txt_savejobdefinition: Зберегти лаштунки завдання
+txt_savejobdefinition_hint: Зберегти лаштунки завдання в текстовому файлі
+txt_savelayout: Збер.перелік
+txt_save_winstate: Зберегти статус головного вікна
+txt_search: Пошук (рекурсивний), може зайняти дейкий час
+txt_searchanddrag: Знайти та зупинитися
+txt_searchfor: Пошук:
+txt_nrsearch: Знайти тут (не рекурсивно)
+txt_search_hint: Пошук в підтеках архіву на співпадання з фільтром
+txt_search_web: Пошук в інтернеті
+txt_list_searching: Пошук...
+txt_securedelete: Надійне видалення файлів
+txt_default_description: Виберіть дію або перетащіть файли сюди
+txt_selectall: Виділіть все
+txt_selectdir: Вибрати теку
+txt_selected_obj: вибрано
+txt_selected_objects: Вибрати об'єкт
+txt_sfx: Саморозгортаємий
+txt_sendbymail: Відправити поштою(якщо можливо)
+txt_set_defaults: Встановити лаштунки по замовчанню
+txt_settings: Лаштунки
+txt_sfx_interface: інтерфейс SFX
+txt_showhints: Відобразити підказки
+txt_show_messages: Відобразити повідомлення
+txt_showpw: Відобразити зміст паролю
+txt_singlevol: Одиночний том
+txt_size: Розмір
+txt_sizeb: Розмір (B)
+txt_skip_existing: Минати існуючі файли
+txt_slowercomp: повільне зтискання, але зазвичай швидке рогортання
+txt_smaller: меньшим, ніж виділений об'єкт
+txt_solid: Неперервний
+txt_solid_block: Неперервний блок
+txt_solid_auto: Неперервний, автоналагодження
+txt_solid_extension: Неперервний,групи за типом файлів
+txt_tarbeforepj: Вибачте, неможливо відкрити параметри завдання, бо використовується дія "в TAR", потрібно розділити завдання на 2 окремих
+txt_listtest: вибачте операції перегляду/тестування не спприймаються для цього формату
+txt_sortbysel: Сортувати за статусом обраних
+txt_list_sorting: Сортування...
+txt_speed: швидкість
+txt_split: Розділити
+txt_type_description_split: Розділити файл з перевіркою цілосності
+txt_split_file: Розділити файл
+txt_list_nostats: статистика не підтримується
+txt_status: Статус
+txt_level_store: без стискання
+txt_stream_control: Контроль потокуа
+txt_strip: зтиснути попередньо UPX (рекомендовано)
+txt_keyfile_created: Вдало створено ключовий файл:
+txt_suggestpw: Введений пароль
+txt_noupx: відмінено: неможливо зтиснути UPX
+txt_syntax: Синтакс:
+txt_sysbenchmark: Тестування системи
+txt_benchmark: Тестування системы займе деякий час і буде використовувати всі ресурси пам'яті та процесора. Виконати?
+txt_systools: Системні знаряддя
+txt_tarbefore: в TAR
+txt_type_description_tar: TAR: головний формат архіву в системах UNIX
+txt_taskman: Наглядач задач
+txt_caption_test: Тест
+txt_testall: Тест всіх
+txt_testdisp: Тест зображених об'єктів
+txt_testpw: Тест паролю/ключового файлу
+txt_testsel: Тест виділених об'єктів
+txt_col_hint: Колір треба вибирати з врахуванням того що він повинен вбудовуватися в інтерфейс
+txt_bookmarks_hint: Повний та редагуємий перелік закладок доступний якщо вибрати "Більше інформації"
+txt_archive_noinput_tolist: Перелік пустий: використовуйте Добавити файл, Добавити теку або Завантажити перелік
+txt_theme: Тема
+txt_icons_found: Тема завантажено з успіхом
+txt_themename: Ім'я теми
+txt_icons_not_found: Завантаження теми не вдалось. Виберіть тему по замовчанню або завантажте іншу
+txt_theme_create_success: тема з успіхом збережена в...
+txt_theme_not_loadable: Тема та тека з графікою повинні знаходитися в тецці PeaZip's
+txt_theming: Оформлення
+txt_extand_error: Ця функция може бути виконана лише за 1 раз на 1 об'єкті
+txt_threads: Нитки
+txt_titlescolor: Колір заголовків
+txt_to: в
+txt_toggle_browseflat: перемикнути Перегляд/Разгорнутий вигляд
+txt_toggle_historybookmarks: Перегляд історії/закладок
+txt_toolbarscolor: Колір панелі
+txt_tools: Знаряддя
+txt_best: зпробуйте кращі лаштунки (повільно)
+txt_type: Тип
+txt_level_ultra: ультра
+txt_error_openfile: Неможливо відкрити вказаний файл
+txt_cl_hint: UNACE та UPX завжди працює в консольному режимі; перегляд, тест завжди працюють в режимі GUI
+txt_ace_missing: UNACE-втулка відсутня; можете завантажити його з веб-сайту PeaZip
+txt_units: блоки
+txt_unit_unknown: Невідомий тип диску
+txt_un7z_pw_untested: Не перевірено
+txt_up: Вгору
+txt_update: оновити (якщо архів існує)
+txt_type_description_upx: UPX: зтиснення лише для виконуємих файлів
+txt_advfilters: Використовувати розширені фільтри
+txt_openfiles_hint: Використовуйте цю дію щоб включити в архів файли відкриті іншими додатками (при резервному копіюванні)
+txt_usenet: Usenet
+txt_user_name: Ім'я користувача: використовуйте user@DOMAIN або DOMAIN\user
+txt_using: Використовується:
+txt_volumepea: Довідка про том
+txt_volume_size: Размір тому
+txt_type_ext_uns: розгорнуто вдало.
+txt_websearch: Web пошук
+txt_websites: Web сайти
+txt_word: Word
+txt_write: Створити:
+txt_ramdompw_hint: Ви можете зкопіювати згенерований пароль звідси
+txt_exe_hint: Ви можете вільно ввести ім'я файлів та лаштунки для зтиснення
+txt_pj_hint2: Ви можете імпортувати лаштунки завдань з GUI в поле memo
+txt_type_description_zip: ZIP: швидке зтиснення, основне в Windows системах
+txt_zipcrypto_hint: ZipCrypto (легально)
+ 
+=== end PeaZip text group ===
+ 
+=== PeaLauncher text group ===
+ 
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: Відкрити архів
+txt_2_5_ace_missing: UNACE-втулка відсутня; можете завантажити його з веб-сайту PeaZip
+txt_2_3_pw_errorchar_gwrap: : PeaLauncher не може використовувати цей символ в паролях в даній системі, будь-ласка змініть пароль або використовуйте PeaZip в режимі консолі (Знаряддя > Лаштунки)
+txt_2_3_renameexisting: Автоперейменування вайлів, що існують
+txt_2_3_renameextracted: Автоперейменуввання витягнутих файлів
+txt_2_3_cancel: Відміна
+txt_2_3_encryption: Кодування
+txt_2_3_extinnew: Витягти в нову теку
+txt_2_3_keyfile: Файл-ключ
+txt_2_3_kf_not_found_gwrap: Не можу зчитати файл-ключ. Будь-ласка виберіть інший файл-ключ.
+txt_2_3_moreoptions: Інші дії...
+txt_2_3_nopaths: Нема шляху
+txt_2_3_options: Дії
+txt_2_3_overexisting: Переписати існуючі файли
+txt_2_3_pw: Пароль
+txt_2_3_skipexisting: Відкинути існуючі файли
+txt_job_unknown: : Невідома Помилка
+txt_stdjob: [анімація закінчиться і завдання повідомить про завершення]
+txt_benchmarkjob: [система буде зайнята на декілька хвилин під час тесту продуктивності]
+txt_defragjob: [не буде відповідати під час дефрагментації, можете виконувати в фоновому режимі]
+txt_consolejob: [ви можете бачити детальний хід роботи в консольному вікні]
+txt_job1: 1: Увага: не критичні помилки; деякі файли недоступні
+txt_job127: 127: Не можу виконати вказану дію
+txt_job2: 2: Відбулася фатальна помилка
+txt_job255: 255: Завдання перервано 
+txt_job7: 7: Помилка: невірний командний рядок
+txt_job8: 8: Помилка: недостатньо пам'яті для виконання дії
+txt_autoclose: Закрити це вікно при завершенні завдання
+txt_crscale: Ступінь зтискання (меньше,краще):
+txt_console: Консоль
+txt_benchscale: Core 2 Duo 6600 рейтинг, еквівалент швидкості MHz
+txt_create: Створити
+txt_done: Готово:
+txt_nocl: Пустий командний рядок
+txt_error: Помилка:
+txt_explore: Огляд
+txt_extto: Витягти в
+txt_halt: Вимкнути компютер при завершенні завдань
+txt_halted: Перервано:
+txt_hardware: апаратна частина
+txt_high: вищий пріоритет
+txt_checkpw: Підказка: відмітьте якщо треба пароль
+txt_idle: нульовий пріоритет
+txt_input: Вхід:
+txt_jpaused: завдання зупинено
+txt_jresumed: завдання продовжено
+txt_job_started: Запуск завдання
+txt_jobstatus: Статус завдання:
+txt_jstopped: Завдання зупинено користувачем
+txt_jobstopped:  Завдання зупинено користувачем
+txt_job_success: Завдання виконано вдало
+txt_lt: Огляд/тест/відновити архів
+txt_normal: нормальний пріоритет
+txt_ok: Да
+txt_output: Вихід:
+txt_pause: Пауза
+txt_paused: зупинено,
+txt_p_high: Встановлено вищий пріоритет
+txt_p_idle: Встановлено нулевий пріоритет
+txt_p_normal: Встановлено нормальний пріоритет
+txt_p_realtime: Встановлено пріоритет реального часу
+txt_rating: Рейтинг:
+txt_rt: пріоритет реального часу
+txt_report: Звіт
+txt_resume: Продовжити
+txt_priority: Праве натискання для встановлення пріоритету
+txt_running: виконується,
+txt_isrunning: виконується...
+txt_saveas: Зберегти як
+txt_savejob: Зберегти параметри завдань (можливо треба пароль!)
+txt_savelog: Зберегти журнал завдань
+txt_software: програмне забезпечення
+txt_speedscale: Швидкість, логарифмічна шкала (выще, краще):
+txt_status: Статус
+txt_stop: Стоп
+txt_bench: Тест потужності
+txt_threads: Нитки:
+txt_time: Час:
+ 
+=== end PeaLauncher text group ===
+ 
+=== about text group ===
+ 
+Створення Архивів
+ 
+1) Додавайте файли в архів з системного або контекстного меню, перетягуючи файли з іншого додатку;
+2) Натисніть кнопку "Створити" для початку архівування файлів
+ 
+Використовуйте закладки:
+- "Лаштунки" для налагодження формату архіву, ступені зтиснення та інших параметрів;
+- "Введення/виведення" для лаштунків вхідних та вихідних шляхів;
+- "Фільтри" для вмикання або виділення файлів,якщо це підтримується в форматі архіву;
+- "Консоль" для аналізу та налагодження параметрів завдань, роботи з командним рядком
+ 
+В будь-якому випадку, ви можете розпакувати архів з системного контекстного меню
+ 
+В змісті архіву ви також можете:
+- Подвійний натиск по файлу для того щоб відкрити його
+- Вибрати файл та натиснути "\" або "Файлові Знаряддя > Розділити файл" щоб розділити його
+- Вибрати файл  та натиснути "<" або "Файлові Знаряддя > Порівняти файли" щоб порівняти данний файл з іншим
+- Вибрати декілька файлів та натиснути "?*" або "Файлові Знаряддя > Файли контрольної суми" для створення таких файлів
+- Вибрати декілька файлів та натиснути "*" або "Надійне видалення файлів" для надійного видалення
+ 
+ 
+Відкриття архівів
+ 
+1) Відкрити архіви по їх типу, або з системного контекстного меню або через меню PeaZip's;
+2a) Натисніть "Витягнути все" для витягування всього архіву, або "Витягнути все в..." щоб витягнути по вказаному шляху;
+2b) Подвійне натискання або «Enter» на об'єкті всередині архіиву щоб відкрити його в іншій програмі;
+2c) Позначити певні об'єкти в архіві і натиснути середню клавішу мишки або пропуск щоб витягнути їх (буде запрошено шлях);
+2d) Праве натискання мишки щоб викликати контекстное меню з усіма можливими діями
+Підказка: Якщо ви бажаєте розпакувати архів в нову теку, використовуйте режим "Витягнути в нову теку"
+ 
+Використовуйте закладки:
+- "Лаштунки" для налагодження формату архіву, ступені зтиснення та інших параметрів;
+- "Введення/виведення" для лаштунків вхідних та вихідних шляхів;
+- "Фільтри" для вмикання або виділення файлів,якщо це підтримується в форматі архіву;
+- "Консоль" для аналізу та налагодження параметрів завдань, роботи з командним рядком
+ 
+В будь-якому випадку, ви можете розпакувати архів з системного контекстного меню
+ 
+ 
+Про PEAZIP
+ 
+PeaZip - безкоштовний портативний архіватор, open source, з можливістю шиврування та поділу файлів; підтримує більшість форматів архівів.
+ 
+Створює: 7Z, 7Z-sfx, ARC, BZ2, GZ, PAQ/LPAQ, PEA, QUAD, split, TAR, UPX, ZIP
+ 
+Читає: 7Z, ACE, ARC/WRC, ARJ, BZ/BZ2/TBZ, CAB, CHM/CHW/HXS, COMPOUND (MSI, DOC, XLS, PPT), CPIO, GZ/TGZ, ISO, Java (JAR, EAR, WAR), LZH/LHA, Linux (DEB, PET/PUP, RPM, SLP), NSIS, OOo, PAK/PK3/PK4, PAQ/LPAQ, PEA, QUAD, RAR, split, TAR, U3P, WIM/SWM, XPI, Z/TZ/TAZ, ZIP/SMZIP  
+ 
+Можливе налагодження на користувацікі формати архивів, яких немає у переліку
+ 
+Додаткові можливості: розділити/об'єднати файли, видалити файли, порівнювати, створювати файли контрольних сум, тест потужності системи і т.і.
+ 
+PeaZip дозволяє редагувати, зберігати та відновлювати архіви; використовувати потужні фільтри;оброблювати багатотомні архіви;зберігати параметри завдань; шифрувати AES256 і т.і.
+PeaZip_портативний - це незалежна програма з таким же переліком функцій;він не потребує інсталляції і може працювати з змінних носіїв таких як USB-флеш диски.
+Більшість необхідних функцій інтегровано в контекстне меню Windows.
+PeaZip це кросплатформенна програма, що працює як на 32-х так і на 64-х бітній Windows (9x, 2000, XP, Vista) та Linux.
+ 
+Викачати та отримати останні новини: http://peazip.sourceforge.net/
+Викачати все інше: http://sourceforge.net/projects/peazip/
+Online допомога: http://peazip.sourceforge.net/peazip-help.html
+Відповіді на головні питання: http://peazip.sourceforge.net/faq.html
+ 
+ 
+Велика подяка всім, хто підтримує проект PeaZip. (див. вебсайт для повного переліку)

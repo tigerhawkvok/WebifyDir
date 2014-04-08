@@ -1,0 +1,3 @@
+All software in this path is released under LGPL by Ilia Muraviev
+
+http://www.encode.ru/

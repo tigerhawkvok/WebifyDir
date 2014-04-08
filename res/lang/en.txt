@@ -1,0 +1,785 @@
+﻿=== PeaZip language file ===
+English
+2.7
+Translated by: Giorgio Tani
+Last rev. by: Giorgio Tani
+Last rev.: 20090909
+
+=== PeaZip text group ===
+
+txt_2_7_experimental: (experimental, see documentation)
+txt_2_7_optional: (optional)
+txt_2_7_list_tryflatorpw: , possible solutions: try flat view (F6), provide password (F9), get a fresh copy of the archive
+txt_2_7_separate: Add each object to a separate archive
+txt_2_7_advdesc: Advanced filters are applied when managing any file supported through 7z or FreeArc backends (see documentation)
+txt_2_7_pwsupported: archiving with password
+txt_2_7_cancel: Cancel
+txt_2_7_encfn: Encrypt also file names (if supported by the format)
+txt_2_7_setpw: Enter password / keyfile
+txt_2_7_ext: Extracting:
+txt_2_7_extfrom: Extracting from archive:
+txt_2_7_es: Extract supported non-archive file types, i.e. executables, MS Office and OOo files
+txt_2_7_eu: Extract unsupported file types, specifying custom extraction utility
+txt_2_7_clipboard: File borwser's clipboard
+txt_2_7_goarclayout: Go to archiving layout
+txt_2_7_goextlayout: Go to extraction layout
+txt_2_7_ok: Ok
+txt_2_7_drag_archive: open file as new archive? ("No" to add file to current archiving layout)
+txt_2_7_oop: Open output path when job completes
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_7_output: Output
+txt_2_7_pwnotset: Password is not set 
+txt_2_7_pwarcset: Password is set
+txt_2_7_pwextset: Password is set, it is possible to extract/list/test encrypted archives
+txt_2_7_archivehint: Rightclick to add files to archive and to see other available functions, or drag here files to be added
+txt_2_7_exthint: Rightclick to add files to extract and to see other available functions, or drag here files to be extracted
+txt_2_7_spc: set options for special and custom formats...
+txt_2_7_setadvf: Set advanced filters
+txt_2_7_selpath: Selected item's path
+txt_2_7_separateerror: Sorry, cannot import job definition's command line while using "Add each object to a separate archive" switch, since the job is performed as multiple distinct commands
+txt_2_7_noinput: The layout is empty: please use Add file(s) or Load Layout to populate the list of archives to be extracted
+txt_2_7_dirsize: The size of the content of folders is not checked for calculating the total size
+txt_2_7_un7z_browse_flat: try flat view (F6)
+txt_2_7_updating: Updating, adding to existing archive:
+txt_2_6_folders: (folders)
+txt_2_6_advanced: Advanced
+txt_2_6_plalways: Always keep open to inspect job's report
+txt_2_6_plsmart: Keep open only if needed (error, list or test reports)
+txt_2_6_rec: Recoursive: search in subdirectories
+txt_2_6_special: Special formats (ACE, ARC, PEA)
+txt_2_5_sessionio: (this session)
+txt_2_5_advanced: Advanced edit: place spaces between parameter strings and filename if needed
+txt_2_5_basic: Basic edit: application and parameters before input name
+txt_2_5_cannotrun: Cannot run
+txt_2_5_custeditors: Custom editors, players, antivirus scanners etc... (override system's file associations)
+txt_2_5_delete: Delete
+txt_2_5_delete_fromarchive: Delete from archive
+txt_2_5_langflag: Display archived object's name as UTF-8 text; uncheck to replace extended characters with "?"
+txt_2_5_encpj: Encode job definition as UTF-8 text
+txt_2_5_execommand: Executable or command
+txt_2_5_help: Help
+txt_2_5_langhint: Hint: replacing extended characters with "?" jolly character can improve syntax if archive's character set cannot be successfully converted on the current machine
+txt_2_5_mini_help: Mini tutorial
+txt_2_5_offline_help: PeaZip help
+txt_2_5_tray: Reduce to tray
+txt_2_5_remove: Remove
+txt_2_5_hintpaths: Rightclick to open system's and user's paths
+txt_2_5_selectapp: Select application
+txt_2_5_strafter: String after input name
+txt_2_5_strbefore: String before input name
+txt_2_5_encoding: Text encoding
+txt_2_5_nopw: this type of archives does not support encryption
+txt_2_4_draghint: [drag to Explorer with enabled Address bar]
+txt_2_4_tb: Adapt toolbar buttons (restarts PeaZip)
+txt_2_4_adding: Adding
+txt_2_4_advclip: Advanced: keep multiple selections in clipboard (no duplicates), clear on paste
+txt_2_4_yanswers: Answers
+txt_2_4_itemsheight: Auto-size items height
+txt_2_4_clearclipboard: Clear clipboard (Esc)
+txt_2_4_wcommons: Commons
+txt_2_4_copyfrom: Copy from
+txt_2_4_deletebookmarks: Do you want to delete the list of bookmarked files and folders?
+txt_2_4_documents: Documents
+txt_2_4_wenc: Encyclopedia
+txt_2_4_extractfrom: Extract from
+txt_2_4_hexp: Hex preview
+txt_2_4_operation: Operation
+txt_2_4_path: path is not writeable (missing, or read-only), please select a writeable output path
+txt_2_4_removefromclipboard: Remove from clipboard
+txt_2_4_stdclip: Standard: keep a single selection in clipboard, clear cut operations on paste
+txt_2_4_totalmem: total memory
+txt_2_4_gvideo: Video
+txt_2_4_wbook: Wikibook
+txt_2_4_wnews: Wikinews
+txt_2_4_wsrc: Wikisource
+txt_2_4_wdict: Wiktionary
+txt_2_3_pw_errorchar: : this character cannot be used by PeaZip GUI in passwords under current system, please change password or chose Console mode in Tools > Settings
+txt_2_3_envstr: Display environment variables
+txt_2_3_never_pw: Don't ask for password
+txt_2_3_home: User's home
+txt_2_3_on_pw: On extract/list/test operations from system's menus:
+txt_2_3_test_pw100: Test for encryption <100MB archives
+txt_2_3_test_pw: Test for encryption (may be slow)
+txt_exclude_recourse: "exclude" recourse subdirs
+txt_action_extopen: "Extract and open with associated application" action
+txt_error_passwordnotmatch: "Password" and "Confirm password" fileds doesn't match, please correct them
+txt_action_preview: "Preview with associated application" action
+txt_preview_hint: "Preview" action perform the same task as "Extract and open" but to a temporary path in output directory, automathically removed when the archive is closed.
+txt_better: (better)
+txt_default2: (default)
+txt_faster: (faster)
+txt_fastermem: (faster, less memory)
+txt_tempdir: (PeaZip's temporary work folder)
+txt_stream: (set by "Stream control")
+txt_slowermem: (slower, more memory)
+txt_store: (store, fastest)
+txt_newfolder: (in new folder)
+txt_7z_exitcodeunknown: : Unknown error in job
+txt_list_isfolder:  [folder]
+txt_none: <none>
+txt_fd: 1.44 MB Floppy Disk
+txt_7z_exitcode1: 1: Warning: non fatal error(s); i.e. some files missing or locked
+txt_attach10: 10 MB (attachment limit)
+txt_7z_exitcode2: 2: Fatal error occurred
+txt_7z_exitcode255: 255: Job halted by the user
+txt_fat32: 4 GB (max FAT32 file size)
+txt_dvd: 4.7 GB DVD
+txt_attach5: 5 MB (attachment limit)
+txt_cd650: 650 MB CD
+txt_7z_exitcode7: 7: Error: got incorrect command line
+txt_cd700: 700 MB CD
+txt_type_description_7z: 7Z: feature rich archive format with high compression ratio
+txt_dvddl: 8.5 GB DVD DL
+txt_7z_exitcode8: 8: Error: not enough memory for requested operation
+txt_abort: Abort scheduled file copy/move operations?
+txt_about: About
+txt_action: Action
+txt_action_hint: Action on open or preview with associated application
+txt_add: Add
+txt_add_existing_archive: add (if archive exists)
+txt_add_archive: Add archive
+txt_add_files: Add file(s)
+txt_add_folder: Add folder
+txt_add_path: Add path
+txt_add_tolayout: Add selected files and folders to archive's layout
+txt_add_toarchive: Add to archive
+txt_add_tobookmarks: Add to bookmarks
+txt_address_hint: Address: accepts wildcards ? for character and * for string; doesn't need " or ' delimiters
+txt_adv_filters: Advanced filters
+txt_algo: Algorithm
+txt_all: all
+txt_all_default: All (default)
+txt_all_type: All objects of this type
+txt_all_date: All objects with date...
+txt_all_psize: All objects with packed size...
+txt_all_attributes: All objects with same attributes
+txt_all_size: All objects with size...
+txt_error_input_upx: allows a single executable file as input
+txt_always_pw: Always ask for password
+txt_ignore_ext: Always ignore paths for "Extract and..."
+txt_ignore_disp: Always ignore paths for "Extract displayed..."
+txt_ignore_sel: Always ignore paths for "Extract selected..."
+txt_key_hint: Append keyfile's hash to password; the archive can be decrypted by PeaZip and other applications following the same standard, or entering the hash as part of the password
+txt_timestamp: Append timestamp to archive name
+txt_appoptions: Application options
+txt_type_description_arc: ARC: experimental archiver, powerful, efficient and feature-rich
+txt_archive: Archive
+txt_un7z_browse_ok: archive browsed successfully
+txt_interface: Archive browser interface
+txt_archivecreation: Archive creation
+txt_tarbefore_hint: Archive data in TAR format before than in specified type.
+txt_archive_hint: Archive, compress, split and keep private files, folders and volumes
+txt_compressionratio_hint: Archive's compression ratio
+txt_archiving: Archiving:
+txt_cl_long: Arguments seem exceeding the maximum size that can be passed by PeaZip frontend, please select less input files (i.e. select dirs instead of single files)
+txt_overwrite_askbefore: Ask before overwriting (to be used in console modes)
+txt_associated: associated application
+txt_attributes: Attributes
+txt_author: Author
+txt_ren_existing: Auto rename existing files
+txt_ren_extracted: Auto rename extracted files
+txt_autofolder: Automatically create new folder to extract the archive in?
+txt_back: Back
+txt_backend: Backend binaries user interface
+txt_backupexe: Backup executable (recommended)
+txt_bettercompression: better compression
+txt_blogs: Blogs
+txt_blowfish: Blowfish448 (64 bit blocks)
+txt_bookmarks: Bookmarks
+txt_browse: Browse
+txt_browser: Browser
+txt_aborted_error: Browsing archive stopped, it would take too much time. You can narrow the selection using search or filters functions (or exiting "Flat view"); extract/list/test operations are not affected by this issue.
+txt_list_browsing: Browsing:
+txt_archive_root: Browsing: archive's root
+txt_type_description_bzip2: BZip2: quite powerful compression, average speed
+txt_pw_empty: Cannot accept empty password, please either provide a password or uncheck "Encrypt" option
+txt_add_error: Cannot add/update or delete object(s); probably the archive type has browse/extract only support, or cannot support that particular operation (i.e. it's multi-volume or solid), or PeaZip cannot fully handle the archive name
+txt_un7z_browse_failure: cannot browse archive
+txt_list_error: Cannot list archive's content, please check if the archive is password protected or corrupted.
+txt_conf_cannotsave: Cannot save configuration file, check if the path is writeable and with some free space
+txt_check_hint: Check for casual data corruption; hash algorithms are suitable to detect even malicious data tampering (see the documentation)
+txt_check: Checksum/hash file(s)
+txt_check_select: Checksum/hash to perform
+txt_clear: Clear
+txt_clearlayout: Clear layout
+txt_pj_hint: Click to import job, reset changes and load up to date definition from GUI
+txt_autoclose: Close PeaLauncher when job completes
+txt_cl: command line:
+txt_compare: Compare files
+txt_compress: Compress
+txt_compress_executable: Compress executable
+txt_compress_openforwriting: Compress files open for writing
+txt_compression: Compression
+txt_compmanagement: Computer management
+txt_pw_confirm: Confirm password
+txt_console: Console
+txt_console_interface: Console: native interface
+txt_content: Content
+txt_controlpanel: Control panel
+txt_convert: Convert disk to NTFS
+txt_copy: Copy (Ctrl+C)
+txt_copyto: Copy to...
+txt_create: Create
+txt_create_archive: Create archive
+txt_title_create: Create archive, compress, encrypt, split...
+txt_create_keyfile: Create keyfile
+txt_create_folder: Create new folder
+txt_create_theme: Create new theme from current settings:
+txt_rr: Create recovery records
+txt_create_sfx: Create self-extracting archive
+txt_cr_current: Current path or filter compression ratio
+txt_custom: Custom
+txt_type_description_custom: Custom (advanced users): enter executable name and parameters
+txt_customapp: custom application
+txt_custom_parameters: Custom parameters
+txt_customsize: Custom size
+txt_cut: Cut (Ctrl+X)
+txt_datetime: Date/time
+txt_default: default
+txt_default_compression: default compression
+txt_default_format: Default format
+txt_theme_default: Default theme
+txt_hard_reset_hint: Delete bookmarks file
+txt_desktop: Desktop
+txt_dictionary: Dictionary
+txt_dirs: dir(s),
+txt_dis: Disambiguation:
+txt_disk_cleanup: Disk cleanup
+txt_disk_defrag: Disk defrag
+txt_disk_management: Disk management
+txt_dispaly: Display results as
+txt_displayedmnu_obj: displayed
+txt_displayedobjects: Displayed objects
+txt_nocompress: do not compress
+txt_delete: Do you want to delete selected file(s)? The operation can't be undone and files will be not recoverable from recycle bin
+txt_wipe: Do you want to securely delete selected file(s)? The operation can't be undone and files will be not recoverable.
+txt_done: Done
+txt_edit: Edit
+txt_elapsed: elapsed:
+txt_error_emptycl: Empty command line!
+txt_encrypt: Encrypt
+txt_encrypted: encrypted
+txt_encryption: Encryption
+txt_note: Enter note/description
+txt_random_keys: Enter random keys
+txt_random_keys_hint: Enter random keys (you not have to remember)
+txt_ent: Enthropy evaluation
+txt_ent_tools: Enthropy sampling tools
+txt_eqorlarger: equal or larger than selected object
+txt_eqorrecent: equal or more recent than selected object
+txt_eqorolder: equal or older than selected object
+txt_eqorsmaller: equal or smaller than selected object
+txt_equal: equal to selected object
+txt_erase_hint: Erase files: overwrite with random data, mask size, rename, finally delete
+txt_extraction_error: Error extracting the selected object. If the archive is password protected please provide it
+txt_exclude_hint: Exclude file(s), one per line; use * and ? wildcards; " and ' delimiters are not needed
+txt_exclusion_recourse: Exclusion filters recourse subdirs
+txt_exclusion: Exclusion:
+txt_exe: Executable
+txt_overwrite_qry: exists in destination path; overwrite with file(s) with same name from source path? (Cancel: skip copying this objecy)
+txt_confirm_overwrite: exists; overwrite it? (no to skip)
+txt_explore_outpath: Explore output path
+txt_explore_path: Explore path
+txt_ext: Ext:
+txt_caption_extract: Extract
+txt_ext_nopath: Extract (without path)
+txt_ext_all: Extract all
+txt_ext_allhere: Extract all here
+txt_ext_allto: Extract all to...
+txt_extopen_custom: Extract and open with custom application
+txt_extopen_with: Extract and open with...
+txt_ext_disp_here: Extract displayed here
+txt_ext_disp: Extract displayed object(s)
+txt_ext_disp_to: Extract displayed object(s) to...
+txt_ext_here: Extract here
+txt_ext_sel_here: Extract selected here
+txt_ext_sel: Extract selected object(s)
+txt_ext_sel_to: Extract selected object(s) to...
+txt_extobj: Extract the object
+txt_newfoldermenu: Extract in new folder
+txt_extto: Extract to...
+txt_level_fast: fast
+txt_fastcompr: fast compression
+txt_fastopen: Fast open routine, stop browsing if list exceeds
+txt_level_fastest: fastest
+txt_favformats: Favourite formats
+txt_file: File
+txt_filebrowser: File browser / archive browser
+txt_filetools: File tools
+txt_files: file(s),
+txt_nfiles: Files
+txt_fs: Filesystem
+txt_type_custom_selected: filetype is not directly supported by PeaZip, but you can try to configure PeaZip to open this file type in "Options" tab. Proceed opening this file?
+txt_filters_recourse: filter(s) recourse subdirs
+txt_filters: Filters
+txt_flat: Flat (show all)
+txt_list_flat: Flat view:
+txt_unit_floppy: Floppy disk
+txt_foldername: Folder name
+txt_nfolders: Folders
+txt_error_input_multi: format allows a single file as input; you can use "TAR before" switch to save input in a .TAR archive before, otherwise you can chose another format. HINT: chose archive format after had selected input data: "TAR before" switch will be automatically set
+txt_format_options: Format options
+txt_fwd: Forward
+txt_list_found: Found:
+txt_free: Free
+txt_free2: free
+txt_name_full: Full name
+txt_function: Function
+txt_general: General
+txt_multithreading: generic multithreading
+txt_go_browser: Go to file browser
+txt_go_path: Explore path (PeaZip)
+txt_guicl: Graphic + console
+txt_guipealauncher: Graphic: wrapped by PeaLauncher
+txt_graphic: Graphic's folder
+txt_gridaltcolor: Grids alternate color
+txt_gridrowheight: Grids row height
+txt_gui: GUI
+txt_type_description_gzip: GZip: fast compression
+txt_here: here
+txt_list_history: History
+txt_homeroot: Computer/archive's root level
+txt_quickbrowse_hint: If browsing is stopped the user can narrow the selection using search or filter functions; extract/list/test functions are not affected in any way.
+txt_backupexe_hint: If something goes wrong and lead to a non functional result, you may recover the original executable from the authomatic backup copy
+txt_attach: If the mail client supports that command, the archive will be attached to a new mail
+txt_images: Images
+txt_include_hint: Include file(s), one per line; use * and ? wildcards; " and ' delimiters are not needed
+txt_filters_hint: Inclusion and exclusion filters for 7z binary, please carefully read 7-Zip documentation to understand how those filters works
+txt_inclusion_recourse: Inclusion filters recourse subdirs
+txt_inclusion: Inclusion:
+txt_error_function: Incorrect function requested
+txt_info: Info
+txt_infoall: Info on all
+txt_infodisp: Info on displayed object(s)
+txt_infosel: Info on selected object(s)
+txt_inputinfo: Input information
+txt_input_list: Input list:
+txt_iop: input, output, parameters
+txt_ipo: input, parameters, output
+txt_input: input:
+txt_integrity: Integrity check
+txt_chunk_size: Invalid custom size, please correct it in a numerical value
+txt_invertsel: Invert selection
+txt_type_exe: is a Windows executable, do you want to run it? ("No" to open it in PeaZip's archive browser; only NSIS installers, 7-Zip's sfx and .MSI installers can be browsed in that way)
+txt_return_to_archive: is currently open; do you want to browse it?
+txt_not_accessible: is no longer accessible
+txt_type_unsupported: is not a supported archive type
+txt_checkname_failed: is not a valid name.
+txt_not_accessible_list: is not accessible, please check if the file list provided is correct and up to date
+txt_theme_create_error: It was not possible to create the theme, try to use a name valid for a folder as theme name and to chose a writeable path
+txt_theme_exists: jet exists, please provide a different path
+txt_job_code: job code:
+txt_job_definition_saved: Job definition successfully saved in
+txt_job_success: Job successfully completed!
+txt_join: Join
+txt_joinfiles: Join files
+txt_keyfile: Keyfile
+txt_keyfile_not_found: Keyfile cannot be found or read. Please chose a different Keyfile.
+txt_keyfile_notcreated: KeyFile not created
+txt_larger: larger than selected object
+txt_lastused: Last used
+txt_launch: Launch job
+txt_layout: Layout
+txt_filelist_savedas: Layout saved as
+txt_level: Level
+txt_license: License
+txt_caption_list: List
+txt_list_details: List (with details)
+txt_list_all: List all
+txt_list_disp: List displayed object(s)
+txt_list_sel: List selected object(s)
+txt_toggle_warning: Listing flat view of path's content may take long time, continue anyway?
+txt_loadfile: Load file
+txt_loadlayout: Load layout
+txt_unit_hd: Local disk
+txt_localization: Localization
+txt_lpaqver: LPAQ version
+txt_type_description_lpaq: LPAQ: faster version of PAQ, very good compression
+txt_maininterface: Main interface
+txt_maxcomp: Max compression mode
+txt_level_maximum: maximum
+txt_restartrequired: May require restarting the application to be applied
+txt_required_memory: MB of memory required
+txt_method: Method
+txt_misc: Misc
+txt_modify: Modify
+txt_morecontrols: More controls (history, bookmarks, ...)
+txt_morerecent: more recent than selected object
+txt_ent_hint: Move the mouse, enter keys in the edit field, load files to collect enthropy from the system...
+txt_moveto: Move to...
+txt_mypc: Computer's root
+txt_list_na: n/a
+txt_name: Name
+txt_naming: Naming policy
+txt_unit_remote: Network drive
+txt_newarchive: new archive
+txt_cnewfolder: New folder
+txt_news: News
+txt_no: No
+txt_noinput: No accessible input received
+txt_nocompress_hint: no compression (faster)
+txt_split_noinput: No input selected; please select a file to split
+txt_open_noinput: No input selected; please select an archive (first archive's volume for multi-volume archives)
+txt_list_nomatch: no match
+txt_singlethread: no multithreading
+txt_none2: none
+txt_nonsolid: Non-solid
+txt_level_normal: normal
+txt_copy_error: not successfully copied or moved, error code:
+txt_description: Note/description
+txt_compare_second: Now select file to be compared with
+txt_peaobj: Object control
+txt_displayed_obj: object(s)
+txt_olderthan: older than selected object
+txt_on: on
+txt_ondblclick: On doubleclick do:
+txt_opacity: Opacity
+txt_open: Open
+txt_openarchive: Open archive
+txt_title_open: Open archive, decrypt, join...
+txt_open_bookmark: Open bookmark
+txt_cphere: Open command prompt here
+txt_open_file: Open file
+txt_open_files: Open file(s)
+txt_open_path: Open path
+txt_opensource: Open source portable archiver
+txt_openwith: Open with...
+txt_aborted: Operation aborted
+txt_unit_cd: Optical drive
+txt_options: Options
+txt_other: Other
+txt_otherparams: Other parameters (free editing)
+txt_oip: output, input, parameters
+txt_opi: output, parameters, input
+txt_output: output:
+txt_overwrite: Overwrite existing files
+txt_compressed_size: Packed
+txt_paqver: PAQ version
+txt_type_description_paq: PAQ: slow but extremely powerful compressor
+txt_pio: parameters, input, output
+txt_poi: parameters, output, input
+txt_parameters: Parameters:
+txt_error_partial: Partial extraction not implemented for current archive type
+txt_passes: Passes
+txt_pw: Password
+txt_pwlength: Password length in characters (4..64)
+txt_un7z_browse_pw: password may be required
+txt_un7z_browse_pw_other: password may be wrong
+txt_paste: Paste (Ctrl+V)
+txt_path: Path:
+txt_pea_appcolor: Pea application color
+txt_pea_textcolor: Pea text color
+txt_type_description_pea: PEA: security oriented archive format with fast compression
+txt_peazip_new: PeaZip (new instance)
+txt_peazip_help: PeaZip help (online)
+txt_peazip_web: PeaZip project website
+txt_performall: Perform all supported algorithms
+txt_name_provide: New name (please avoid \ / : * ? ' " < > | characters)
+txt_upxorstrip: Please chose Strip and/or UPX on the binary
+txt_not_removable_file: Please close file in use, in order to allow PeaZip to remove it:
+txt_not_removable: Please close files in use, in order to allow PeaZip to remove the folder:
+txt_custom_executable_missing: Please provide the custom executable's name
+txt_type_unsupported_select: Please select a supported archive type:
+txt_no_theme_name: Please specify a theme name
+txt_please_wait: Please wait
+txt_copy_wait: Please wait currently scheduled file copy/move operations to complete before scheduling other operations of the same type
+txt_previewwith: Preview with...
+txt_projectadmin: Project administrator:
+txt_type_description_quad: BALZ/QUAD: high-performance ROLZ-based file compressors
+txt_quickdelete: Quick delete
+txt_quit: Quit
+txt_unit_ram: RAM disk
+txt_read: Read:
+txt_recentarchives: Recent archives
+txt_rr_hint: Recovery records allows to try to correct archives in case of data corruption
+txt_search_refine: Refine search filter, accepts ? and * wildcards
+txt_fefreshf5: Refresh (F5)
+txt_release: release:
+txt_unit_removable: Removable unit
+txt_remove_bookmark: Remove bookmark
+txt_remove_external_unit: Remove external unit(s)
+txt_removeselected: Remove selected object(s)
+txt_rename: Rename
+txt_caption_repair: Repair
+txt_restartrequired2: requires restarting the application to apply
+txt_reset: Reset
+txt_reset_archivename: Reset archive name
+txt_hardreset: Reset bookmarks
+txt_reset_theme: Reset to embedded theme
+txt_soft_reset: Restart application's using default configuration values, clear recent archives histoy, don't touch bookmarks
+txt_restore_att: restore original attributes
+txt_run_as: Run as (cannot switch to users with blank password)
+txt_run_as2: Run as different user
+txt_sample: Sample: 
+txt_saveas: Save as
+txt_savehistory: Save history of latest used archive
+txt_save_infolder: Save in folder (auto)
+txt_savejob: Save job
+txt_savejobdefinition: Save job definition
+txt_savejobdefinition_hint: Save job definition as plain text; you can use it from your scripts
+txt_savelayout: Save layout
+txt_save_winstate: Save main window state
+txt_search: Search (recoursive, may take some time)
+txt_searchanddrag: Search and drag here
+txt_searchfor: Search
+txt_nrsearch: Search here (non recoursive)
+txt_search_hint: Search in archive's subdirectories for matches with filter(s)
+txt_search_web: Search on the web
+txt_list_searching: Searching...
+txt_securedelete: Secure delete
+txt_default_description: Select a function or drag files here
+txt_selectall: Select all
+txt_selectdir: Select directory
+txt_selected_obj: selected
+txt_selected_objects: Selected objects
+txt_sfx: Self-extracting
+txt_sendbymail: Send by mail (if supported)
+txt_set_defaults: Set application's default parameters
+txt_settings: Settings
+txt_sfx_interface: sfx interface
+txt_showhints: Show hints
+txt_show_messages: Show information messages
+txt_showpw: Show password field content
+txt_singlevol: Single volume
+txt_size: Size
+txt_sizeb: Size (B)
+txt_skip_existing: Skip existing files
+txt_slowercomp: slower compression but equally fast decompression
+txt_smaller: smaller than selected object
+txt_solid: Solid
+txt_solid_block: Solid block
+txt_solid_auto: Solid, auto-adjust
+txt_solid_extension: Solid, group by extension
+txt_tarbeforepj: Sorry, cannot import job definition's command line while using ".TAR before" switch, since the job is performed as two distinct commands
+txt_listtest: sorry, list/test operation is not jet implemented for this format
+txt_sortbysel: Sort by selection status
+txt_list_sorting: Sorting...
+txt_speed: speed
+txt_split: Split
+txt_type_description_split: Split a file with optional integrity check
+txt_split_file: Split file
+txt_list_nostats: stats not available
+txt_status: Status
+txt_level_store: store
+txt_stream_control: Stream control
+txt_strip: Strip before UPX (recommended)
+txt_keyfile_created: Successfully created KeyFile as:
+txt_suggestpw: Suggest password
+txt_noupx: Symbols stripped, UPX compression omitted
+txt_syntax: Syntax:
+txt_sysbenchmark: System benchmark
+txt_benchmark: System benchmark will take some minutes and will use all available CPU and memory resource. The system may not respond during the benchmark; run it anyway?
+txt_systools: System tools
+txt_tarbefore: TAR before
+txt_type_description_tar: TAR: archiving format mainstream on UNIX systems
+txt_taskman: Task manager
+txt_caption_test: Test
+txt_testall: Test all
+txt_testdisp: Test displayed object(s)
+txt_testpw: Test password / keyfile
+txt_testsel: Test selected object(s)
+txt_col_hint: The color should be chosen in order to integrate well with icon colors and to other GUI's elements
+txt_bookmarks_hint: The complete and editable list of bookmarks is available in the file browser interface, clicking on the "More controls" icon and on "Toggle history/bookmarks"
+txt_archive_noinput_tolist: The layout is empty: please use Add file(s), Add folder(s) or Load Layout to populate the archive's layout
+txt_theme: Theme
+txt_icons_found: Theme loaded successfully.
+txt_themename: Theme name
+txt_icons_not_found: Theme not loaded correctly. Try to switch to the default theme, or to a known working one.
+txt_theme_create_success: theme succesfully created in
+txt_theme_not_loadable: Themes and graphic's folder must be in PeaZip's path
+txt_theming: Theming
+txt_extand_error: This function can be performed on a single object at time
+txt_threads: Threads
+txt_titlescolor: Titles color
+txt_to: to
+txt_toggle_browseflat: Toggle browse/flat view
+txt_toggle_historybookmarks: Toggle history/bookmarks
+txt_toolbarscolor: Toolbars color
+txt_tools: Tools
+txt_best: try best settings (slow)
+txt_type: Type
+txt_level_ultra: ultra
+txt_error_openfile: Unable to open the specified file
+txt_cl_hint: UNACE and UPX always run using console mode; list, test and benchmark jobs always run using GUI mode
+txt_ace_missing: UNACE plugin is missing; for handling ACE archives you can download the plugin form PeaZip's website (being UNACE closed source, the plugin is not featured in base package)
+txt_units: units
+txt_unit_unknown: Unknown drive type
+txt_un7z_pw_untested: Untested
+txt_up: Up
+txt_update: update (if archive exists)
+txt_type_description_upx: UPX: compress executable files only
+txt_advfilters: Use advanced filters
+txt_openfiles_hint: Use this option to include in the archive files open for writing by other applications (useful in backup jobs)
+txt_usenet: Usenet
+txt_user_name: User name; use user@DOMAIN or DOMAIN\user form if needed.
+txt_using: Using:
+txt_volumepea: Volume control
+txt_volume_size: Volume size
+txt_type_ext_uns: was successfully extracted
+txt_websearch: Web search
+txt_websites: Websites
+txt_word: Word
+txt_write: Write:
+txt_ramdompw_hint: You can copy the random generated password from here
+txt_exe_hint: You can freely enter executable name and parameters for custom compression, and chose syntax's contruction. Please note that you can also manually change command's syntax in "Console" tab.
+txt_pj_hint2: You can import the job's definition from the GUI frontend in the memo field below. Then, you can edit, launch or save it without changing or losing the job defined for the GUI frontend.
+txt_type_description_zip: ZIP: fast archiving/compression format, mainstream on Windows systems
+txt_zipcrypto_hint: ZipCrypto (legacy)
+
+=== end PeaZip text group ===
+
+=== PeaLauncher text group ===
+
+txt_2_7_validatefn: Operation stopped, invalid file name detected:
+txt_2_7_validatecl: Operation stopped, potentially dangerous command detected (i.e. command concatenation not allowed within the program):
+txt_2_6_open: Open archive
+txt_2_5_ace_missing: UNACE plugin is missing; for handling ACE archives you can download the plugin form PeaZip's website (being UNACE closed source, the plugin is not featured in base package)
+txt_2_3_pw_errorchar_gwrap: : this character cannot be used by PeaLauncher in passwords under current system, please change password or use PeaZip in Console mode (Tools > Settings)
+txt_2_3_renameexisting: Auto rename existing files
+txt_2_3_renameextracted: Auto rename extracted files
+txt_2_3_cancel: Cancel
+txt_2_3_encryption: Encryption
+txt_2_3_extinnew: Extract in new folder
+txt_2_3_keyfile: Keyfile
+txt_2_3_kf_not_found_gwrap: Keyfile cannot be found or read. Please chose a different Keyfile.
+txt_2_3_moreoptions: More options...
+txt_2_3_nopaths: No paths
+txt_2_3_options: Options
+txt_2_3_overexisting: Overwrite existing files
+txt_2_3_pw: Password
+txt_2_3_skipexisting: Skip existing files
+txt_job_unknown: : Unknown error encountered
+txt_stdjob: [animation will stop at job's completion]
+txt_benchmarkjob: [system will respond slowly while running the benchmark (some minutes)]
+txt_defragjob: [will not respond while defragmenting, you can let it run in background]
+txt_consolejob: [you can see detailed progress in job's console window]
+txt_job1: 1: Warning: non fatal error(s); i.e. some files missing or locked
+txt_job127: 127: Cannot execute requested operation
+txt_job2: 2: Fatal error occurred
+txt_job255: 255: Job halted by the user
+txt_job7: 7: Error: got incorrect command line
+txt_job8: 8: Error: not enough memory for requested operation
+txt_autoclose: Close this window when job completes
+txt_crscale: Compression ratio (lower, better):
+txt_console: Console
+txt_benchscale: Core 2 Duo 6600 rating, equivalent MHz speed.
+txt_create: Create
+txt_done: Done:
+txt_nocl: Empty command line
+txt_error: Error:
+txt_explore: Explore
+txt_extto: Extract to
+txt_halt: Halt system when job completes
+txt_halted: Halted:
+txt_hardware: hardware
+txt_high: high priority
+txt_checkpw: Hint: check if a password is needed to run the job
+txt_idle: idle priority
+txt_input: Input:
+txt_jpaused: Job paused
+txt_jresumed: Job resumed
+txt_job_started: Job started
+txt_jobstatus: Job status:
+txt_jstopped: Job halted by the user
+txt_jobstopped: Job halted by the user; you can inspect the partial outcome of the job clicking "Explore" button or reading the job log
+txt_job_success: Job successfully completed
+txt_lt: List/test/repair archive
+txt_normal: normal priority
+txt_ok: Ok
+txt_output: Output:
+txt_pause: Pause
+txt_paused: paused,
+txt_p_high: Priority set to high
+txt_p_idle: Priority set to idle
+txt_p_normal: Priority set to normal
+txt_p_realtime: Priority set to real time
+txt_rating: Rating:
+txt_rt: real time priority
+txt_report: Report
+txt_resume: Resume
+txt_priority: Click to set job's priority
+txt_running: running,
+txt_isrunning: Running...
+txt_saveas: Save as
+txt_savejob: Save job definition (may include password!)
+txt_savelog: Save job log
+txt_software: software
+txt_speedscale: Speed, logarithmic scale (higher, better):
+txt_status: Status
+txt_stop: Stop
+txt_bench: System benchmark
+txt_threads: Threads:
+txt_time: Time:
+
+=== end PeaLauncher text group ===
+
+=== about text group ===
+
+F1 	help
+F2 	browse desktop / Ctrl+F2 browse user’s home / Shift+F2 browse computer’s root
+F3	recursive search / Ctrl+F3 non recursive search (search here)
+F4 	up one level
+F5 	refresh
+F6 	toggle browse/flat view
+F7 	browse most recently visited item (Ctrl, second, Shift, third)
+F8 	browse first item in bookmarks list (Ctrl, second, Shift, third)
+F9 	enter password
+F10 	menu
+F11 	set advanced filters
+F12 	create keyfile
+
+
+CHANGE LANGUAGE
+
+User interface is available in different languages: Options > Settings > Localization
+
+
+EXTRACT ARCHIVES
+
+From the system: rightclick on the archives and click "Extract here" or "Extract here (in new folder)" from context menu, or "Extract..." for more options (extraction path, password...)
+
+From PeaZip (recommended): select archives and click on "Extract" button, or rightclick and click "Extract" or "Extract (in new folder)" in context menu
+
+
+EXTRACT OBJECTS FROM ARCHIVE
+
+Doubleclick the archive to open it with PeaZip, select files and folders to be extracted and drag them to the system, or rightclick and chose "Extract selected" in context menu
+
+
+CREATE ARCHIVE
+
+From the system: rightclick on objects to be archived and click on "Add to archive" in SendTo menu
+
+From PeaZip (recommended): select objects to be archived and click on "Add" button
+
+
+CREATE SEPARATE ARCHIVES
+
+From the system: rightclick on objects to be archived separately and click on "Add to separate archives" in context menu
+
+From PeaZip (recommended): select objects to be archived separately and click on "Add" button; before confirming with "Ok", check "Add each object to a separate archive" option
+
+
+UPDATE EXISTING ARCHIVE
+
+Doubleclick to the archive to open it with PeaZip and drag here files and folders to be added, or click on "Add" button and use application's context menu to add objects to the archive
+
+
+ABOUT PEAZIP
+
+PeaZip is an open source file and archive manager: cross platform, available as portable and installable software for 32 and 64 bit Windows (9x, 2k, XP, Vista) and Linux (PeaZip is a desktop neutral application).
+
+PeaZip allows to apply powerful multiple search filters to archive's content; create and extract multiple archives at once; create self-extracting archives; export job definition as command line; save archiving and extraction layouts; bookmark archives and folders; scan and open with custom applications compressed and uncompressed files etc...
+
+Other features: strong encryption, robust file copy, split/join files (file span), secure data deletion, compare, checksum and hash files, system benchmark, generate random passwords and keyfiles.
+
+Downloads and changelog: http://peazip.sourceforge.net/
+All packages: http://sourceforge.net/projects/peazip/
+
+Support: http://peazip.sourceforge.net/peazip-help.html
+
+Features and full list of supported formats: http://peazip.sourceforge.net/peazip-free-archiver.html 
+More hints and notes for users: http://peazip.sourceforge.net/peazip-more.html
+
+Many thanks to all people contributing to PeaZip project's growth developing Open Source software components used in this application (see website for complete list), and to all users contributing with feedback, experience and advices.
