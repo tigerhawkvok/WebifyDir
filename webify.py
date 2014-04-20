@@ -2,15 +2,23 @@
 ## and instructions
 
 import os, math, time, yn
-# Temporary Stash
-rundir = os.environ.get("APPDATA") + "\\WebifyDir\\"
-writedir = rundir + "pngcrushbatch.bat"
 
 def doExit():
     import os,sys
     print("\n")
     os._exit(0)
     sys.exit(0)
+
+# Temporary Stash
+rundir = os.environ.get("APPDATA") + "\\WebifyDir\\"
+if not os.path.isdir(rundir):
+    try:
+        os.mkdir(rundir)
+    except:
+        print("Could not create",rundir)
+        print("Please manually create this directory and try again.")
+        doExit()
+writedir = rundir + "pngcrushbatch.bat"
 
 def simpleVersioning():
     try:
@@ -62,6 +70,7 @@ print("Webify Directory - Prepare a site for deployment")
 print("Get the most current release and report problems to")
 print("https://github.com/tigerhawkvok/WebifyDir")
 
+simpleVersioning()
 
 print("\nPlease enter the full directory path. This may be case sensitive. Do not use quotes.")
 print("Press [enter] to use the current path.")
