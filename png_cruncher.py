@@ -1,12 +1,8 @@
-## OptiPNG batch compression script, Python code. 
-## Released under CC-GNU LGPL 2.1 by Philip Kahn.
-## Code for Python 3.0.  
-## To revert, change PRINT statements and change INPUT to RAW_INPUT for security purposes.
+## See https://github.com/tigerhawkvok/WebifyDir for component licenses
+## and instructions
+
 import os, math
 
-
-
-print("Python 3.0 PNG batch file compression. \n(CC) Philip Kahn, 2009. \nOptiPNG 0.6.3 (C) 2001-2009 Cosmin Truta\n\n")
 userdir = os.environ.get("USERPROFILE")
 drive = os.environ.get("HOMEDRIVE")
 

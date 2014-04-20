@@ -1,31 +1,7 @@
-##    This program is free software: you can redistribute it and/or modify
-##    it under the terms of the GNU Lesser General Public License as published by
-##    the Free Software Foundation, either version 3 of the License, or
-##    (at your option) any later version.
-##
-##    This program is distributed in the hope that it will be useful,
-##    but WITHOUT ANY WARRANTY; without even the implied warranty of
-##    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-##    GNU Lesser General Public License for more details.
-##
-##    You should have received a copy of the GNU Lesser General Public License
-##    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-##
-## Library components: OptiPNG 0.6.3, Cosmin Truta
-## PNGcrush 1.2.5, Glenn Randers-Pehrson
-## CSSTtidy 1.3, Florian Schmitz
-## convert.exe via ImageMagick 6.5.7, ImageMagick Studio LLC
-## Peazip portable 32-bit 2.7.1, Giorgio Tani
-##
-## OptiPNG batch compression script, Python code. 
-## Released under CC-GNU LGPL 2.1 by Philip Kahn.
-## Code for Python 3.0+  
-## To revert, change PRINT statements and change INPUT to RAW_INPUT for security purposes.
+## See https://github.com/tigerhawkvok/WebifyDir for component licenses
+## and instructions
+
 import os, math, time
-
-
-
-print("Python 3.0+ PNG batch file compression, with IE PNG corrections. \n(CC-GNU) Philip Kahn, 2009. See source for copyright information and directory for component licenses.")
 
 ## Edit the batch file output directory here. 
 ## Each "\" in the path must be escaped to "\\".
