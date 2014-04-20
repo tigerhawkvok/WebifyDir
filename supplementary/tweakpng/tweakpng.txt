@@ -1,6 +1,6 @@
 TweakPNG:  A low-level PNG image file manipulation utility
-Version 1.3.2 - 22 Aug 2009
-Copyright (c) 1999-2009 Jason Summers  <jason1@pobox.com>
+Version 1.4.5 - 26 Dec 2012
+Copyright (c) 1999-2012 Jason Summers  <jason1@pobox.com>
 
 ==================== License ====================
 
@@ -28,10 +28,10 @@ To get the latest version of TweakPNG, visit the TweakPNG home page at
 
 ==================== Requirements ====================
 
-- A Win32 operating system (Windows 95, 98, 2000, XP, Vista, etc.)
-The included binary may require Windows 2000 or higher, but with a suitable
-compiler (probably Visual C++ 2003 or 2005) it should be possible to compile
-a binary that works on Windows 95.
+- Windows 2000 or newer (XP, Vista, 7, etc.), or a compatible Windows
+environment. With suitable compiler (probably Visual C++ 2003 or 2005),
+it should be possible to compile a version that works as far back as
+Windows 95.
 
 - Some knowledge of the PNG file format.
 
@@ -39,11 +39,16 @@ a binary that works on Windows 95.
 ==================== Installation and Uninstallation ====================
 
 To install:
-Create an empty directory and unzip the contents of tweakpng-1.x.x.zip 
-into it. Only the file tweakpng.exe is really necessary.
+Create an empty directory, for example at C:\Program Files\TweakPNG, and
+unzip the contents of tweakpng-1.x.x.zip into it.
+
+Only the x86\tweakpng.exe or x64\tweakpng.exe file is really necessary.
+If you are using a 32-bit edition of Windows, you must use the
+x86\tweakpng.exe file. If you are using a 64-bit edition of Windows, you
+can use either file, though x64\tweakpng.exe is recommended.
 
 To run:
-Open the file tweakpng.exe.
+Open the tweakpng.exe file.
 
 To uninstall:
 Delete the directory you created and its contents. If you want, delete the 
@@ -77,31 +82,44 @@ Here are a few of the possible uses of TweakPNG:
 Not all the types of PNG chunks can be edited. This table summarizes the 
 current capabilities of TweakPNG regarding specific chunk types:
 
-        View            Edit            Create
-=========================================================
-IHDR    yes             yes             yes
-IEND    n/a             n/a             yes
-IDAT    no              no              no
-PLTE    yes             yes             yes
-bKGD    yes             yes             yes
-gAMA    yes             yes             yes
-cHRM    yes             yes             yes
-tRNS    yes             yes             yes
-sBIT    yes             yes             yes
-hIST    no              no              no
-sRGB    yes             yes             yes
-tEXt    yes             yes             yes
-zTXt    yes             yes             yes
-iTXt*   yes             yes             yes
-pHYs    yes             yes             yes
-tIME    yes             yes             yes
-iCCP    name only       no              no
-sPLT    name only       no              no
-sTER    yes             yes             yes
-dSIG    no              no              no
-acTL    yes             no              no
-fcTL    yes             no              no
-fdAT    seq# only       no              no
+         View            Edit            Create
+ =========================================================
+Standard chunks:
+ IHDR    yes             yes             yes
+ IEND    n/a             n/a             yes
+ IDAT    no              no              no
+ PLTE    yes             yes             yes
+ bKGD    yes             yes             yes
+ gAMA    yes             yes             yes
+ cHRM    yes             yes             yes
+ tRNS    yes             yes             yes
+ sBIT    yes             yes             yes
+ hIST    no              no              no
+ sRGB    yes             yes             yes
+ tEXt    yes             yes             yes
+ zTXt    yes             yes             yes
+ iTXt*   yes             yes             yes
+ pHYs    yes             yes             yes
+ tIME    yes             yes             yes
+ iCCP    yes             name only       no
+ sPLT    name only       no              no
+ sTER    yes             yes             yes
+ dSIG    no              no              no
+
+Extensions:
+ oFFs    yes             yes             yes
+ pCAL    name only       no              no
+ sCAL    yes             yes             yes
+ gIFg    no              no              no
+ gIFx    no              no              no
+ acTL    yes             yes             yes
+ fcTL    yes             yes             yes
+ fdAT    seq# only       seq# only       no
+
+MNG/JNG:
+ MHDR:   yes             no              no
+ JHDR:   yes             no              no
+
 
 (*) iTXt chunks are only supported if TweakPNG is built as a Unicode
 application.
@@ -212,15 +230,13 @@ the chunk identifier (e.g. "PLTE"), and the remainder of the file must be
 the data. The file must not contain length or CRC information. This 
 function allows you to insert any chunk you want into a PNG file, 
 including private unregistered chunks. However, you will often have to use 
-a separate file editor to create the chunk. A sample chunk file, 
-sample.chunk, has been included.
-
-If you make up a new chunk type, please make sure you understand the rules 
-for capitalization of the identifier. In particular, the first two letters 
-must not be capitalized.
+a separate file editor to create the chunk.
 
 Export will create a file in the format described above, from an existing 
 chunk in a PNG file. It works only on one chunk at a time.
+
+"Import ICC Profile" creates an iCCP chunk from a standard ICC color profile
+(.icc) file.
 
 
 Editing Palettes
@@ -315,14 +331,31 @@ from this menu.
 Tools menu and Configure Tools
 ------------------------------
 
-You can define viewers using "Options|Configure Tools" and run them on the 
-current file using the Tools menu. The "Name" is what gets displayed on 
-the Tools menu. The "Program" is the executable file of the program to 
-run. You may or may not need to include the full path. In "Parameters", 
-put any command line parameters that should be used. Leave "Name" blank to 
-prevent that item from showing up on the Tools menu. Leave "Program" blank 
-to open the PNG file directly, letting Windows use your default PNG 
-application.
+You can define viewers and filters using "Options|Configure Tools", and 
+run them on the current file using the Tools menu. A "viewer" is a program 
+that views (or processes in some way) a PNG file without modifying it. A 
+"filter" is a program that accepts a PNG file as input, and produces a 
+different PNG file as output.
+
+The "Name" is what gets displayed on the Tools menu. Leave "Name" blank to 
+prevent that item from showing up on the Tools menu.
+
+The "Program" is the executable file of the program to run. You may or may 
+not need to include the full path. Leave "Program" blank to open the PNG 
+file directly, letting Windows use your default PNG application. The "..." 
+button following this field can be used to browse for a program.
+
+In "Parameters", put any command line parameters that should be used. For 
+a viewer, this can often be left blank.
+
+If the strings "%1" and "%2" appear in the parameters, this tool will be 
+assumed to be a filter. %1 will be replaced with the input filename, and 
+%2 will be replaced with the output filename.
+
+Otherwise, this tool will be assumed to be a viewer. If the string "%1" 
+appears in the parameters, it will be replaced with the name of the file 
+to view. Otherwise, the filename will be appended to the parameters.
+
 
 For example, to configure Firefox as a viewer, choose "Option|Configure 
 Tools", pick an empty row and enter:
@@ -335,9 +368,31 @@ Firefox should now show up on your Tools menu.
 
 You may in some cases need to include the full path of the Program.
 
-When you select an item on the Tools menu, current document will be 
+When you select a viewer from the Tools menu, current document will be 
 written to a temporary disk file, and then the viewer will be run on that 
 file. The same temporary file is reused every time.
+
+
+An example of a filter:
+
+Name:         pngrewrite
+Program:      C:\Program Files\pngrewrite\pngrewrite.exe
+Parameters:   %1 %2
+
+To run a filter, TweakPNG writes the current document to a temporary file, 
+runs the filter, reads in the temporary file it created, then deletes both 
+temporary files.
+
+
+Color correction
+----------------
+
+The TweakPNG image viewer assumes that your monitor uses the standard sRGB
+color space, and (if gamma correction is enabled) converts images to sRGB
+when displaying them. It supports gAMA and sRGB chunks, but not cHRM
+(chromaticities) or iCCP (color profile) chunks. It knows that sRGB is not
+exactly the same as gamma=1/2.2, and the difference can be noticeable,
+especially in dark regions of an image.
 
 
 ==================== MNG support ====================
@@ -354,47 +409,7 @@ unreliable in MNG files, because TweakPNG does not know how to correctly
 associate PLTE and bKGD and tRNS chunks if there are more than one of 
 each.
 
-The combine/split IDAT functions will also work on JDAT chunks, but the 
-Combine all IDAT function is not appropriate for MNG files, because it 
-only combines the first range of IDAT/JDAT chunks found in the file.
-
-
-
-==================== Bugs ====================
-
-- This documentation is not very good.
-
-- TweakPNG is in many ways incomplete. Some chunk types cannot be 
-edited at all.
-
-- It is easy to create invalid PNG images with TweakPNG, for example by 
-supplying illegal parameter values, or by mis-ordering chunks.
-
-- Certain unusual sequences of actions may cause problems. For example, if 
-the file you are editing has never had an IHDR chunk, trying to add new 
-chunks of certain types (that depend on the settings in IHDR) may cause 
-unpredictable results or crashes.
-
-- I think there are a few bugs in the "Check Validity" feature.
-
-
-==================== Wish List ====================
-
-Here are a few things I'd like to see in a future version of TweakPNG. One 
-or two of them might even happen some day.
-
-
-- Include a binary/hex editor and allow adding and editing of any type of 
-chunk, including unrecognized chunks.
-
-- Ability to edit hIST, sPLT.
-
-- Ability to automatically remove unused colors from the palette.
-
-- Ability to interlace or un-interlace the image.
-
-- Ability to change compression level of the image, and to do some of the 
-other compression optimization.
+The combine/split IDAT functions will also work on JDAT chunks.
 
 
 ==================== Source Code ====================
@@ -403,7 +418,7 @@ The C++ source code to TweakPNG is included in this package. It is intended
 to be compatible with Microsoft Visual C++ version 7(?) and higher. It might
 also work in other C++ packages.
 
-See the file readme.txt in tweakpng-src.zip for more information.
+See the file tweakpng-src.txt in tweakpng-src.zip for more information.
 
 
 ==================== File list ====================
@@ -412,7 +427,7 @@ The following files should be included in this package:
 
 tweakpng.txt            -  this file
 COPYING.txt             -  copy of the GPL
-tweakpng.exe            -  the main program
+x86\tweakpng.exe        -  the main program, 32-bit edition
+x64\tweakpng.exe        -  the main program, 64-bit (x64) edition
 sample.png              -  sample PNG image
-sample.chunk            -  sample chunk for the Import function
 tweakpng-src-1-x-x.zip  -  the source code

@@ -1,17 +1,17 @@
-﻿res\themes\firecrystal\theme.txt
-res\themes\firecrystal\
+﻿themes\seven-embedded\theme.txt
+themes\seven-embedded\
 100
 clWindow
-clBtnFace
-clBtnFace
+clForm
+clForm
 $00669999
 clWindowText
-18
-21
-1
+0
+
+
 0
 [language]
-en.txt
+default.txt
 
 [pealauncher: close when job ends]
 1
@@ -26,13 +26,13 @@ en.txt
 0
 
 [Initial dir for file/archive browser]
-Computer's root
+
 
 [default archiving format]
-14
+16
 
 [last used archiving format]
-12
+14
 
 [default PEA compression level]
 1
@@ -47,7 +47,7 @@ Computer's root
 0
 
 [default integrity check algorithm for file split]
-6
+9
 
 [show hints popup]
 1
@@ -56,12 +56,12 @@ Computer's root
 0
 
 [ask for password on extract/list/test operations from system's menus]
-1
+3
 
 [archive browser style]
 0
 
-[ignore archived path structure when performing extract and run or preview jobs]
+[ignore archived path structure when performing extract and run or preview jobs: all ignore path directivesd are overridden in the content is a directory, as it would lose information about tree structure below]
 1
 
 [ignore archived path structure when performing extraction of displayed objects]
@@ -74,7 +74,7 @@ Computer's root
 1
 
 [don't pre-browse archives over this size]
-4
+50
 
 [overwrite / skip policy using 7z binary]
 0
@@ -103,9 +103,9 @@ Computer's root
 
 
 
-0
+1
 
-0
+1
 
 [save program's windows status]
 1
@@ -114,29 +114,29 @@ Computer's root
 0
 
 [left]
-32
+70
 
 [top]
-16
+35
 
 [width]
-800
+910
 
 [height]
-512
+552
 
 [archive formats to show in favourite popup menu]
 1
 0
-1
-0
-1
 0
 0
 1
 0
 0
 1
+0
+1
+0
 0
 1
 0
@@ -206,28 +206,223 @@ Deflate
 1
 
 [desktop path]
-C:\Users\Philip\Desktop\
 
-[Job definition encoding]
+
+[job definition encoding]
+0
+
+[archived object's name encoding]
 1
 
-[Archived object's name encoding]
-1
+[last output path]
 
-[Last output path]
-C:\Users\Proprietario\Desktop\
 
-[Height of the navigation's splitter]
-192
+[height of the navigation's splitter]
+160
 
-[Last used navigation's bar]
+[status bar view]
 0
 
-[Extract supported non-archive types]
+[extract supported non-archive types]
 0
 
-[Extract unsupported archive types, specifying custom executable]
+[extract unsupported archive types, specifying custom executable]
 0
 
-[Configuration check]
+[configuration check]
 PeaZip
+
+[browser's style and settings]
+0
+9
+1
+232
+64
+88
+88
+120
+38
+76
+0
+
+[extract to new folder]
+0
+
+[execute archiving/extraction jobs in parallel when possible]
+0
+
+[default output path for extraction operations]
+
+
+[default output path for archiving operations]
+
+
+[(Windows) copy files in restartable mode, slower]
+0
+
+[show menu bar]
+1
+
+[address bar]
+1
+
+[navigation bar]
+0
+
+[columns to show]
+1
+1
+1
+1
+1
+1
+1
+1
+
+[toolbar]
+0
+0
+
+[size of the navigation sidebar]
+180
+
+[status of navigation groups]
+0
+0
+1
+0
+0
+
+[7z/p7zip backend encoding (-scc)]
+0
+
+[extraction or alternative action for 7z, arc, and ace backend binaries]
+0
+0
+0
+
+[working directory]
+0
+
+[7z/p7zip -mcu use UTF8 for file names that contain non-ASCII symbols inside .zip files]
+0
+
+[(Windows) get volume information of mapped remote units]
+0
+
+[status of run group]
+0
+0
+
+[last successfull extraction path]
+
+
+[encrypt also filenames, if the feature is supported by the format]
+0
+
+[ignore archived path structure when performing drag and drop extraction]
+1
+
+[swap position of Toolbar and Address bar]
+0
+
+[if multiple items are added to a new archive, name the archive as selected item's folder]
+1
+
+[new favorite types (3.8)]
+0
+0
+
+[default xz compression level]
+2
+
+[browser icons size]
+0
+
+[search history]
+
+
+
+
+
+
+
+
+
+[show thumbnails]
+0
+
+[default checksum/hash algorithm for the file browser (calculated on request)]
+4
+
+[simple search mode]
+1
+
+[use absolute paths for ARC format]
+0
+
+[search is recursive by default]
+1
+
+[keep password for current session]
+1
+
+[show address field as breadcrumb]
+1
+
+[immersive mode]
+0
+
+[toolbar]
+1
+
+[limit random password generator characters to letters and numbers (as required by some services)]
+1
+
+[default *paq family]
+2
+
+[last browser preset (overridden by style/size settings)]
+1
+
+[image editing parameters]
+1
+1024
+768
+0
+1
+0
+90
+10
+10
+10
+10
+1
+
+[keep archives sent by mail]
+0
+
+[address bar splitter position]
+656
+
+[thumbnails decoration style]
+0
+
+[save history of recent directories]
+
+
+
+
+
+
+
+
+
+[enumerate content of directories sent to archiving operations (slow): 1 no (default) 0 yes]
+1
+
+[default address bar left menu: 1 bookmarks 2 filesystem (default) 3 history]
+2
+
+[default max threads option for 7z]
+1
