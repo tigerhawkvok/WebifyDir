@@ -1,7 +1,7 @@
 ## See https://github.com/tigerhawkvok/WebifyDir for component licenses
 ## and instructions
 
-import os, math, time
+import os, math, time, yn
 
 ## Edit the batch file output directory here. 
 ## Each "\" in the path must be escaped to "\\".
@@ -34,9 +34,9 @@ if quick.lower() != 'q':
         opngoptions = "-o7"
     if quick.lower()!='p':
         print("By default this program strips color profile information from PNGs for cross-browser display.")
-        colorstrip = input("Please enter 'N' if you wish to skip this step. Otherwise, press any key to continue. ")
-        jq = input("Would you like to compress the JPGs in this folder? [Y/N]: ")
-        if jq.lower() == 'y':
+        colorstrip = yn.yn("Do you wish to do this?")
+        jq = yn.yn("Would you like to compress the JPGs in this folder?")
+        if jq is True:
             jqual = input("Please enter the JPG compression quality you desire. Lower is more highly compressed. \n(90% default): ")
             try:
                 int(jqual) + 1
@@ -44,26 +44,26 @@ if quick.lower() != 'q':
                 print("Invalid number. Defaulting to 90%")
                 jqual = 90
 
-        cq = input("Would you like to compress the CSS files in this directory? [Y/N]: ")
+        cq = yn.yn("Would you like to compress the CSS files in this directory?")
     else:
-        jq='n'
-        colorstrip='n'
-        cq='n'
+        jq=False
+        colorstrip=False
+        cq=False
         jqual='100'
 
 else:
     opngoptions = '-o7'
-    jq = 'y'
+    jq = True
     jqual = str(90)
-    cq = 'y'
-    colorstrip = 'y'
+    cq = True
+    colorstrip = True
     olevel='7, and JPG compression at ' + jqual + ' percent quality.'
 
-if cq and jq == 'y':
+if cq and jq is True:
     extend = ", CSS files, and JPG files"
-elif cq == 'y':
+elif cq is True:
     extend = " and CSS files"
-elif jq == 'y':
+elif jq is True:
     extend = " and JPG files"
 else:
     extend = ""
@@ -80,8 +80,8 @@ if quick.lower() != 'p':
     f.write("\nmkdir \"" + scandir + backbase + "\"")
     f.write("\nmkdir \"" + scandir + backbase + "\\backup_pngs\"")
     jpgdir = scandir + backbase + "\\backup_jpgs_" + writetime # Lossy compression, versioning
-    if jq.lower() == 'y': f.write("\nmkdir \"" + jpgdir + "\"")
-    if cq.lower() == 'y': f.write("\nmkdir \"" + scandir + backbase + "\\backup_css\"")
+    if jq is True: f.write("\nmkdir \"" + jpgdir + "\"")
+    if cq is True: f.write("\nmkdir \"" + scandir + backbase + "\\backup_css\"")
 for root, dirs, files in os.walk(scandir): 
     for file in files:
         # make search case insensitive
@@ -91,20 +91,19 @@ for root, dirs, files in os.walk(scandir):
             ## backup PNGs for all but classic mode
             if quick.lower() !='p':
                 f.write("\ncopy /Y \"" + os.path.join(root, file) + "\" \"" + scandir + backbase + "\\backup_pngs\\" + file + "\"")
-            if colorstrip.lower() != 'n': 
-                ## Does not strip color information if the user requested to skip this step 
+            if colorstrip is True: 
                 f.write("\npngcrush.exe -rem cHRM -rem gAMA -rem iCCP -rem sRGB \"" + scandir + backbase + "\\backup_pngs\\" + file + "\" \"" + os.path.join(root, file) + "\"")
             ## Optimizes with OptiPNG
             f.write("\n optipng.exe " + opngoptions + " \"" + os.path.join(root, file) + "\"")
             i += 1
-        if cq.lower() == 'y':
+        if cq is True:
             if "css" == ext:
                 ## Backup CSS
                 f.write("\ncopy /Y \"" + os.path.join(root, file) + "\" \"" + scandir + backbase + "\\backup_css\\" + file + "\"")
                 ## CSS tidy.  Safe compression level.
                 f.write("\ncsstidy.exe \"" + scandir + backbase + "\\backup_css\\" + file + "\" --compress-colors=true --compress_font-weight=true --preserve_css=true --optimise_shorthands=1 --remove_bslash=true --remove_last_;=true --timestamp=true \"" + os.path.join(root, file) + "\" ")
                 i +=1
-        if jq.lower() == "y":
+        if jq is True:
             if "jpg" == ext:
                 ## Backup JPGs
                 f.write("\ncopy /Y \"" + os.path.join(root, file) + "\" \"" + jpgdir + "\\" + file + "\"")
