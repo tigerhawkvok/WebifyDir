@@ -2,6 +2,9 @@
 ## and instructions
 
 import os, math, time, yn
+# Temporary Stash
+rundir = os.environ.get("APPDATA") + "\\WebifyDir\\"
+writedir = rundir + "pngcrushbatch.bat"
 
 def doExit():
     import os,sys
@@ -9,11 +12,56 @@ def doExit():
     os._exit(0)
     sys.exit(0)
 
-## Edit the batch file output directory here. 
-## Each "\" in the path must be escaped to "\\".
+def simpleVersioning():
+    try:
+        import simplejson as json
+        try:
+            # Python 2.7.x
+            import urllib
+            url = urllib.urlopen("https://api.github.com/repos/tigerhawkvok/WebifyDir")
+            obj_raw = url.read()
+            url.close()
+        except AttributeError:
+            # Python 3
+            import urllib.request
+            with urllib.request.urlopen("https://api.github.com/repos/tigerhawkvok/WebifyDir") as url:
+                obj_raw = url.read()
+        obj = json.loads(obj_raw)
+        time_key = obj['pushed_at']
+    except Exception as inst:
+        print("Warning: Could not check remote version.",inst)
+    try:
+        f = open(rundir + ".gitversion")
+        read_seconds = f.read()
+        f.close()
+        if read_seconds == "":
+            raise FileNotFoundError
+        push_time = time.strptime(time_key,"%Y-%m-%dT%H:%M:%SZ")
+        this_time = time.gmtime(float(read_seconds))
+        if push_time > this_time:
+            if yn.yn("Your version is out of date with GitHub. Do you want visit GitHub and download a new version?"):
+                try:
+                    os.unlink(rundir + ".gitversion")
+                except:
+                    print("Could not delete the version file. Be sure to maually delete '.gitversion' before re-running the new version.")
+                print("Launching browser. Rerun the script when you've updated.")
+                import webbrowser
+                webbrowser.open("https://github.com/tigerhawkvok/WebifyDir")
+                doExit()
+            else:
+                print("Skipping update.")
+    except FileNotFoundError:
+        f = open(rundir + ".gitversion","w")
+        read_seconds = time.time()
+        f.write(str(read_seconds))
+        f.close()
+    except Exception as inst:
+        print("WARNING: Could not check version.",inst)
 
-rundir = os.environ.get("APPDATA") + "\\WebifyDir"
-writedir = rundir + "\\pngcrushbatch.bat"
+print("Webify Directory - Prepare a site for deployment")
+print("Get the most current release and report problems to")
+print("https://github.com/tigerhawkvok/WebifyDir")
+
 
 print("\nPlease enter the full directory path. This may be case sensitive. Do not use quotes.")
 print("Press [enter] to use the current path.")
