@@ -1,6 +1,6 @@
 @echo off
 rem Batch script!
-start python -i main.py
+start python -i webify.py
 IF ERRORLEVEL 1 (
 IF EXIST C:\Python34\python.exe (
 start C:\Python34\python.exe -i webify.py

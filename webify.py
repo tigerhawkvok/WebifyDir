@@ -3,6 +3,12 @@
 
 import os, math, time, yn
 
+def doExit():
+    import os,sys
+    print("\n")
+    os._exit(0)
+    sys.exit(0)
+
 ## Edit the batch file output directory here. 
 ## Each "\" in the path must be escaped to "\\".
 
@@ -10,23 +16,51 @@ rundir = os.environ.get("APPDATA") + "\\WebifyDir"
 writedir = rundir + "\\pngcrushbatch.bat"
 
 print("\nPlease enter the full directory path. This may be case sensitive. Do not use quotes.")
-scandir = input("Path: ")
+print("Press [enter] to use the current path.")
+try:
+    scandir = None
+    while scandir is None:
+        scandir = input("Path: ")
+        if scandir == "":
+            scandir = os.getcwd()
+        if not os.path.isdir(scandir):
+            scandir = None
+            print("That path does not exist. Please try again.")
+            print("Press Control+C to exit the script.")
+except KeyboardInterrupt:
+    doExit()
 
-quick = input("Press 'Q'[enter] here for a quick webify directory with default options\n    Compress PNGs\n    Strip PNGs of color profile information\n    Compress CSS\n    Compress JPGs to 90% quality\nPress 'P'[enter] to classic PNG-only compression.\nOtherwise, press any key to continue.")
+print("Will check",scandir)
+    
+try:
+    quick = input("Press 'Q'[enter] here for a quick webify directory with default options\n    Compress PNGs\n    Strip PNGs of color profile information\n    Compress CSS\n    Compress JPGs to 90% quality\nPress 'P'[enter] to classic PNG-only compression.\nOtherwise, press any key to continue.")
+except KeyboardInterrupt:
+    doExit()
 
 if quick.lower() != 'q':
     print("\nPlease input a compression level from 1-8, where 8 is highest.")
     print("Be aware high levels of compression may be very slow.")
     print("For details on compression levels, see the OptiPNG documentation.")
-    olevel = input("Select a level (Default: 7): ")
-    if olevel == "1": opngoptions = "-o1"
-    elif olevel == "2": opngoptions = "-o2"
-    elif olevel == "3": opngoptions = "-o3"
-    elif olevel == "4": opngoptions = "-o4"
-    elif olevel == "5": opngoptions = "-o5"
-    elif olevel == "6": opngoptions = "-o6"
-    elif olevel == "7": opngoptions = "-o7"
-    elif olevel == "8": opngoptions = "-zc1-9 -zm1-9 -zs0-3 -f0-5"
+    olevel = None
+    while olevel is None:
+        try:
+            olevel = input("Select a level (Default: 7): ")
+            olevel = int(olevel)
+            if olevel < 0 or olevel > 8:
+                raise ValueError
+        except KeyboardInterrupt:
+            doExit()
+        except ValueError:
+            olevel = None
+            print("Invalid option. Please enter a number from 1-8.")
+    if olevel is 1: opngoptions = "-o1"
+    elif olevel is 2: opngoptions = "-o2"
+    elif olevel is 3: opngoptions = "-o3"
+    elif olevel is 4: opngoptions = "-o4"
+    elif olevel is 5: opngoptions = "-o5"
+    elif olevel is 6: opngoptions = "-o6"
+    elif olevel is 7: opngoptions = "-o7"
+    elif olevel is 8: opngoptions = "-zc1-9 -zm1-9 -zs0-3 -f0-5"
     else: 
         print ("\nNo option or invalid option selected. Using compression level 7.")
         opngoptions = "-o7"
@@ -128,16 +162,11 @@ if quick.lower() != 'p':
 
 f.close()
 print("\nSearch complete.  Batch file for execution saved to\n" + writedir + ".")
-runnow = input("\nWould you like to run the file now? [Y/N]: ")
-runnow = runnow.lower()
-if runnow == "y": 
+runnow = yn.yn("\nWould you like to run the file now?")
+if runnow is True: 
     print("\nThe batch file will now compress your PNG, JPG, and CSS files.  This may take a while.")
     os.startfile("pngcrushbatch.bat")
     print("Script completed. You may close this window.")
-elif runnow == "n":
+else:
     print("\nScript completed. You may close this window.")
     print("\nIf you intended to run the batch file, you may do so manually from \n" + writedir + ".")
-else:
-    print("\nUnrecognized choice. Script completed.")
-    print("\nIf you intended to run the batch file, you may do so manually from \n" + writedir + ".")
-    print("\nYou may close this window.")
