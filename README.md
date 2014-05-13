@@ -17,6 +17,12 @@ All binaries by default are x64. x86 (32-bit) replacements are in the x86 direct
 
 Please note that individual components from other authors have their licenses represented in [`component-licenses`](component-licenses/). However, the licenses on the project sites should always be considered to supercede those in this repository. **If for any reason you have cause to suspect the license, or it is important for your project, please check the source page!**
 
+### Node
+Node.js can be found on [GitHub](https://github.com/joyent/node). It's required to run `svgo`.
+
+### svgo
+svgo can be found on [GitHub](https://github.com/svg/svgo)
+       
 ### PeaZip
 
 PeaZip can be found on [SourceForge](http://sourceforge.net/projects/peazip/).
