@@ -104,15 +104,15 @@ if quick.lower() != 'q':
             olevel = input("Select a level (Default: 7): ")
             olevel = int(olevel)
             if olevel < 0 or olevel > 8:
-                if olevel is "":
-                    olevel = 7
-                else:
-                    raise ValueError
+                raise ValueError
         except KeyboardInterrupt:
             doExit()
         except ValueError:
-            olevel = None
-            print("Invalid option. Please enter a number from 1-8.")
+            if olevel == "":
+                olevel = 7
+            else:
+                olevel = None
+                print("Invalid option. Please enter a number from 1-8.")
     if olevel is 1: opngoptions = "-o1"
     elif olevel is 2: opngoptions = "-o2"
     elif olevel is 3: opngoptions = "-o3"
