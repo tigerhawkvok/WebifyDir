@@ -135,8 +135,11 @@ if quick.lower() != 'q':
             try:
                 int(jqual) + 1
             except TypeError:
-                print("Invalid number. Defaulting to 90%")
-                jqual = 90
+                if jqual is "":
+                    jqual = 90
+                else:
+                    print("Invalid number. Defaulting to 90%")
+                    jqual = 90
 
         cq = yn.yn("Would you like to compress the CSS files in this directory?")
     else:
