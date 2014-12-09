@@ -104,7 +104,10 @@ if quick.lower() != 'q':
             olevel = input("Select a level (Default: 7): ")
             olevel = int(olevel)
             if olevel < 0 or olevel > 8:
-                raise ValueError
+                if olevel is "":
+                    olevel = 7
+                else:
+                    raise ValueError
         except KeyboardInterrupt:
             doExit()
         except ValueError:
@@ -160,7 +163,7 @@ else:
     extend = ""
 
 print("\n" + scandir + " is being \nsearched for PNG files" + extend + ".")
-print("\nPNG compression will take place at compression level " + olevel + ". Please wait.\n")
+print("\nPNG compression will take place at compression level " + str(olevel) + ". Please wait.\n")
 
 i = 0
 f = open(writedir,'w')
@@ -222,7 +225,7 @@ print("\nSearch complete.  Batch file for execution saved to\n" + writedir + "."
 runnow = yn.yn("\nWould you like to run the file now?")
 if runnow is True: 
     print("\nThe batch file will now compress your PNG, JPG, and CSS files.  This may take a while.")
-    os.startfile("pngcrushbatch.bat")
+    os.startfile(writedir)
     print("Script completed. You may close this window.")
 else:
     print("\nScript completed. You may close this window.")
